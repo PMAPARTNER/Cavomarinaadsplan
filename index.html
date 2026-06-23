@@ -10,14 +10,14 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --navy: #090e1d;
-      --accent: #c9a96e;
-      --accent2: #e8c98a;
-      --white: #ffffff;
-      --grey: #9aa5b8;
-      --grey2: #5a6478;
-      --card: rgba(255,255,255,0.04);
-      --border: rgba(255,255,255,0.08);
+      --navy: #f5f6fa;
+      --accent: #b5882e;
+      --accent2: #9a6f1e;
+      --white: #111827;
+      --grey: #64748b;
+      --grey2: #94a3b8;
+      --card: rgba(0,0,0,0.04);
+      --border: rgba(0,0,0,0.09);
       --google: #4285F4;
       --meta: #0866FF;
     }
@@ -30,8 +30,9 @@
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       display: flex; align-items: center; justify-content: space-between;
       padding: 10px 28px; gap: 16px;
-      background: rgba(9,14,29,0.97);
+      background: rgba(245,246,250,0.97);
       border-bottom: 1px solid var(--border);
+      box-shadow: 0 1px 8px rgba(0,0,0,0.08);
       backdrop-filter: blur(12px);
     }
     .nav-logo { height: 34px; width: auto; object-fit: contain; flex-shrink: 0; }
@@ -41,8 +42,8 @@
       padding: 5px 12px; border-radius: 4px; cursor: pointer;
       font-family: inherit; transition: all .2s; white-space: nowrap;
     }
-    .nav-center button:hover { color: var(--white); background: var(--card); }
-    .nav-center button.active { color: var(--accent2); background: rgba(201,169,110,0.1); }
+    .nav-center button:hover { color: var(--white); background: rgba(0,0,0,0.06); }
+    .nav-center button.active { color: var(--accent); background: rgba(181,136,46,0.1); }
     .lang-switcher { display: flex; gap: 4px; flex-shrink: 0; }
     .lang-btn {
       background: var(--card); border: 1px solid var(--border); color: var(--grey);
@@ -50,7 +51,7 @@
       cursor: pointer; font-family: inherit; transition: all .2s;
     }
     .lang-btn:hover { color: var(--white); }
-    .lang-btn.active { color: var(--white); background: rgba(201,169,110,0.15); border-color: rgba(201,169,110,0.4); }
+    .lang-btn.active { color: #fff; background: var(--accent); border-color: var(--accent); }
 
     /* ── SLIDES ── */
     .slides { position: fixed; top: 54px; left: 0; right: 0; bottom: 86px; overflow: hidden; }
@@ -58,13 +59,13 @@
     .slide.active { display: block; }
     @keyframes fi { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
     .slide::-webkit-scrollbar { width: 4px; }
-    .slide::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 2px; }
+    .slide::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 2px; }
 
     /* ── DISCLAIMER FOOTER ── */
     .disclaimer {
       position: fixed; bottom: 0; left: 0; right: 0;
-      background: rgba(9,14,29,0.97);
-      border-top: 1px solid rgba(201,169,110,0.25);
+      background: rgba(245,246,250,0.97);
+      border-top: 1px solid rgba(181,136,46,0.25);
       padding: 10px 56px;
       z-index: 100;
       backdrop-filter: blur(12px);
@@ -82,12 +83,12 @@
       position: fixed; bottom: 54px; left: 0; right: 0;
       display: flex; align-items: center; justify-content: space-between;
       padding: 7px 56px;
-      background: rgba(9,14,29,0.97);
+      background: rgba(245,246,250,0.97);
       border-top: 1px solid var(--border);
-      z-index: 101; backdrop-filter: blur(12px);
+      z-index: 101; backdrop-filter: blur(12px); box-shadow: 0 -1px 8px rgba(0,0,0,0.06);
     }
     .btn { background: var(--card); border: 1px solid var(--border); color: var(--white); padding: 6px 18px; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 11px; font-weight: 500; transition: all .2s; }
-    .btn:hover { background: rgba(255,255,255,0.08); }
+    .btn:hover { background: rgba(0,0,0,0.08); }
     .btn:disabled { opacity: .3; cursor: not-allowed; }
     .slide-num { font-size: 11px; color: var(--grey); letter-spacing: 1px; }
 
@@ -102,9 +103,9 @@
 
     /* ── CARDS ── */
     .card  { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
-    .card-g { background: rgba(66,133,244,0.06); border: 1px solid rgba(66,133,244,0.2); border-radius: 12px; padding: 20px; }
-    .card-m { background: rgba(8,102,255,0.06); border: 1px solid rgba(8,102,255,0.2); border-radius: 12px; padding: 20px; }
-    .card-gold { background: rgba(201,169,110,0.06); border: 1px solid rgba(201,169,110,0.2); border-radius: 10px; padding: 16px; }
+    .card-g { background: rgba(66,133,244,0.06); border: 1px solid rgba(66,133,244,0.25); border-radius: 12px; padding: 20px; }
+    .card-m { background: rgba(8,102,255,0.06); border: 1px solid rgba(8,102,255,0.25); border-radius: 12px; padding: 20px; }
+    .card-gold { background: rgba(181,136,46,0.07); border: 1px solid rgba(181,136,46,0.25); border-radius: 10px; padding: 16px; }
 
     /* ── GRIDS ── */
     .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -113,24 +114,24 @@
 
     /* ── TAGS ── */
     .tag { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; }
-    .tag-g { background: rgba(66,133,244,0.15); color: #7ab3f7; border: 1px solid rgba(66,133,244,0.3); }
-    .tag-m { background: rgba(8,102,255,0.15); color: #7aabff; border: 1px solid rgba(8,102,255,0.3); }
-    .tag-gold { background: rgba(201,169,110,0.15); color: var(--accent2); border: 1px solid rgba(201,169,110,0.3); }
-    .tag-green { background: rgba(72,187,120,0.15); color: #9ae6b4; border: 1px solid rgba(72,187,120,0.3); }
-    .tag-orange { background: rgba(251,146,60,0.15); color: #fdba74; border: 1px solid rgba(251,146,60,0.3); }
-    .tag-purple { background: rgba(139,92,246,0.15); color: #c4b5fd; border: 1px solid rgba(139,92,246,0.3); }
+    .tag-g { background: rgba(66,133,244,0.12); color: #1d4ed8; border: 1px solid rgba(66,133,244,0.35); }
+    .tag-m { background: rgba(8,102,255,0.12); color: #1e40af; border: 1px solid rgba(8,102,255,0.35); }
+    .tag-gold { background: rgba(181,136,46,0.12); color: #7c5c0a; border: 1px solid rgba(181,136,46,0.35); }
+    .tag-green { background: rgba(22,163,74,0.12); color: #166534; border: 1px solid rgba(22,163,74,0.35); }
+    .tag-orange { background: rgba(234,88,12,0.1); color: #9a3412; border: 1px solid rgba(234,88,12,0.3); }
+    .tag-purple { background: rgba(124,58,237,0.1); color: #5b21b6; border: 1px solid rgba(124,58,237,0.3); }
 
     /* ── BUDGET BARS ── */
     .brow { display: flex; align-items: center; gap: 10px; margin: 6px 0; }
     .brow-lbl { font-size: 11.5px; color: var(--grey); width: 120px; flex-shrink: 0; }
-    .brow-track { flex: 1; height: 5px; background: rgba(255,255,255,0.07); border-radius: 3px; overflow: hidden; }
+    .brow-track { flex: 1; height: 5px; background: rgba(0,0,0,0.09); border-radius: 3px; overflow: hidden; }
     .brow-fill { height: 100%; border-radius: 3px; }
     .brow-amt { font-size: 12px; font-weight: 700; color: var(--white); width: 38px; text-align: right; }
 
     /* ── TABLE ── */
     table { width: 100%; border-collapse: collapse; font-size: 12px; }
-    th { background: rgba(255,255,255,0.03); color: var(--grey); font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border); }
-    td { padding: 8px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); color: var(--white); vertical-align: top; }
+    th { background: rgba(0,0,0,0.04); color: var(--grey); font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border); }
+    td { padding: 8px 10px; border-bottom: 1px solid rgba(0,0,0,0.06); color: var(--white); vertical-align: top; }
     tr:last-child td { border-bottom: none; }
     html[dir="rtl"] th, html[dir="rtl"] td { text-align: right; }
 
@@ -143,12 +144,12 @@
     html[dir="rtl"] .ul li::before { left: auto; right: 0; }
 
     /* ── AD COPY BOXES ── */
-    .ad-box { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+    .ad-box { background: rgba(0,0,0,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
     .ad-box .al { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 7px; }
-    .ad-box .hl { font-size: 11.5px; font-weight: 600; color: #7ab3f7; line-height: 1.7; }
+    .ad-box .hl { font-size: 11.5px; font-weight: 600; color: #1d4ed8; line-height: 1.7; }
     .ad-box .dc { font-size: 11.5px; color: var(--grey); margin-top: 7px; line-height: 1.6; border-top: 1px solid var(--border); padding-top: 7px; }
-    .meta-box { background: rgba(8,102,255,0.05); border: 1px solid rgba(8,102,255,0.2); border-radius: 8px; padding: 12px 14px; }
-    .meta-box .ml { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: #7aabff; font-weight: 700; margin-bottom: 7px; }
+    .meta-box { background: rgba(8,102,255,0.05); border: 1px solid rgba(8,102,255,0.22); border-radius: 8px; padding: 12px 14px; }
+    .meta-box .ml { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: #1e40af; font-weight: 700; margin-bottom: 7px; }
     .meta-box .cap { font-size: 12.5px; color: var(--white); line-height: 1.7; }
     .meta-box .cap em { color: var(--grey); font-style: normal; font-size: 10.5px; display: block; margin-top: 5px; }
 
@@ -194,7 +195,7 @@
 <nav class="top-nav">
   <img class="nav-logo"
     src="https://drive.google.com/thumbnail?id=1w6KASxXg-xT9hdvTt-9X2EF0ReayJsFI&sz=w300"
-    onerror="this.src='https://image-tc.galaxy.tf/wipng-dry58aac66c9bjhdxi3jz29f3/cavomarina-logo-white-01.png?width=200'"
+    onerror="this.src='https://image-tc.galaxy.tf/wipng-dry58aac66c9bjhdxi3jz29f3/cavomarina-logo-white-01.png?width=200'" style="filter:brightness(0);"
     alt="Cavomarina">
 
   <ul class="nav-center">
@@ -226,7 +227,7 @@
       </div>
 
       <div class="eyebrow">Cavomarina Beach Hotel · Kavos, Corfu</div>
-      <h1 style="background:linear-gradient(135deg,#fff 30%,var(--accent2) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:14px;" data-i18n="cover_title">July–August 2026<br>Digital Marketing Plan</h1>
+      <h1 style="background:linear-gradient(135deg,#111827 30%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:14px;" data-i18n="cover_title">July–August 2026<br>Digital Marketing Plan</h1>
       <p class="sub" style="max-width:600px;margin-bottom:30px;" data-i18n="cover_sub">Paid media plan for peak season arrivals. Focus markets: <strong style="color:var(--white);">Balkans · Italy · UK.</strong> Real room types promoted (Swim-Up Suite, Penthouse, Sea View). All traffic directed to <strong style="color:var(--white);">cavomarina.com</strong> for D2C direct bookings — no OTA fees.</p>
 
       <!-- BUDGET SPLIT -->
