@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <title>Cavomarina Beach Hotel — July 2026 Digital Marketing Plan</title>
+  <title>Cavomarina Beach Hotel â July 2026 Digital Marketing Plan</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;600;700;800&display=swap');
@@ -25,7 +25,7 @@
     html, body { height: 100%; background: var(--navy); color: var(--white); font-family: 'Inter', sans-serif; overflow: hidden; }
     html[lang="ar"] body { font-family: 'Noto Kufi Arabic', 'Inter', sans-serif; }
 
-    /* ── NAV ── */
+    /* ââ NAV ââ */
     .top-nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       display: flex; align-items: center; justify-content: space-between;
@@ -53,7 +53,7 @@
     .lang-btn:hover { color: var(--white); }
     .lang-btn.active { color: #fff; background: var(--accent); border-color: var(--accent); }
 
-    /* ── SLIDES ── */
+    /* ââ SLIDES ââ */
     .slides { position: fixed; top: 54px; left: 0; right: 0; bottom: 86px; overflow: hidden; }
     .slide { display: none; height: 100%; overflow-y: auto; padding: 36px 56px 24px; animation: fi .3s ease; }
     .slide.active { display: block; }
@@ -61,7 +61,7 @@
     .slide::-webkit-scrollbar { width: 4px; }
     .slide::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 2px; }
 
-    /* ── DISCLAIMER FOOTER ── */
+    /* ââ DISCLAIMER FOOTER ââ */
     .disclaimer {
       position: fixed; bottom: 0; left: 0; right: 0;
       background: rgba(245,246,250,0.97);
@@ -78,7 +78,7 @@
       font-size: 10.5px; color: var(--grey2); text-align: center; margin-top: 2px;
     }
 
-    /* ── BOT NAV ── */
+    /* ââ BOT NAV ââ */
     .bot-row {
       position: fixed; bottom: 54px; left: 0; right: 0;
       display: flex; align-items: center; justify-content: space-between;
@@ -92,7 +92,7 @@
     .btn:disabled { opacity: .3; cursor: not-allowed; }
     .slide-num { font-size: 11px; color: var(--grey); letter-spacing: 1px; }
 
-    /* ── TYPOGRAPHY ── */
+    /* ââ TYPOGRAPHY ââ */
     .eyebrow { font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 8px; }
     h1 { font-size: clamp(24px, 3.2vw, 40px); font-weight: 800; line-height: 1.15; }
     h2 { font-size: clamp(18px, 2.3vw, 28px); font-weight: 700; line-height: 1.2; }
@@ -101,18 +101,18 @@
     .sub { font-size: 13.5px; color: var(--grey); line-height: 1.65; }
     .divider { height: 1px; background: var(--border); margin: 20px 0; }
 
-    /* ── CARDS ── */
+    /* ââ CARDS ââ */
     .card  { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
     .card-g { background: rgba(66,133,244,0.06); border: 1px solid rgba(66,133,244,0.25); border-radius: 12px; padding: 20px; }
     .card-m { background: rgba(8,102,255,0.06); border: 1px solid rgba(8,102,255,0.25); border-radius: 12px; padding: 20px; }
     .card-gold { background: rgba(181,136,46,0.07); border: 1px solid rgba(181,136,46,0.25); border-radius: 10px; padding: 16px; }
 
-    /* ── GRIDS ── */
+    /* ââ GRIDS ââ */
     .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
     .g3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
     .g4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; }
 
-    /* ── TAGS ── */
+    /* ââ TAGS ââ */
     .tag { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; }
     .tag-g { background: rgba(66,133,244,0.12); color: #1d4ed8; border: 1px solid rgba(66,133,244,0.35); }
     .tag-m { background: rgba(8,102,255,0.12); color: #1e40af; border: 1px solid rgba(8,102,255,0.35); }
@@ -121,21 +121,21 @@
     .tag-orange { background: rgba(234,88,12,0.1); color: #9a3412; border: 1px solid rgba(234,88,12,0.3); }
     .tag-purple { background: rgba(124,58,237,0.1); color: #5b21b6; border: 1px solid rgba(124,58,237,0.3); }
 
-    /* ── BUDGET BARS ── */
+    /* ââ BUDGET BARS ââ */
     .brow { display: flex; align-items: center; gap: 10px; margin: 6px 0; }
     .brow-lbl { font-size: 11.5px; color: var(--grey); width: 120px; flex-shrink: 0; }
     .brow-track { flex: 1; height: 5px; background: rgba(0,0,0,0.09); border-radius: 3px; overflow: hidden; }
     .brow-fill { height: 100%; border-radius: 3px; }
     .brow-amt { font-size: 12px; font-weight: 700; color: var(--white); width: 38px; text-align: right; }
 
-    /* ── TABLE ── */
+    /* ââ TABLE ââ */
     table { width: 100%; border-collapse: collapse; font-size: 12px; }
     th { background: rgba(0,0,0,0.04); color: var(--grey); font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border); }
     td { padding: 8px 10px; border-bottom: 1px solid rgba(0,0,0,0.06); color: var(--white); vertical-align: top; }
     tr:last-child td { border-bottom: none; }
     html[dir="rtl"] th, html[dir="rtl"] td { text-align: right; }
 
-    /* ── BULLETS ── */
+    /* ââ BULLETS ââ */
     .ul { list-style: none; }
     .ul li { font-size: 12px; color: var(--grey); padding: 3px 0 3px 14px; position: relative; line-height: 1.5; }
     .ul li::before { content:''; position:absolute; left:0; top:10px; width:5px; height:5px; border-radius:50%; background: var(--accent); }
@@ -143,7 +143,7 @@
     html[dir="rtl"] .ul li { padding: 3px 14px 3px 0; }
     html[dir="rtl"] .ul li::before { left: auto; right: 0; }
 
-    /* ── AD COPY BOXES ── */
+    /* ââ AD COPY BOXES ââ */
     .ad-box { background: rgba(0,0,0,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
     .ad-box .al { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 7px; }
     .ad-box .hl { font-size: 11.5px; font-weight: 600; color: #1d4ed8; line-height: 1.7; }
@@ -153,32 +153,32 @@
     .meta-box .cap { font-size: 12.5px; color: var(--white); line-height: 1.7; }
     .meta-box .cap em { color: var(--grey); font-style: normal; font-size: 10.5px; display: block; margin-top: 5px; }
 
-    /* ── MARKET CARD ── */
+    /* ââ MARKET CARD ââ */
     .mkt { text-align: center; padding: 14px 8px; }
     .mkt .flag { font-size: 24px; }
     .mkt .name { font-size: 13px; font-weight: 700; margin: 5px 0 2px; }
     .mkt .amt { font-size: 19px; font-weight: 800; color: var(--accent2); }
     .mkt .pct { font-size: 10.5px; color: var(--grey); margin-bottom: 5px; }
 
-    /* ── SECTION HEADER ── */
+    /* ââ SECTION HEADER ââ */
     .sh { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 22px; gap: 16px; }
     .sh-r { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
 
-    /* ── SLIDE FOOTER ── */
+    /* ââ SLIDE FOOTER ââ */
     .sf { margin-top: 28px; padding-top: 12px; border-top: 1px solid var(--border); font-size: 10.5px; color: var(--grey2); display: flex; justify-content: space-between; }
 
-    /* ── COVER ── */
+    /* ââ COVER ââ */
     .cover { display: flex; flex-direction: column; justify-content: center; min-height: calc(100vh - 140px); position: relative; }
     .cover-bg { position: absolute; inset: 0; background: radial-gradient(ellipse 70% 60% at 65% 50%, rgba(66,133,244,0.07) 0%, transparent 70%), radial-gradient(ellipse 50% 70% at 15% 80%, rgba(201,169,110,0.05) 0%, transparent 60%); pointer-events: none; }
     .cover-inner { position: relative; z-index: 1; }
 
-    /* ── KW COLORS ── */
+    /* ââ KW COLORS ââ */
     .kw-brand td:first-child { color: var(--accent2); font-weight: 600; }
     .kw-en td:first-child { color: #7ab3f7; }
     .kw-el td:first-child { color: #9ae6b4; }
     .kw-it td:first-child { color: #fdba74; }
 
-    /* ── RTL TWEAKS ── */
+    /* ââ RTL TWEAKS ââ */
     html[dir="rtl"] .sh { flex-direction: row-reverse; }
     html[dir="rtl"] .sh-r { align-items: flex-start; }
     html[dir="rtl"] .sf { flex-direction: row-reverse; }
@@ -191,10 +191,10 @@
 </head>
 <body>
 
-<!-- ── TOP NAV ── -->
+<!-- ââ TOP NAV ââ -->
 <nav class="top-nav">
   <img class="nav-logo"
-    src="https://raw.githubusercontent.com/PMAPARTNER/Cavomarinaadsplan/main/logo.png"
+    src="https://raw.githubusercontent.com/PMAPARTNER/Cavomarinaadsplan/main/logo.png?v=2"
     alt="Cavomarina Beach Hotel"
     style="height:44px;width:auto;object-fit:contain;">
 
@@ -211,10 +211,10 @@
   </div>
 </nav>
 
-<!-- ── SLIDES ── -->
+<!-- ââ SLIDES ââ -->
 <div class="slides">
 
-<!-- ════════════════════════ SLIDE 0 — OVERVIEW ════════════════════════ -->
+<!-- ââââââââââââââââââââââââ SLIDE 0 â OVERVIEW ââââââââââââââââââââââââ -->
 <div class="slide active" id="s0">
   <div class="cover">
     <div class="cover-bg"></div>
@@ -222,36 +222,36 @@
 
       <div style="display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap;">
         <span class="tag tag-gold" data-i18n="badge_month">July 2026</span>
-        <span class="tag tag-green" data-i18n="badge_budget">€2,000 / Month</span>
-        <span class="tag tag-orange" data-i18n="badge_season">Peak Season · D2C Direct Booking</span>
+        <span class="tag tag-green" data-i18n="badge_budget">â¬2,000 / Month</span>
+        <span class="tag tag-orange" data-i18n="badge_season">Peak Season Â· D2C Direct Booking</span>
       </div>
 
-      <div class="eyebrow">Cavomarina Beach Hotel · Kavos, Corfu</div>
+      <div class="eyebrow">Cavomarina Beach Hotel Â· Kavos, Corfu</div>
       <h1 style="background:linear-gradient(135deg,#111827 30%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:14px;" data-i18n="cover_title">July 2026<br>Digital Marketing Plan</h1>
-      <p class="sub" style="max-width:600px;margin-bottom:30px;" data-i18n="cover_sub">Paid media plan for peak season arrivals. Focus markets: <strong style="color:var(--white);">Balkans · Italy · UK.</strong> Real room types promoted (Swim-Up Suite, Penthouse, Sea View). All traffic directed to <strong style="color:var(--white);">cavomarina.com</strong> for D2C direct bookings — no OTA fees.</p>
+      <p class="sub" style="max-width:600px;margin-bottom:30px;" data-i18n="cover_sub">Paid media plan for peak season arrivals. Focus markets: <strong style="color:var(--white);">Balkans Â· Italy Â· UK.</strong> Real room types promoted (Swim-Up Suite, Penthouse, Sea View). All traffic directed to <strong style="color:var(--white);">cavomarina.com</strong> for D2C direct bookings â no OTA fees.</p>
 
       <!-- BUDGET SPLIT -->
       <div class="g2" style="max-width:720px;margin-bottom:24px;">
         <div class="card-g">
           <div style="font-size:9.5px;letter-spacing:2px;text-transform:uppercase;color:#7ab3f7;font-weight:700;margin-bottom:10px;">Google Ads</div>
-          <div style="font-size:32px;font-weight:800;margin-bottom:3px;">€1,500</div>
+          <div style="font-size:32px;font-weight:800;margin-bottom:3px;">â¬1,500</div>
           <div style="font-size:10.5px;color:var(--grey);margin-bottom:14px;" data-i18n="pct75">75% of monthly budget</div>
-          <div class="brow"><div class="brow-lbl" data-i18n="brand_search">Brand Search</div><div class="brow-track"><div class="brow-fill" style="width:10%;background:#4285F4;"></div></div><div class="brow-amt">€150</div></div>
-          <div class="brow"><div class="brow-lbl" data-i18n="generic_search">Generic Search</div><div class="brow-track"><div class="brow-fill" style="width:27%;background:#34a853;"></div></div><div class="brow-amt">€400</div></div>
-          <div class="brow"><div class="brow-lbl" data-i18n="pmax">Performance Max</div><div class="brow-track"><div class="brow-fill" style="width:47%;background:#fbbc04;"></div></div><div class="brow-amt">€700</div></div>
-          <div class="brow"><div class="brow-lbl" data-i18n="display_ret">Display Retarget</div><div class="brow-track"><div class="brow-fill" style="width:17%;background:#ea4335;"></div></div><div class="brow-amt">€250</div></div>
+          <div class="brow"><div class="brow-lbl" data-i18n="brand_search">Brand Search</div><div class="brow-track"><div class="brow-fill" style="width:10%;background:#4285F4;"></div></div><div class="brow-amt">â¬150</div></div>
+          <div class="brow"><div class="brow-lbl" data-i18n="generic_search">Generic Search</div><div class="brow-track"><div class="brow-fill" style="width:27%;background:#34a853;"></div></div><div class="brow-amt">â¬400</div></div>
+          <div class="brow"><div class="brow-lbl" data-i18n="pmax">Performance Max</div><div class="brow-track"><div class="brow-fill" style="width:47%;background:#fbbc04;"></div></div><div class="brow-amt">â¬700</div></div>
+          <div class="brow"><div class="brow-lbl" data-i18n="display_ret">Display Retarget</div><div class="brow-track"><div class="brow-fill" style="width:17%;background:#ea4335;"></div></div><div class="brow-amt">â¬250</div></div>
         </div>
         <div class="card-m">
           <div style="font-size:9.5px;letter-spacing:2px;text-transform:uppercase;color:#7aabff;font-weight:700;margin-bottom:10px;">Meta Ads</div>
-          <div style="font-size:32px;font-weight:800;margin-bottom:3px;">€500</div>
+          <div style="font-size:32px;font-weight:800;margin-bottom:3px;">â¬500</div>
           <div style="font-size:10.5px;color:var(--grey);margin-bottom:14px;" data-i18n="pct25">25% of monthly budget</div>
-          <div class="brow"><div class="brow-lbl" data-i18n="cold_aud">Cold Audience</div><div class="brow-track"><div class="brow-fill" style="width:60%;background:#0866FF;"></div></div><div class="brow-amt">€300</div></div>
-          <div class="brow"><div class="brow-lbl" data-i18n="warm_aud">Warm Audience</div><div class="brow-track"><div class="brow-fill" style="width:40%;background:#1877f2;"></div></div><div class="brow-amt">€200</div></div>
+          <div class="brow"><div class="brow-lbl" data-i18n="cold_aud">Cold Audience</div><div class="brow-track"><div class="brow-fill" style="width:60%;background:#0866FF;"></div></div><div class="brow-amt">â¬300</div></div>
+          <div class="brow"><div class="brow-lbl" data-i18n="warm_aud">Warm Audience</div><div class="brow-track"><div class="brow-fill" style="width:40%;background:#1877f2;"></div></div><div class="brow-amt">â¬200</div></div>
         </div>
       </div>
 
       <!-- MARKETS -->
-      <div style="font-size:9.5px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px;" data-i18n="target_markets">Budget Matrix — Market × Campaign · July 2026</div>
+      <div style="font-size:9.5px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px;" data-i18n="target_markets">Budget Matrix â Market Ã Campaign Â· July 2026</div>
       <div style="overflow-x:auto;max-width:100%;">
       <table style="width:100%;font-size:10.5px;border-collapse:collapse;">
         <thead>
@@ -270,63 +270,63 @@
         </thead>
         <tbody>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;font-weight:600;">🇮🇹 Italy</td>
+            <td style="padding:6px 10px;font-weight:600;">ð®ð¹ Italy</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-purple" style="font-size:8px;">IT</span></td>
-            <td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€100</td><td style="padding:6px;text-align:center;color:var(--grey);">€135</td><td style="padding:6px;text-align:center;color:var(--grey);">€50</td><td style="padding:6px;text-align:center;color:var(--grey);">€80</td><td style="padding:6px;text-align:center;color:var(--grey);">€45</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">€435</td><td style="padding:6px;color:var(--grey);font-size:10px;">22%</td>
+            <td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬100</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬135</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬50</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬80</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬45</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">â¬435</td><td style="padding:6px;color:var(--grey);font-size:10px;">22%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;font-weight:600;">🇷🇸🇲🇪 Serbia · Mnt.</td>
+            <td style="padding:6px 10px;font-weight:600;">ð·ð¸ð²ðª Serbia Â· Mnt.</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">SR</span></td>
-            <td style="padding:6px;text-align:center;color:var(--grey);">€20</td><td style="padding:6px;text-align:center;color:var(--grey);">€75</td><td style="padding:6px;text-align:center;color:var(--grey);">€105</td><td style="padding:6px;text-align:center;color:var(--grey);">€35</td><td style="padding:6px;text-align:center;color:var(--grey);">€55</td><td style="padding:6px;text-align:center;color:var(--grey);">€35</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">€325</td><td style="padding:6px;color:var(--grey);font-size:10px;">16%</td>
+            <td style="padding:6px;text-align:center;color:var(--grey);">â¬20</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬75</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬105</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬35</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬55</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬35</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">â¬325</td><td style="padding:6px;color:var(--grey);font-size:10px;">16%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;font-weight:600;">🇬🇷 Greece</td>
+            <td style="padding:6px 10px;font-weight:600;">ð¬ð· Greece</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-orange" style="font-size:8px;">EL</span></td>
-            <td style="padding:6px;text-align:center;color:var(--grey);">€20</td><td style="padding:6px;text-align:center;color:var(--grey);">€75</td><td style="padding:6px;text-align:center;color:var(--grey);">€110</td><td style="padding:6px;text-align:center;color:var(--grey);">€40</td><td style="padding:6px;text-align:center;color:var(--grey);">€40</td><td style="padding:6px;text-align:center;color:var(--grey);">€35</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">€320</td><td style="padding:6px;color:var(--grey);font-size:10px;">16%</td>
+            <td style="padding:6px;text-align:center;color:var(--grey);">â¬20</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬75</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬110</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬40</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬40</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬35</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">â¬320</td><td style="padding:6px;color:var(--grey);font-size:10px;">16%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;font-weight:600;">🇧🇬 Bulgaria</td>
+            <td style="padding:6px 10px;font-weight:600;">ð§ð¬ Bulgaria</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">BG</span></td>
-            <td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€55</td><td style="padding:6px;text-align:center;color:var(--grey);">€90</td><td style="padding:6px;text-align:center;color:var(--grey);">€30</td><td style="padding:6px;text-align:center;color:var(--grey);">€40</td><td style="padding:6px;text-align:center;color:var(--grey);">€30</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€260</td><td style="padding:6px;color:var(--grey);font-size:10px;">13%</td>
+            <td style="padding:6px;text-align:center;color:var(--grey);">â¬15</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬55</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬90</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬30</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬40</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬30</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">â¬260</td><td style="padding:6px;color:var(--grey);font-size:10px;">13%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;font-weight:600;">🇲🇰 Macedonia</td>
+            <td style="padding:6px 10px;font-weight:600;">ð²ð° Macedonia</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">MK</span></td>
-            <td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€30</td><td style="padding:6px;text-align:center;color:var(--grey);">€80</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€30</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€205</td><td style="padding:6px;color:var(--grey);font-size:10px;">10%</td>
+            <td style="padding:6px;text-align:center;color:var(--grey);">â¬15</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬30</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬80</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬30</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">â¬205</td><td style="padding:6px;color:var(--grey);font-size:10px;">10%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;font-weight:600;">🇽🇰 Kosovo</td>
+            <td style="padding:6px 10px;font-weight:600;">ð½ð° Kosovo</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">SQ</span></td>
-            <td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€70</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€15</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€175</td><td style="padding:6px;color:var(--grey);font-size:10px;">9%</td>
+            <td style="padding:6px;text-align:center;color:var(--grey);">â¬15</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬70</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬15</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">â¬175</td><td style="padding:6px;color:var(--grey);font-size:10px;">9%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;font-weight:600;">🇧🇦 Bosnia</td>
+            <td style="padding:6px 10px;font-weight:600;">ð§ð¦ Bosnia</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">BS</span></td>
-            <td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€60</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€15</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€165</td><td style="padding:6px;color:var(--grey);font-size:10px;">8%</td>
+            <td style="padding:6px;text-align:center;color:var(--grey);">â¬15</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬60</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬15</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">â¬165</td><td style="padding:6px;color:var(--grey);font-size:10px;">8%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;font-weight:600;">🇬🇧 UK</td>
+            <td style="padding:6px 10px;font-weight:600;">ð¬ð§ UK</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-green" style="font-size:8px;">EN</span></td>
-            <td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€50</td><td style="padding:6px;text-align:center;color:var(--grey);">€20</td><td style="padding:6px;text-align:center;color:var(--grey);">€5</td><td style="padding:6px;text-align:center;color:var(--grey);">€0</td>
-            <td style="padding:6px 10px;font-weight:700;color:var(--grey);">€115</td><td style="padding:6px;color:var(--grey);font-size:10px;">6%</td>
+            <td style="padding:6px;text-align:center;color:var(--grey);">â¬25</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬15</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬50</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬20</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬5</td><td style="padding:6px;text-align:center;color:var(--grey);">â¬0</td>
+            <td style="padding:6px 10px;font-weight:700;color:var(--grey);">â¬115</td><td style="padding:6px;color:var(--grey);font-size:10px;">6%</td>
           </tr>
           <tr style="background:rgba(201,169,110,0.08);border-top:2px solid rgba(201,169,110,0.3);">
             <td style="padding:7px 10px;font-weight:800;color:var(--white);">TOTAL</td>
             <td></td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#7ab3f7;">€150</td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#6ee7b7;">€400</td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#fde68a;">€700</td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#fca5a5;">€250</td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#93c5fd;">€300</td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#c4b5fd;">€200</td>
-            <td style="padding:7px 10px;font-weight:900;color:var(--accent2);font-size:13px;">€2,000</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#7ab3f7;">â¬150</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#6ee7b7;">â¬400</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#fde68a;">â¬700</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#fca5a5;">â¬250</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#93c5fd;">â¬300</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#c4b5fd;">â¬200</td>
+            <td style="padding:7px 10px;font-weight:900;color:var(--accent2);font-size:13px;">â¬2,000</td>
             <td style="padding:7px 6px;font-weight:700;color:var(--white);">100%</td>
           </tr>
         </tbody>
@@ -336,21 +336,21 @@
     </div>
   </div>
   <div class="sf">
-    <span>Cavomarina Beach Hotel — <strong data-i18n="sf_title">July 2026 Digital Marketing Plan</strong></span>
+    <span>Cavomarina Beach Hotel â <strong data-i18n="sf_title">July 2026 Digital Marketing Plan</strong></span>
     <span data-i18n="slide_1_3">1 / 3</span>
   </div>
 </div>
 
-<!-- ════════════════════════ SLIDE 1 — GOOGLE ADS ════════════════════════ -->
+<!-- ââââââââââââââââââââââââ SLIDE 1 â GOOGLE ADS ââââââââââââââââââââââââ -->
 <div class="slide" id="s1">
   <div class="sh">
     <div>
-      <div class="eyebrow" data-i18n="g_eyebrow">Google Ads — July 2026</div>
-      <h2 data-i18n="g_h2">Search · Performance Max · Display</h2>
-      <p class="sub" style="margin-top:5px;" data-i18n="g_sub">All campaigns direct to <strong style="color:var(--white);">cavomarina.com</strong>. Conversion goal: booking engine session → reservation completed.</p>
+      <div class="eyebrow" data-i18n="g_eyebrow">Google Ads â July 2026</div>
+      <h2 data-i18n="g_h2">Search Â· Performance Max Â· Display</h2>
+      <p class="sub" style="margin-top:5px;" data-i18n="g_sub">All campaigns direct to <strong style="color:var(--white);">cavomarina.com</strong>. Conversion goal: booking engine session â reservation completed.</p>
     </div>
     <div class="sh-r">
-      <span class="tag tag-g" style="font-size:12px;padding:5px 13px;">€1,500 / <span data-i18n="month">month</span></span>
+      <span class="tag tag-g" style="font-size:12px;padding:5px 13px;">â¬1,500 / <span data-i18n="month">month</span></span>
     </div>
   </div>
 
@@ -362,51 +362,51 @@
       <div class="card-g">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
           <div><span class="tag tag-g" data-i18n="brand_search">Brand Search</span><h3 style="margin-top:7px;" data-i18n="brand_prot">Brand Protection</h3></div>
-          <div style="font-size:19px;font-weight:800;color:#7ab3f7;">€150</div>
+          <div style="font-size:19px;font-weight:800;color:#7ab3f7;">â¬150</div>
         </div>
         <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(252,129,74,0.1);border:1px solid rgba(252,129,74,0.3);border-radius:6px;padding:4px 10px;margin-bottom:10px;">
-          <span style="font-size:10px;color:#fdba74;font-weight:600;" data-i18n="uk_search_removed">🇬🇧 UK removed from Search — UK runs via PMax + Meta only</span>
+          <span style="font-size:10px;color:#fdba74;font-weight:600;" data-i18n="uk_search_removed">ð¬ð§ UK removed from Search â UK runs via PMax + Meta only</span>
         </div>
         <p style="font-size:11.5px;color:var(--grey);margin-bottom:10px;line-height:1.5;" data-i18n="brand_desc">Prevent OTAs from bidding on Cavomarina brand. Balkans, Italy, Greece only. UK brand queries captured via PMax.</p>
         <div class="ad-box">
-          <div class="al">RSA — EXAMPLE (EN)</div>
+          <div class="al">RSA â EXAMPLE (EN)</div>
           <div class="hl">
             Cavomarina Beach Hotel | Official Site<br>
-            Adults-Only · Swim-Up Suites · Kavos Corfu<br>
-            Book Direct — Best Rate Guaranteed
+            Adults-Only Â· Swim-Up Suites Â· Kavos Corfu<br>
+            Book Direct â Best Rate Guaranteed
           </div>
           <div class="dc">
-            Beachfront adults-only resort in Kavos, Corfu. Swim-up suites & rooftop penthouse. Reserve directly — no agency fees, best available rate.<br>
+            Beachfront adults-only resort in Kavos, Corfu. Swim-up suites & rooftop penthouse. Reserve directly â no agency fees, best available rate.<br>
             <span style="color:#7ab3f7;">cavomarina.com</span>
           </div>
         </div>
         <ul class="ul" style="margin-top:9px;">
           <li><b data-i18n="match">Match type:</b> <span data-i18n="match_val">Exact + Phrase</span></li>
-          <li><b data-i18n="neg">Negative:</b> <span data-i18n="neg_val">booking.com · expedia · trivago · hotels.com</span></li>
-          <li><b data-i18n="all_mkt">Markets:</b> Balkans · Greece · Italy (EN, EL, IT) — <span style="color:#fdba74;">UK excluded from Search</span></li>
+          <li><b data-i18n="neg">Negative:</b> <span data-i18n="neg_val">booking.com Â· expedia Â· trivago Â· hotels.com</span></li>
+          <li><b data-i18n="all_mkt">Markets:</b> Balkans Â· Greece Â· Italy (EN, EL, IT) â <span style="color:#fdba74;">UK excluded from Search</span></li>
         </ul>
       </div>
 
       <!-- PMax -->
       <div class="card-g">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
-          <div><span class="tag tag-green" data-i18n="pmax">Performance Max</span><h3 style="margin-top:7px;" data-i18n="pmax_h">PMax — All Google Surfaces</h3></div>
-          <div style="font-size:19px;font-weight:800;color:#6ee7b7;">€750</div>
+          <div><span class="tag tag-green" data-i18n="pmax">Performance Max</span><h3 style="margin-top:7px;" data-i18n="pmax_h">PMax â All Google Surfaces</h3></div>
+          <div style="font-size:19px;font-weight:800;color:#6ee7b7;">â¬750</div>
         </div>
         <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(110,231,183,0.1);border:1px solid rgba(110,231,183,0.3);border-radius:6px;padding:4px 10px;margin-bottom:10px;">
-          <span style="font-size:10px;color:#6ee7b7;font-weight:600;">🇬🇧 UK + 🌍 Balkans + 🇮🇹 Italy — all surfaces, real room type assets</span>
+          <span style="font-size:10px;color:#6ee7b7;font-weight:600;">ð¬ð§ UK + ð Balkans + ð®ð¹ Italy â all surfaces, real room type assets</span>
         </div>
         <p style="font-size:11.5px;color:var(--grey);margin-bottom:10px;line-height:1.5;" data-i18n="pmax_desc">Single campaign across Search, YouTube, Display, Discover, Maps and Shopping. Hotel feed connected. Room-type asset groups: Swim-Up Suite, Sea View Room, Penthouse. All languages served automatically.</p>
         <div class="g2" style="gap:9px;">
           <div class="ad-box">
-            <div class="al">ASSET GROUP 1 — SWIM-UP SUITE (🌍 Balkans · 🇬🇧 UK)</div>
-            <div class="hl" style="color:#6ee7b7;font-size:11px;">Swim-Up Suite | Kavos, Corfu<br>Step from bed into the pool — Book Direct<br>Best Rate on cavomarina.com</div>
-            <div class="dc" style="font-size:10.5px;">Visuals: swim-up suite · pool · sea view · Format: 16:9 · 1:1 · 4:5 · 9:16<br>Languages: SR · HR · BG · EN (auto-served by market)</div>
+            <div class="al">ASSET GROUP 1 â SWIM-UP SUITE (ð Balkans Â· ð¬ð§ UK)</div>
+            <div class="hl" style="color:#6ee7b7;font-size:11px;">Swim-Up Suite | Kavos, Corfu<br>Step from bed into the pool â Book Direct<br>Best Rate on cavomarina.com</div>
+            <div class="dc" style="font-size:10.5px;">Visuals: swim-up suite Â· pool Â· sea view Â· Format: 16:9 Â· 1:1 Â· 4:5 Â· 9:16<br>Languages: SR Â· HR Â· BG Â· EN (auto-served by market)</div>
           </div>
           <div class="ad-box">
-            <div class="al">ASSET GROUP 2 — SEA VIEW ROOM + PENTHOUSE (🇮🇹 Italy · 🇬🇷 Greece)</div>
-            <div class="hl" style="color:#6ee7b7;font-size:11px;">Camera sul Mare | Kavos, Corfù<br>Suite Penthouse & Vista Panoramica<br>Prenota su cavomarina.com</div>
-            <div class="dc" style="font-size:10.5px;">Visuals: penthouse terrace · sea view room · sunset · Format: 16:9 · 1:1<br>Languages: IT · EL (auto-served by market)</div>
+            <div class="al">ASSET GROUP 2 â SEA VIEW ROOM + PENTHOUSE (ð®ð¹ Italy Â· ð¬ð· Greece)</div>
+            <div class="hl" style="color:#6ee7b7;font-size:11px;">Camera sul Mare | Kavos, CorfÃ¹<br>Suite Penthouse & Vista Panoramica<br>Prenota su cavomarina.com</div>
+            <div class="dc" style="font-size:10.5px;">Visuals: penthouse terrace Â· sea view room Â· sunset Â· Format: 16:9 Â· 1:1<br>Languages: IT Â· EL (auto-served by market)</div>
           </div>
         </div>
         <ul class="ul" style="margin-top:9px;">
@@ -423,40 +423,40 @@
       <div class="card-g">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
           <div><span class="tag tag-g" data-i18n="generic_search">Generic Search</span><h3 style="margin-top:7px;" data-i18n="kw_h">Keyword Targeting by Market</h3></div>
-          <div style="font-size:19px;font-weight:800;color:#7ab3f7;">€400</div>
+          <div style="font-size:19px;font-weight:800;color:#7ab3f7;">â¬400</div>
         </div>
         <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(252,129,74,0.1);border:1px solid rgba(252,129,74,0.3);border-radius:6px;padding:4px 10px;margin-bottom:10px;">
-          <span style="font-size:10px;color:#fdba74;font-weight:600;">🇬🇧 UK minimal in Search — 7 language-split ad sets active</span>
+          <span style="font-size:10px;color:#fdba74;font-weight:600;">ð¬ð§ UK minimal in Search â 7 language-split ad sets active</span>
         </div>
         <table>
           <thead><tr><th data-i18n="th_market">Market</th><th data-i18n="th_lang">Lang</th><th data-i18n="th_kw">Keywords</th><th data-i18n="th_type">Type</th><th>Budget</th></tr></thead>
           <tbody>
-            <tr class="kw-brand"><td data-i18n="all_mkt2">All</td><td><span class="tag tag-gold" style="font-size:9px;" data-i18n="brand">Brand</span></td><td>[cavomarina] · [cavo marina corfu] · [cavomarina hotel]</td><td>Exact</td><td>€150</td></tr>
-            <tr class="kw-it"><td>🇮🇹 Italy</td><td><span style="color:#c4b5fd;font-weight:700;">IT</span></td><td>"hotel corfù sul mare" · "hotel kavos corfù" · "resort corfù adulti" · "suite swim-up Corfù"</td><td>Phrase</td><td>€100</td></tr>
-            <tr class="kw-el"><td>🇬🇷 Greece</td><td><span style="color:#fb923c;font-weight:700;">EL</span></td><td>"ξενοδοχείο κάβος" · "ξενοδοχείο κέρκυρα παραλία" · "adults only κέρκυρα" · "swim up κέρκυρα"</td><td>Phrase</td><td>€75</td></tr>
-            <tr class="kw-en"><td>🇷🇸🇲🇪 Serbia · Montenegro</td><td><span style="color:#fcd34d;font-weight:700;">SR</span></td><td>"hotel na plazi Krf" · "Kavos hotel more" · "letovanje Krfu odrasli" · "swim up apartman Krf"</td><td>Phrase</td><td>€75</td></tr>
-            <tr class="kw-en"><td>🇧🇬 Bulgaria</td><td><span style="color:#fcd34d;font-weight:700;">BG</span></td><td>"хотел в Корфу" · "хотел Кавос Корфу" · "почивка Корфу само за възрастни" · "swim up стая Корфу"</td><td>Phrase</td><td>€55</td></tr>
-            <tr class="kw-en"><td>🇲🇰 Macedonia</td><td><span style="color:#fcd34d;font-weight:700;">MK</span></td><td>"хотел на плажа Крф" · "Кавос хотел море" · "одмор Крф само за возрасни"</td><td>Phrase</td><td>€30</td></tr>
-            <tr class="kw-en"><td>🇽🇰 Kosovo</td><td><span style="color:#fcd34d;font-weight:700;">SQ</span></td><td>"hotel plazh Korfuz" · "Kavos hotel detar" · "pushime Korfuz vetëm adulte" · "swim up dhomë"</td><td>Phrase</td><td>€25</td></tr>
-            <tr class="kw-en"><td>🇧🇦 Bosnia</td><td><span style="color:#fcd34d;font-weight:700;">BS</span></td><td>"hotel na plaži Krf" · "ljetovanje Krf odrasli" · "Kavos Krf swim up soba"</td><td>Phrase</td><td>€25</td></tr>
-            <tr class="kw-en"><td>🇬🇧 UK</td><td><span style="color:#86efac;font-weight:700;">EN</span></td><td>"corfu beach hotel" · "kavos adults only hotel"</td><td>Phrase</td><td>€15</td></tr>
+            <tr class="kw-brand"><td data-i18n="all_mkt2">All</td><td><span class="tag tag-gold" style="font-size:9px;" data-i18n="brand">Brand</span></td><td>[cavomarina] Â· [cavo marina corfu] Â· [cavomarina hotel]</td><td>Exact</td><td>â¬150</td></tr>
+            <tr class="kw-it"><td>ð®ð¹ Italy</td><td><span style="color:#c4b5fd;font-weight:700;">IT</span></td><td>"hotel corfÃ¹ sul mare" Â· "hotel kavos corfÃ¹" Â· "resort corfÃ¹ adulti" Â· "suite swim-up CorfÃ¹"</td><td>Phrase</td><td>â¬100</td></tr>
+            <tr class="kw-el"><td>ð¬ð· Greece</td><td><span style="color:#fb923c;font-weight:700;">EL</span></td><td>"Î¾ÎµÎ½Î¿Î´Î¿ÏÎµÎ¯Î¿ ÎºÎ¬Î²Î¿Ï" Â· "Î¾ÎµÎ½Î¿Î´Î¿ÏÎµÎ¯Î¿ ÎºÎ­ÏÎºÏÏÎ± ÏÎ±ÏÎ±Î»Î¯Î±" Â· "adults only ÎºÎ­ÏÎºÏÏÎ±" Â· "swim up ÎºÎ­ÏÎºÏÏÎ±"</td><td>Phrase</td><td>â¬75</td></tr>
+            <tr class="kw-en"><td>ð·ð¸ð²ðª Serbia Â· Montenegro</td><td><span style="color:#fcd34d;font-weight:700;">SR</span></td><td>"hotel na plazi Krf" Â· "Kavos hotel more" Â· "letovanje Krfu odrasli" Â· "swim up apartman Krf"</td><td>Phrase</td><td>â¬75</td></tr>
+            <tr class="kw-en"><td>ð§ð¬ Bulgaria</td><td><span style="color:#fcd34d;font-weight:700;">BG</span></td><td>"ÑÐ¾ÑÐµÐ» Ð² ÐÐ¾ÑÑÑ" Â· "ÑÐ¾ÑÐµÐ» ÐÐ°Ð²Ð¾Ñ ÐÐ¾ÑÑÑ" Â· "Ð¿Ð¾ÑÐ¸Ð²ÐºÐ° ÐÐ¾ÑÑÑ ÑÐ°Ð¼Ð¾ Ð·Ð° Ð²ÑÐ·ÑÐ°ÑÑÐ½Ð¸" Â· "swim up ÑÑÐ°Ñ ÐÐ¾ÑÑÑ"</td><td>Phrase</td><td>â¬55</td></tr>
+            <tr class="kw-en"><td>ð²ð° Macedonia</td><td><span style="color:#fcd34d;font-weight:700;">MK</span></td><td>"ÑÐ¾ÑÐµÐ» Ð½Ð° Ð¿Ð»Ð°Ð¶Ð° ÐÑÑ" Â· "ÐÐ°Ð²Ð¾Ñ ÑÐ¾ÑÐµÐ» Ð¼Ð¾ÑÐµ" Â· "Ð¾Ð´Ð¼Ð¾Ñ ÐÑÑ ÑÐ°Ð¼Ð¾ Ð·Ð° Ð²Ð¾Ð·ÑÐ°ÑÐ½Ð¸"</td><td>Phrase</td><td>â¬30</td></tr>
+            <tr class="kw-en"><td>ð½ð° Kosovo</td><td><span style="color:#fcd34d;font-weight:700;">SQ</span></td><td>"hotel plazh Korfuz" Â· "Kavos hotel detar" Â· "pushime Korfuz vetÃ«m adulte" Â· "swim up dhomÃ«"</td><td>Phrase</td><td>â¬25</td></tr>
+            <tr class="kw-en"><td>ð§ð¦ Bosnia</td><td><span style="color:#fcd34d;font-weight:700;">BS</span></td><td>"hotel na plaÅ¾i Krf" Â· "ljetovanje Krf odrasli" Â· "Kavos Krf swim up soba"</td><td>Phrase</td><td>â¬25</td></tr>
+            <tr class="kw-en"><td>ð¬ð§ UK</td><td><span style="color:#86efac;font-weight:700;">EN</span></td><td>"corfu beach hotel" Â· "kavos adults only hotel"</td><td>Phrase</td><td>â¬15</td></tr>
           </tbody>
         </table>
         <div style="margin-top:10px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
           <div class="ad-box">
-            <div class="al">RSA — SERBIAN (🇷🇸🇲🇪🇧🇦)</div>
-            <div class="hl" style="font-size:10px;">Hotel na plaži Krf | Direktna rezervacija<br>Swim-Up Suite · Kavos · Samo za odrasle<br>Najbolja cena na cavomarina.com</div>
-            <div class="dc" style="font-size:9.5px;">Luksuzni resort samo za odrasle na Krfu. Swim-up suite, penthouse, privatna plaža. Rezervišite direktno — bez provizija.</div>
+            <div class="al">RSA â SERBIAN (ð·ð¸ð²ðªð§ð¦)</div>
+            <div class="hl" style="font-size:10px;">Hotel na plaÅ¾i Krf | Direktna rezervacija<br>Swim-Up Suite Â· Kavos Â· Samo za odrasle<br>Najbolja cena na cavomarina.com</div>
+            <div class="dc" style="font-size:9.5px;">Luksuzni resort samo za odrasle na Krfu. Swim-up suite, penthouse, privatna plaÅ¾a. RezerviÅ¡ite direktno â bez provizija.</div>
           </div>
           <div class="ad-box">
-            <div class="al">RSA — ITALIAN (🇮🇹)</div>
-            <div class="hl" style="font-size:10px;">Hotel Corfù sul Mare | Prenota Diretto<br>Suite Swim-Up · Kavos · Solo Adulti<br>Miglior Tariffa su cavomarina.com</div>
-            <div class="dc" style="font-size:9.5px;">Resort adults-only fronte mare a Corfù. Suite swim-up, penthouse e spiaggia privata. Prenota sul sito ufficiale — nessuna commissione.</div>
+            <div class="al">RSA â ITALIAN (ð®ð¹)</div>
+            <div class="hl" style="font-size:10px;">Hotel CorfÃ¹ sul Mare | Prenota Diretto<br>Suite Swim-Up Â· Kavos Â· Solo Adulti<br>Miglior Tariffa su cavomarina.com</div>
+            <div class="dc" style="font-size:9.5px;">Resort adults-only fronte mare a CorfÃ¹. Suite swim-up, penthouse e spiaggia privata. Prenota sul sito ufficiale â nessuna commissione.</div>
           </div>
           <div class="ad-box">
-            <div class="al">RSA — ALBANIAN (🇽🇰 Kosovo)</div>
-            <div class="hl" style="font-size:10px;">Hotel Plazh Korfuz | Rezervo Drejtpërdrejt<br>Swim-Up Suite · Kavos · Vetëm Adulte<br>Çmimi më i mirë cavomarina.com</div>
-            <div class="dc" style="font-size:9.5px;">Resort luksoze vetëm për adulte në Korfuz. Suite swim-up, penthouse dhe plazh privat. Rezervo drejtpërdrejt — pa komisione.</div>
+            <div class="al">RSA â ALBANIAN (ð½ð° Kosovo)</div>
+            <div class="hl" style="font-size:10px;">Hotel Plazh Korfuz | Rezervo DrejtpÃ«rdrejt<br>Swim-Up Suite Â· Kavos Â· VetÃ«m Adulte<br>Ãmimi mÃ« i mirÃ« cavomarina.com</div>
+            <div class="dc" style="font-size:9.5px;">Resort luksoze vetÃ«m pÃ«r adulte nÃ« Korfuz. Suite swim-up, penthouse dhe plazh privat. Rezervo drejtpÃ«rdrejt â pa komisione.</div>
           </div>
         </div>
       </div>
@@ -465,13 +465,13 @@
       <div class="card-g">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
           <div><span class="tag tag-purple" data-i18n="display_ret">Display Retarget</span><h3 style="margin-top:7px;" data-i18n="disp_h">Website Visitor Retargeting</h3></div>
-          <div style="font-size:19px;font-weight:800;color:#c4b5fd;">€250</div>
+          <div style="font-size:19px;font-weight:800;color:#c4b5fd;">â¬250</div>
         </div>
         <ul class="ul">
-          <li><b data-i18n="aud_lbl">Audience 1:</b> <span data-i18n="aud1_val">All website visitors — 30-day window</span></li>
-          <li><b data-i18n="aud2_lbl">Audience 2:</b> <span data-i18n="aud2_val">Room / booking page viewers — 14-day window</span></li>
+          <li><b data-i18n="aud_lbl">Audience 1:</b> <span data-i18n="aud1_val">All website visitors â 30-day window</span></li>
+          <li><b data-i18n="aud2_lbl">Audience 2:</b> <span data-i18n="aud2_val">Room / booking page viewers â 14-day window</span></li>
           <li><b data-i18n="excl_lbl">Exclude:</b> <span data-i18n="excl_val">Confirmed reservations (180 days)</span></li>
-          <li><b data-i18n="fmt_lbl">Formats:</b> <span>Responsive Display — 728×90 · 300×250 · 160×600 · 320×50</span></li>
+          <li><b data-i18n="fmt_lbl">Formats:</b> <span>Responsive Display â 728Ã90 Â· 300Ã250 Â· 160Ã600 Â· 320Ã50</span></li>
           <li><b data-i18n="msg_lbl">Message:</b> <span data-i18n="msg_val">"Your Corfu room is still available" + logo + CTA</span></li>
         </ul>
       </div>
@@ -481,13 +481,13 @@
         <h4 style="margin-bottom:9px;color:var(--accent2);" data-i18n="settings_h">Campaign Settings & Negatives</h4>
         <div class="g2" style="gap:10px;">
           <ul class="ul">
-            <li><b data-i18n="neg_kw">Negative keywords:</b> <span data-i18n="neg_kw_val">jobs · rental · villa · hostel · camping · cheap · free · reviews</span></li>
-            <li><b data-i18n="ota_neg">OTA negatives:</b> <span>booking.com · expedia · airbnb · trivago</span></li>
+            <li><b data-i18n="neg_kw">Negative keywords:</b> <span data-i18n="neg_kw_val">jobs Â· rental Â· villa Â· hostel Â· camping Â· cheap Â· free Â· reviews</span></li>
+            <li><b data-i18n="ota_neg">OTA negatives:</b> <span>booking.com Â· expedia Â· airbnb Â· trivago</span></li>
           </ul>
           <ul class="ul">
-            <li><b data-i18n="bid_strat">Bid strategy:</b> <span data-i18n="bid_val">Target ROAS — adjust after 2 weeks</span></li>
+            <li><b data-i18n="bid_strat">Bid strategy:</b> <span data-i18n="bid_val">Target ROAS â adjust after 2 weeks</span></li>
             <li><b data-i18n="land_pg">Landing page:</b> <span>cavomarina.com/booking</span></li>
-            <li><b data-i18n="device">Device:</b> <span data-i18n="device_val">All devices — mobile priority</span></li>
+            <li><b data-i18n="device">Device:</b> <span data-i18n="device_val">All devices â mobile priority</span></li>
           </ul>
         </div>
       </div>
@@ -496,23 +496,23 @@
   </div>
 
   <div class="sf">
-    <span>Cavomarina Beach Hotel — <strong>July 2026 · Google Ads Plan</strong></span>
+    <span>Cavomarina Beach Hotel â <strong>July 2026 Â· Google Ads Plan</strong></span>
     <span data-i18n="slide_2_3">2 / 3</span>
   </div>
 </div>
 
-<!-- ════════════════════════ SLIDE 2 — META ADS ════════════════════════ -->
+<!-- ââââââââââââââââââââââââ SLIDE 2 â META ADS ââââââââââââââââââââââââ -->
 <div class="slide" id="s2">
 
   <div class="sh">
     <div>
-      <div class="eyebrow" data-i18n="m_eyebrow">Meta Ads — July 2026</div>
-      <h2 data-i18n="m_h2">Instagram & Facebook — Cold + Warm Audiences</h2>
+      <div class="eyebrow" data-i18n="m_eyebrow">Meta Ads â July 2026</div>
+      <h2 data-i18n="m_h2">Instagram & Facebook â Cold + Warm Audiences</h2>
       <p class="sub" style="margin-top:5px;" data-i18n="m_sub">All ads link to <strong style="color:var(--white);">cavomarina.com</strong> booking page. Visual-first campaigns.</p>
     </div>
     <div class="sh-r">
-      <span class="tag tag-m" style="font-size:12px;padding:5px 13px;">€500 / <span data-i18n="month">month</span></span>
-      <span style="font-size:10.5px;color:var(--grey);" data-i18n="cold_warm_split">Cold €300 · Warm €200</span>
+      <span class="tag tag-m" style="font-size:12px;padding:5px 13px;">â¬500 / <span data-i18n="month">month</span></span>
+      <span style="font-size:10.5px;color:var(--grey);" data-i18n="cold_warm_split">Cold â¬300 Â· Warm â¬200</span>
     </div>
   </div>
 
@@ -522,22 +522,22 @@
     <div class="card-m">
       <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:13px;">
         <div><span class="tag tag-m" data-i18n="cold_aud">Cold Audience</span> <span style="font-size:10px;color:var(--grey);margin-left:4px;" data-i18n="prospecting">Prospecting</span><h3 style="margin-top:7px;" data-i18n="new_acq">New Audience Acquisition</h3></div>
-        <div style="font-size:20px;font-weight:800;color:#7aabff;">€300</div>
+        <div style="font-size:20px;font-weight:800;color:#7aabff;">â¬300</div>
       </div>
 
-      <div style="font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:7px;" data-i18n="aud_targeting">Audience Targeting — Language Split (Cold €300)</div>
+      <div style="font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:7px;" data-i18n="aud_targeting">Audience Targeting â Language Split (Cold â¬300)</div>
       <table style="margin-bottom:13px;">
         <thead><tr><th data-i18n="th_market">Market</th><th>Lang</th><th data-i18n="th_cities">Cities / Geo</th><th data-i18n="th_interests">Interest Targeting</th><th data-i18n="th_budget">Budget</th></tr></thead>
         <tbody>
-          <tr style="background:rgba(201,169,110,0.06);"><td>🇮🇹 Italy</td><td><span class="tag tag-purple" style="font-size:8px;">IT</span></td><td style="color:var(--grey);font-size:11px;">Milan · Rome · Turin · Bologna</td><td style="color:var(--grey);font-size:11px;">Vacanza al mare · Corfù · Adults only resort · Suite swim-up</td><td style="font-weight:700;color:var(--accent2);">€80</td></tr>
-          <tr style="background:rgba(201,169,110,0.06);"><td>🇷🇸🇲🇪 Serbia · Mnt.</td><td><span class="tag tag-gold" style="font-size:8px;">SR</span></td><td style="color:var(--grey);font-size:11px;">Belgrade · Novi Sad · Podgorica</td><td style="color:var(--grey);font-size:11px;">Letovanje na moru · Krf hotel · Swim-up apartman · Luksuzan odmor</td><td style="font-weight:700;color:var(--accent2);">€55</td></tr>
-          <tr><td>🇬🇷 Greece</td><td><span class="tag tag-orange" style="font-size:8px;">EL</span></td><td style="color:var(--grey);font-size:11px;">Athens · Thessaloniki</td><td style="color:var(--grey);font-size:11px;">Beach break · Ionian islands · Weekend escape · adults only Κέρκυρα</td><td>€40</td></tr>
-          <tr><td>🇧🇬 Bulgaria</td><td><span class="tag tag-gold" style="font-size:8px;">BG</span></td><td style="color:var(--grey);font-size:11px;">Sofia · Plovdiv · Varna</td><td style="color:var(--grey);font-size:11px;">Почивка Корфу · хотел плаж · swim-up стая · луксозен курорт</td><td>€40</td></tr>
-          <tr><td>🇲🇰 Macedonia</td><td><span class="tag tag-gold" style="font-size:8px;">MK</span></td><td style="color:var(--grey);font-size:11px;">Skopje · Bitola</td><td style="color:var(--grey);font-size:11px;">Одмор плажа · хотел Крф · swim-up соба · луксузен одмор</td><td>€30</td></tr>
-          <tr><td>🇽🇰 Kosovo</td><td><span class="tag tag-gold" style="font-size:8px;">SQ</span></td><td style="color:var(--grey);font-size:11px;">Pristina · Prizren</td><td style="color:var(--grey);font-size:11px;">Pushime plazh · hotel Korfuz · swim-up dhomë · resort luksoze</td><td>€25</td></tr>
-          <tr><td>🇧🇦 Bosnia</td><td><span class="tag tag-gold" style="font-size:8px;">BS</span></td><td style="color:var(--grey);font-size:11px;">Sarajevo · Banja Luka</td><td style="color:var(--grey);font-size:11px;">Ljetovanje Krf · hotel more · odrasli odmor · swim-up soba</td><td>€25</td></tr>
-          <tr><td>🇬🇧 UK</td><td><span class="tag tag-green" style="font-size:8px;">EN</span></td><td style="color:var(--grey);font-size:11px;">London · Manchester</td><td style="color:var(--grey);font-size:11px;">Greek islands · Luxury beach · Adults-only resort</td><td>€5 <span style="font-size:9px;color:var(--grey);">↑ PMax primary</span></td></tr>
-          <tr style="border-top:1px solid rgba(255,255,255,0.15);"><td colspan="4" style="padding:6px 8px;font-weight:700;color:var(--white);">Total Cold Audience</td><td style="font-weight:800;color:#93c5fd;">€300</td></tr>
+          <tr style="background:rgba(201,169,110,0.06);"><td>ð®ð¹ Italy</td><td><span class="tag tag-purple" style="font-size:8px;">IT</span></td><td style="color:var(--grey);font-size:11px;">Milan Â· Rome Â· Turin Â· Bologna</td><td style="color:var(--grey);font-size:11px;">Vacanza al mare Â· CorfÃ¹ Â· Adults only resort Â· Suite swim-up</td><td style="font-weight:700;color:var(--accent2);">â¬80</td></tr>
+          <tr style="background:rgba(201,169,110,0.06);"><td>ð·ð¸ð²ðª Serbia Â· Mnt.</td><td><span class="tag tag-gold" style="font-size:8px;">SR</span></td><td style="color:var(--grey);font-size:11px;">Belgrade Â· Novi Sad Â· Podgorica</td><td style="color:var(--grey);font-size:11px;">Letovanje na moru Â· Krf hotel Â· Swim-up apartman Â· Luksuzan odmor</td><td style="font-weight:700;color:var(--accent2);">â¬55</td></tr>
+          <tr><td>ð¬ð· Greece</td><td><span class="tag tag-orange" style="font-size:8px;">EL</span></td><td style="color:var(--grey);font-size:11px;">Athens Â· Thessaloniki</td><td style="color:var(--grey);font-size:11px;">Beach break Â· Ionian islands Â· Weekend escape Â· adults only ÎÎ­ÏÎºÏÏÎ±</td><td>â¬40</td></tr>
+          <tr><td>ð§ð¬ Bulgaria</td><td><span class="tag tag-gold" style="font-size:8px;">BG</span></td><td style="color:var(--grey);font-size:11px;">Sofia Â· Plovdiv Â· Varna</td><td style="color:var(--grey);font-size:11px;">ÐÐ¾ÑÐ¸Ð²ÐºÐ° ÐÐ¾ÑÑÑ Â· ÑÐ¾ÑÐµÐ» Ð¿Ð»Ð°Ð¶ Â· swim-up ÑÑÐ°Ñ Â· Ð»ÑÐºÑÐ¾Ð·ÐµÐ½ ÐºÑÑÐ¾ÑÑ</td><td>â¬40</td></tr>
+          <tr><td>ð²ð° Macedonia</td><td><span class="tag tag-gold" style="font-size:8px;">MK</span></td><td style="color:var(--grey);font-size:11px;">Skopje Â· Bitola</td><td style="color:var(--grey);font-size:11px;">ÐÐ´Ð¼Ð¾Ñ Ð¿Ð»Ð°Ð¶Ð° Â· ÑÐ¾ÑÐµÐ» ÐÑÑ Â· swim-up ÑÐ¾Ð±Ð° Â· Ð»ÑÐºÑÑÐ·ÐµÐ½ Ð¾Ð´Ð¼Ð¾Ñ</td><td>â¬30</td></tr>
+          <tr><td>ð½ð° Kosovo</td><td><span class="tag tag-gold" style="font-size:8px;">SQ</span></td><td style="color:var(--grey);font-size:11px;">Pristina Â· Prizren</td><td style="color:var(--grey);font-size:11px;">Pushime plazh Â· hotel Korfuz Â· swim-up dhomÃ« Â· resort luksoze</td><td>â¬25</td></tr>
+          <tr><td>ð§ð¦ Bosnia</td><td><span class="tag tag-gold" style="font-size:8px;">BS</span></td><td style="color:var(--grey);font-size:11px;">Sarajevo Â· Banja Luka</td><td style="color:var(--grey);font-size:11px;">Ljetovanje Krf Â· hotel more Â· odrasli odmor Â· swim-up soba</td><td>â¬25</td></tr>
+          <tr><td>ð¬ð§ UK</td><td><span class="tag tag-green" style="font-size:8px;">EN</span></td><td style="color:var(--grey);font-size:11px;">London Â· Manchester</td><td style="color:var(--grey);font-size:11px;">Greek islands Â· Luxury beach Â· Adults-only resort</td><td>â¬5 <span style="font-size:9px;color:var(--grey);">â PMax primary</span></td></tr>
+          <tr style="border-top:1px solid rgba(255,255,255,0.15);"><td colspan="4" style="padding:6px 8px;font-weight:700;color:var(--white);">Total Cold Audience</td><td style="font-weight:800;color:#93c5fd;">â¬300</td></tr>
         </tbody>
       </table>
 
@@ -545,57 +545,57 @@
       <div style="display:flex;flex-direction:column;gap:9px;">
 
         <div class="meta-box">
-          <div class="ml" data-i18n="fmt1_lbl">FORMAT 1 — INSTAGRAM REELS (9:16 · 15–30s)</div>
-          <div class="cap" data-i18n="fmt1_desc">Hook (0–3s): Swim-up Suite morning entry — audio on. Mid: pool → sea view → sunset dinner cuts. Last 5s: Logo + "cavomarina.com" + room type name overlay.</div>
+          <div class="ml" data-i18n="fmt1_lbl">FORMAT 1 â INSTAGRAM REELS (9:16 Â· 15â30s)</div>
+          <div class="cap" data-i18n="fmt1_desc">Hook (0â3s): Swim-up Suite morning entry â audio on. Mid: pool â sea view â sunset dinner cuts. Last 5s: Logo + "cavomarina.com" + room type name overlay.</div>
           <div style="border-top:1px solid rgba(8,102,255,0.2);margin-top:9px;padding-top:9px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
             <div>
-              <div class="ml">IT 🇮🇹</div>
-              <div class="cap" style="font-size:10px;">La tua fuga adults-only a Corfù ti aspetta 🌊 Suite Swim-Up, Penthouse e camere vista mare a Kavos. Prenota su cavomarina.com — miglior tariffa ↓ <em>#Corfù #AdultsOnly #SuiteSwimUp</em></div>
+              <div class="ml">IT ð®ð¹</div>
+              <div class="cap" style="font-size:10px;">La tua fuga adults-only a CorfÃ¹ ti aspetta ð Suite Swim-Up, Penthouse e camere vista mare a Kavos. Prenota su cavomarina.com â miglior tariffa â <em>#CorfÃ¹ #AdultsOnly #SuiteSwimUp</em></div>
             </div>
             <div>
-              <div class="ml">SR 🇷🇸🇲🇪🇧🇦</div>
-              <div class="cap" style="font-size:10px;">Vaš odmor samo za odrasle na Krfu čeka 🌊 Swim-Up Suite, Penthouse i sobe s pogledom na more. Rezervišite direktno na cavomarina.com ↓ <em>#Krf #OdmorOdrasli #SwimUpSuite</em></div>
+              <div class="ml">SR ð·ð¸ð²ðªð§ð¦</div>
+              <div class="cap" style="font-size:10px;">VaÅ¡ odmor samo za odrasle na Krfu Äeka ð Swim-Up Suite, Penthouse i sobe s pogledom na more. RezerviÅ¡ite direktno na cavomarina.com â <em>#Krf #OdmorOdrasli #SwimUpSuite</em></div>
             </div>
             <div>
-              <div class="ml">EL 🇬🇷</div>
-              <div class="cap" style="font-size:10px;">Η απόδραση adults-only στην Κέρκυρα σε περιμένει 🌊 Suite Swim-Up, Penthouse & θέα θάλασσα στον Κάβο. Κράτηση απευθείας στο cavomarina.com ↓ <em>#Κέρκυρα #AdultsOnly</em></div>
+              <div class="ml">EL ð¬ð·</div>
+              <div class="cap" style="font-size:10px;">Î Î±ÏÏÎ´ÏÎ±ÏÎ· adults-only ÏÏÎ·Î½ ÎÎ­ÏÎºÏÏÎ± ÏÎµ ÏÎµÏÎ¹Î¼Î­Î½ÎµÎ¹ ð Suite Swim-Up, Penthouse & Î¸Î­Î± Î¸Î¬Î»Î±ÏÏÎ± ÏÏÎ¿Î½ ÎÎ¬Î²Î¿. ÎÏÎ¬ÏÎ·ÏÎ· Î±ÏÎµÏÎ¸ÎµÎ¯Î±Ï ÏÏÎ¿ cavomarina.com â <em>#ÎÎ­ÏÎºÏÏÎ± #AdultsOnly</em></div>
             </div>
             <div>
-              <div class="ml">MK 🇲🇰</div>
-              <div class="cap" style="font-size:10px;">Вашиот одмор само за возрасни на Крф ве чека 🌊 Swim-Up Suite, Penthouse и соба со поглед на море. Резервирајте директно на cavomarina.com ↓ <em>#Крф #ОдморВозрасни</em></div>
+              <div class="ml">MK ð²ð°</div>
+              <div class="cap" style="font-size:10px;">ÐÐ°ÑÐ¸Ð¾Ñ Ð¾Ð´Ð¼Ð¾Ñ ÑÐ°Ð¼Ð¾ Ð·Ð° Ð²Ð¾Ð·ÑÐ°ÑÐ½Ð¸ Ð½Ð° ÐÑÑ Ð²Ðµ ÑÐµÐºÐ° ð Swim-Up Suite, Penthouse Ð¸ ÑÐ¾Ð±Ð° ÑÐ¾ Ð¿Ð¾Ð³Ð»ÐµÐ´ Ð½Ð° Ð¼Ð¾ÑÐµ. Ð ÐµÐ·ÐµÑÐ²Ð¸ÑÐ°ÑÑÐµ Ð´Ð¸ÑÐµÐºÑÐ½Ð¾ Ð½Ð° cavomarina.com â <em>#ÐÑÑ #ÐÐ´Ð¼Ð¾ÑÐÐ¾Ð·ÑÐ°ÑÐ½Ð¸</em></div>
             </div>
             <div>
-              <div class="ml">SQ 🇽🇰</div>
-              <div class="cap" style="font-size:10px;">Pushimet tuaja vetëm adulte në Korfuz ju presin 🌊 Suite Swim-Up, Penthouse & dhomë me pamje deti në Kavos. Rezervo drejtpërdrejt cavomarina.com ↓ <em>#Korfuz #PushimeAdulte</em></div>
+              <div class="ml">SQ ð½ð°</div>
+              <div class="cap" style="font-size:10px;">Pushimet tuaja vetÃ«m adulte nÃ« Korfuz ju presin ð Suite Swim-Up, Penthouse & dhomÃ« me pamje deti nÃ« Kavos. Rezervo drejtpÃ«rdrejt cavomarina.com â <em>#Korfuz #PushimeAdulte</em></div>
             </div>
             <div>
-              <div class="ml">BG 🇧🇬</div>
-              <div class="cap" style="font-size:10px;">Вашата ваканция само за възрастни в Корфу ви чака 🌊 Swim-Up Suite, Penthouse и стая с морска гледка в Кавос. Резервирайте директно cavomarina.com ↓ <em>#Корфу #Ваканция</em></div>
+              <div class="ml">BG ð§ð¬</div>
+              <div class="cap" style="font-size:10px;">ÐÐ°ÑÐ°ÑÐ° Ð²Ð°ÐºÐ°Ð½ÑÐ¸Ñ ÑÐ°Ð¼Ð¾ Ð·Ð° Ð²ÑÐ·ÑÐ°ÑÑÐ½Ð¸ Ð² ÐÐ¾ÑÑÑ Ð²Ð¸ ÑÐ°ÐºÐ° ð Swim-Up Suite, Penthouse Ð¸ ÑÑÐ°Ñ Ñ Ð¼Ð¾ÑÑÐºÐ° Ð³Ð»ÐµÐ´ÐºÐ° Ð² ÐÐ°Ð²Ð¾Ñ. Ð ÐµÐ·ÐµÑÐ²Ð¸ÑÐ°Ð¹ÑÐµ Ð´Ð¸ÑÐµÐºÑÐ½Ð¾ cavomarina.com â <em>#ÐÐ¾ÑÑÑ #ÐÐ°ÐºÐ°Ð½ÑÐ¸Ñ</em></div>
             </div>
           </div>
         </div>
 
         <div class="meta-box">
-          <div class="ml" data-i18n="fmt2_lbl">FORMAT 2 — CAROUSEL (5–6 CARDS · 1:1) — Room Type Showcase</div>
-          <div class="cap" data-i18n="fmt2_desc">Card 1: Swim-Up Suite · Card 2: Penthouse terrace view · Card 3: Sea View Room · Card 4: Beachfront pool · Card 5: Sunset dinner · Card 6: "Prenota / Rezerviši / Book Direct · cavomarina.com"</div>
+          <div class="ml" data-i18n="fmt2_lbl">FORMAT 2 â CAROUSEL (5â6 CARDS Â· 1:1) â Room Type Showcase</div>
+          <div class="cap" data-i18n="fmt2_desc">Card 1: Swim-Up Suite Â· Card 2: Penthouse terrace view Â· Card 3: Sea View Room Â· Card 4: Beachfront pool Â· Card 5: Sunset dinner Â· Card 6: "Prenota / RezerviÅ¡i / Book Direct Â· cavomarina.com"</div>
           <div style="border-top:1px solid rgba(8,102,255,0.2);margin-top:9px;padding-top:9px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
             <div>
-              <div class="ml">CAPTION (IT · 🇮🇹)</div>
-              <div class="cap">Swim-Up Suite, Penthouse o camera vista mare ☀️ Scegli la tua stanza preferita a Cavomarina — poi prenota direttamente per la miglior tariffa. <em>#Corfù #Kavos #LuxuryHotel #AdultsOnly</em></div>
+              <div class="ml">CAPTION (IT Â· ð®ð¹)</div>
+              <div class="cap">Swim-Up Suite, Penthouse o camera vista mare âï¸ Scegli la tua stanza preferita a Cavomarina â poi prenota direttamente per la miglior tariffa. <em>#CorfÃ¹ #Kavos #LuxuryHotel #AdultsOnly</em></div>
             </div>
             <div>
-              <div class="ml">CAPTION (SR · 🇷🇸)</div>
-              <div class="cap">Swim-Up Suite, Penthouse ili soba s pogledom na more ☀️ Izaberite svoju sobu na Cavomarina — i rezervišite direktno za najbolju cenu. <em>#Krf #Kavos #LuksuzniHotel #OdmorOdrasli</em></div>
+              <div class="ml">CAPTION (SR Â· ð·ð¸)</div>
+              <div class="cap">Swim-Up Suite, Penthouse ili soba s pogledom na more âï¸ Izaberite svoju sobu na Cavomarina â i rezerviÅ¡ite direktno za najbolju cenu. <em>#Krf #Kavos #LuksuzniHotel #OdmorOdrasli</em></div>
             </div>
           </div>
         </div>
 
         <div class="meta-box">
-          <div class="ml" data-i18n="fmt3_lbl">FORMAT 3 — SINGLE IMAGE (1:1 / 4:5)</div>
-          <div class="cap" data-i18n="fmt3_desc">Best single shot: swim-up suite or aerial pool view. Minimal overlay text: "Adults Only · Kavos, Corfu"</div>
+          <div class="ml" data-i18n="fmt3_lbl">FORMAT 3 â SINGLE IMAGE (1:1 / 4:5)</div>
+          <div class="cap" data-i18n="fmt3_desc">Best single shot: swim-up suite or aerial pool view. Minimal overlay text: "Adults Only Â· Kavos, Corfu"</div>
           <div style="border-top:1px solid rgba(8,102,255,0.2);margin-top:9px;padding-top:9px;">
             <div class="ml">CAPTION (EN)</div>
-            <div class="cap">The beachfront adults-only resort you've been looking for 🌊 Cavomarina · Kavos, Corfu. Direct booking = best rate. No middlemen. Link in bio ↓
+            <div class="cap">The beachfront adults-only resort you've been looking for ð Cavomarina Â· Kavos, Corfu. Direct booking = best rate. No middlemen. Link in bio â
               <em>#CavoMarina #Corfu #KavosHotel #AdultsOnly #DirectBooking</em>
             </div>
           </div>
@@ -608,16 +608,16 @@
     <div class="card-m">
       <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:13px;">
         <div><span class="tag tag-orange" data-i18n="warm_aud">Warm Audience</span> <span style="font-size:10px;color:var(--grey);margin-left:4px;" data-i18n="retargeting">Retargeting</span><h3 style="margin-top:7px;" data-i18n="reengage">Re-engage Interested Users</h3></div>
-        <div style="font-size:20px;font-weight:800;color:#fdba74;">€200</div>
+        <div style="font-size:20px;font-weight:800;color:#fdba74;">â¬200</div>
       </div>
 
       <div style="font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:7px;" data-i18n="aud_segs">Audience Segments</div>
       <table style="margin-bottom:13px;">
         <thead><tr><th data-i18n="th_seg">Segment</th><th data-i18n="th_source">Source</th><th data-i18n="th_window">Window</th><th data-i18n="th_budget">Budget</th></tr></thead>
         <tbody>
-          <tr><td data-i18n="seg1">IG / FB Engagers</td><td style="color:var(--grey);font-size:11px;" data-i18n="src1">Instagram + Facebook engagement</td><td>30 <span data-i18n="days">days</span></td><td>€80</td></tr>
-          <tr><td data-i18n="seg2">50%+ Video Viewers</td><td style="color:var(--grey);font-size:11px;" data-i18n="src2">Meta video engagement</td><td>30 <span data-i18n="days">days</span></td><td>€60</td></tr>
-          <tr><td data-i18n="seg3">Website Visitors</td><td style="color:var(--grey);font-size:11px;" data-i18n="src3">Pixel + CAPI · all pages</td><td>30 <span data-i18n="days">days</span></td><td>€60</td></tr>
+          <tr><td data-i18n="seg1">IG / FB Engagers</td><td style="color:var(--grey);font-size:11px;" data-i18n="src1">Instagram + Facebook engagement</td><td>30 <span data-i18n="days">days</span></td><td>â¬80</td></tr>
+          <tr><td data-i18n="seg2">50%+ Video Viewers</td><td style="color:var(--grey);font-size:11px;" data-i18n="src2">Meta video engagement</td><td>30 <span data-i18n="days">days</span></td><td>â¬60</td></tr>
+          <tr><td data-i18n="seg3">Website Visitors</td><td style="color:var(--grey);font-size:11px;" data-i18n="src3">Pixel + CAPI Â· all pages</td><td>30 <span data-i18n="days">days</span></td><td>â¬60</td></tr>
         </tbody>
       </table>
 
@@ -625,26 +625,26 @@
       <div style="display:flex;flex-direction:column;gap:9px;">
 
         <div class="meta-box">
-          <div class="ml" data-i18n="wfmt_lbl">FORMAT — SINGLE IMAGE / SHORT VIDEO (1:1 · 4:5)</div>
-          <div class="cap" data-i18n="wfmt_desc">Same strong image user previously engaged with. Overlay: "Still available this July →"</div>
+          <div class="ml" data-i18n="wfmt_lbl">FORMAT â SINGLE IMAGE / SHORT VIDEO (1:1 Â· 4:5)</div>
+          <div class="cap" data-i18n="wfmt_desc">Same strong image user previously engaged with. Overlay: "Still available this July â"</div>
           <div style="border-top:1px solid rgba(8,102,255,0.2);margin-top:9px;padding-top:9px;">
-            <div class="ml" data-i18n="cap_eng">CAPTION — IG/FB ENGAGERS</div>
-            <div class="cap">You liked the look of Cavomarina ☀️ We thought you might want to know — rooms are still available this July. Book directly at cavomarina.com for the best rate.
+            <div class="ml" data-i18n="cap_eng">CAPTION â IG/FB ENGAGERS</div>
+            <div class="cap">You liked the look of Cavomarina âï¸ We thought you might want to know â rooms are still available this July. Book directly at cavomarina.com for the best rate.
               <em>#Corfu #Kavos #CavoMarina</em>
             </div>
           </div>
         </div>
 
         <div class="meta-box">
-          <div class="ml" data-i18n="cap_vid">CAPTION — VIDEO VIEWERS (50%+)</div>
-          <div class="cap">You watched it. Now live it 🌊 Cavomarina is waiting for you this July in Kavos, Corfu. Adults-only, beachfront — book directly for exclusive rates.
-            <em>cavomarina.com · #AdultsOnly #Corfu #BeachHotel</em>
+          <div class="ml" data-i18n="cap_vid">CAPTION â VIDEO VIEWERS (50%+)</div>
+          <div class="cap">You watched it. Now live it ð Cavomarina is waiting for you this July in Kavos, Corfu. Adults-only, beachfront â book directly for exclusive rates.
+            <em>cavomarina.com Â· #AdultsOnly #Corfu #BeachHotel</em>
           </div>
         </div>
 
         <div class="meta-box">
-          <div class="ml" data-i18n="cap_web">CAPTION — WEBSITE VISITORS</div>
-          <div class="cap">Still thinking about Corfu? 🏖️ Cavomarina has swim-up suites and a private beach waiting for you this July. Book directly for the best available rate — no agency markup.
+          <div class="ml" data-i18n="cap_web">CAPTION â WEBSITE VISITORS</div>
+          <div class="cap">Still thinking about Corfu? ðï¸ Cavomarina has swim-up suites and a private beach waiting for you this July. Book directly for the best available rate â no agency markup.
             <em>#CavoMarina #Kavos #Corfu #DirectBooking</em>
           </div>
         </div>
@@ -653,7 +653,7 @@
           <h4 style="margin-bottom:8px;color:var(--accent2);" data-i18n="creative_rules">Creative Rules</h4>
           <ul class="ul">
             <li><b data-i18n="cr1_b">Text on image:</b> <span data-i18n="cr1_v">max 20% of frame (Meta policy)</span></li>
-            <li><b data-i18n="cr2_b">Frequency cap:</b> <span data-i18n="cr2_v">max 3–4 impressions/person/week — rotate creative if CTR drops</span></li>
+            <li><b data-i18n="cr2_b">Frequency cap:</b> <span data-i18n="cr2_v">max 3â4 impressions/person/week â rotate creative if CTR drops</span></li>
             <li><b data-i18n="cr3_b">CTA button:</b> <span data-i18n="cr3_v">"Book Now" across all warm ads</span></li>
             <li><b data-i18n="cr4_b">Pixel + CAPI:</b> <span data-i18n="cr4_v">both must be active for accurate attribution</span></li>
           </ul>
@@ -664,32 +664,32 @@
   </div>
 
   <div class="sf">
-    <span>Cavomarina Beach Hotel — <strong>July 2026 · Meta Ads Plan</strong></span>
+    <span>Cavomarina Beach Hotel â <strong>July 2026 Â· Meta Ads Plan</strong></span>
     <span data-i18n="slide_3_3">3 / 3</span>
   </div>
 </div>
 
 </div><!-- /slides -->
 
-<!-- ── BOT NAV ── -->
+<!-- ââ BOT NAV ââ -->
 <div class="bot-row">
-  <button class="btn" id="bp" onclick="prev()" disabled data-i18n="prev_btn">◀ Previous</button>
+  <button class="btn" id="bp" onclick="prev()" disabled data-i18n="prev_btn">â Previous</button>
   <div class="slide-num" id="sc">Slide 1 of 3</div>
-  <button class="btn" id="bn" onclick="next()" data-i18n="next_btn">Next ▶</button>
+  <button class="btn" id="bn" onclick="next()" data-i18n="next_btn">Next â¶</button>
 </div>
 
-<!-- ── DISCLAIMER ── -->
+<!-- ââ DISCLAIMER ââ -->
 <div class="disclaimer" style="display:flex;align-items:center;justify-content:space-between;gap:24px;padding:8px 40px;">
   <div style="flex:1;text-align:center;">
     <div class="disclaimer-text" data-i18n="disclaimer_main">
-      ⚠️ Keywords, posts and captions shown are in active testing phase and may change.
+      â ï¸ Keywords, posts and captions shown are in active testing phase and may change.
     </div>
     <div class="disclaimer-sub" data-i18n="disclaimer_sub">
       All figures, ad copy and targeting shown are planning assumptions and subject to optimization based on live performance data.
     </div>
   </div>
   <div style="flex-shrink:0;display:flex;flex-direction:column;align-items:flex-end;gap:2px;border-left:1px solid rgba(0,0,0,0.1);padding-left:20px;">
-    <div style="font-size:9px;color:var(--grey);letter-spacing:1.5px;text-transform:uppercase;font-weight:600;">Hazırlayan</div>
+    <div style="font-size:9px;color:var(--grey);letter-spacing:1.5px;text-transform:uppercase;font-weight:600;">HazÄ±rlayan</div>
     <div style="display:flex;align-items:center;gap:0;line-height:1;">
       <span style="font-size:17px;font-weight:900;color:#111827;letter-spacing:-0.5px;font-family:'Inter',sans-serif;">PMA</span>
       <span style="font-size:17px;font-weight:900;color:#7C3AED;letter-spacing:-0.5px;font-family:'Inter',sans-serif;">&nbsp;PARTNER</span>
@@ -697,14 +697,14 @@
   </div>
 </div>
 
-<!-- ══════════════ TRANSLATIONS ══════════════ -->
+<!-- ââââââââââââââ TRANSLATIONS ââââââââââââââ -->
 <script>
 const T = {
   en: {
     nav_overview: "Overview",
     badge_month: "July 2026",
-    badge_budget: "€2,000 Total Budget",
-    badge_season: "Peak Season · Live Selling",
+    badge_budget: "â¬2,000 Total Budget",
+    badge_season: "Peak Season Â· Live Selling",
     cover_title: "July 2026<br>Digital Marketing Plan",
     cover_sub: 'Monthly paid media plan across Google Ads and Meta Ads. All traffic directed to <strong style="color:var(--white);">cavomarina.com</strong> for direct bookings.',
     pct75: "75% of monthly budget",
@@ -715,265 +715,265 @@ const T = {
     display_ret: "Display Retarget",
     cold_aud: "Cold Audience",
     warm_aud: "Warm Audience",
-    target_markets: "Target Markets · July 2026",
-    high_pri: "40% · High Priority",
-    med: "25% · Medium", med2: "20% · Medium", med3: "15% · Medium",
+    target_markets: "Target Markets Â· July 2026",
+    high_pri: "40% Â· High Priority",
+    med: "25% Â· Medium", med2: "20% Â· Medium", med3: "15% Â· Medium",
     balkans: "Balkans", greece: "Greece", italy: "Italy",
     sf_title: "July 2026 Digital Marketing Plan",
     slide_1_3: "1 / 3", slide_2_3: "2 / 3", slide_3_3: "3 / 3",
-    g_eyebrow: "Google Ads — July 2026",
-    g_h2: "Search · Performance Max · Display",
-    g_sub: 'All campaigns direct to <strong style="color:var(--white);">cavomarina.com</strong>. Conversion goal: booking engine session → reservation completed.',
+    g_eyebrow: "Google Ads â July 2026",
+    g_h2: "Search Â· Performance Max Â· Display",
+    g_sub: 'All campaigns direct to <strong style="color:var(--white);">cavomarina.com</strong>. Conversion goal: booking engine session â reservation completed.',
     month: "month",
     brand_prot: "Brand Protection",
     brand_desc: "Prevent OTAs from bidding on the Cavomarina brand name. Capture high-intent users searching directly for the hotel.",
     match: "Match type:", match_val: "Exact + Phrase",
-    neg: "Negative:", neg_val: "booking.com · expedia · trivago · hotels.com",
+    neg: "Negative:", neg_val: "booking.com Â· expedia Â· trivago Â· hotels.com",
     all_mkt: "All markets", all_mkt2: "All",
-    pmax_h: "PMax — All Google Surfaces",
+    pmax_h: "PMax â All Google Surfaces",
     pmax_desc: "Single campaign across Search, YouTube, Display, Discover, Maps and Shopping. Hotel feed connected. Two asset groups.",
-    ag1: "ASSET GROUP 1 — BEACH & POOL",
-    ag1_vis: "Visuals: pool + sea view · rooftop · Format: 16:9 · 1:1 · 4:5",
-    ag2: "ASSET GROUP 2 — ROOMS & SUITES",
-    ag2_vis: "Visuals: swim-up suite · penthouse · Signal: past website visitors",
+    ag1: "ASSET GROUP 1 â BEACH & POOL",
+    ag1_vis: "Visuals: pool + sea view Â· rooftop Â· Format: 16:9 Â· 1:1 Â· 4:5",
+    ag2: "ASSET GROUP 2 â ROOMS & SUITES",
+    ag2_vis: "Visuals: swim-up suite Â· penthouse Â· Signal: past website visitors",
     req: "Required:", req_val: "Google Hotel Center property feed + booking conversion tag active",
     kw_h: "Keyword Targeting by Market",
     th_market: "Market", th_lang: "Lang", th_kw: "Keywords", th_type: "Type",
     brand: "Brand",
     disp_h: "Website Visitor Retargeting",
-    aud_lbl: "Audience 1:", aud1_val: "All website visitors — 30-day window",
-    aud2_lbl: "Audience 2:", aud2_val: "Room / booking page viewers — 14-day window",
+    aud_lbl: "Audience 1:", aud1_val: "All website visitors â 30-day window",
+    aud2_lbl: "Audience 2:", aud2_val: "Room / booking page viewers â 14-day window",
     excl_lbl: "Exclude:", excl_val: "Confirmed reservations (180 days)",
     fmt_lbl: "Formats:", msg_lbl: "Message:", msg_val: '"Your Corfu room is still available" + logo + CTA',
     settings_h: "Campaign Settings & Negatives",
-    neg_kw: "Negative keywords:", neg_kw_val: "jobs · rental · villa · hostel · camping · cheap · free · reviews",
+    neg_kw: "Negative keywords:", neg_kw_val: "jobs Â· rental Â· villa Â· hostel Â· camping Â· cheap Â· free Â· reviews",
     ota_neg: "OTA negatives:",
-    bid_strat: "Bid strategy:", bid_val: "Target ROAS — adjust after 2 weeks",
-    land_pg: "Landing page:", device: "Device:", device_val: "All devices — mobile priority",
-    m_eyebrow: "Meta Ads — July 2026",
-    m_h2: "Instagram & Facebook — Cold + Warm Audiences",
+    bid_strat: "Bid strategy:", bid_val: "Target ROAS â adjust after 2 weeks",
+    land_pg: "Landing page:", device: "Device:", device_val: "All devices â mobile priority",
+    m_eyebrow: "Meta Ads â July 2026",
+    m_h2: "Instagram & Facebook â Cold + Warm Audiences",
     m_sub: 'All ads link to <strong style="color:var(--white);">cavomarina.com</strong> booking page. Visual-first campaigns.',
-    cold_warm_split: "Cold €300 · Warm €200",
+    cold_warm_split: "Cold â¬300 Â· Warm â¬200",
     prospecting: "Prospecting", retargeting: "Retargeting",
     new_acq: "New Audience Acquisition",
     aud_targeting: "Audience Targeting",
     th_cities: "Cities", th_interests: "Interests", th_budget: "Budget",
-    uk_int: "Beach vacation · Luxury travel · Greek islands · Adults-only resorts",
-    blk_int: "Beach holiday · Corfu · Greek islands travel",
-    gr_int: "Beach break · Ionian islands · Weekend escape",
-    it_int: "Vacanza al mare · Corfù · Greek resort",
+    uk_int: "Beach vacation Â· Luxury travel Â· Greek islands Â· Adults-only resorts",
+    blk_int: "Beach holiday Â· Corfu Â· Greek islands travel",
+    gr_int: "Beach break Â· Ionian islands Â· Weekend escape",
+    it_int: "Vacanza al mare Â· CorfÃ¹ Â· Greek resort",
     ad_formats: "Ad Formats & Placements",
-    fmt1_lbl: "FORMAT 1 — INSTAGRAM REELS (9:16 · 15–30s)",
-    fmt1_desc: "Hook (0–3s): Swim-up pool with sea view — audio on. Mid: room → beach → sunset dinner cuts. Last 5s: Logo + \"cavomarina.com\"",
-    fmt2_lbl: "FORMAT 2 — CAROUSEL (4–6 CARDS · 1:1)",
-    fmt2_desc: 'Card 1: Hero exterior + sea · Card 2: Swim-up pool · Card 3: Suite interior · Card 4: Beach · Card 5: Sunset dinner · Card 6: "Book Direct · cavomarina.com"',
-    fmt3_lbl: "FORMAT 3 — SINGLE IMAGE (1:1 / 4:5)",
-    fmt3_desc: 'Best single shot: swim-up suite or aerial pool view. Minimal overlay: "Adults Only · Kavos, Corfu"',
+    fmt1_lbl: "FORMAT 1 â INSTAGRAM REELS (9:16 Â· 15â30s)",
+    fmt1_desc: "Hook (0â3s): Swim-up pool with sea view â audio on. Mid: room â beach â sunset dinner cuts. Last 5s: Logo + \"cavomarina.com\"",
+    fmt2_lbl: "FORMAT 2 â CAROUSEL (4â6 CARDS Â· 1:1)",
+    fmt2_desc: 'Card 1: Hero exterior + sea Â· Card 2: Swim-up pool Â· Card 3: Suite interior Â· Card 4: Beach Â· Card 5: Sunset dinner Â· Card 6: "Book Direct Â· cavomarina.com"',
+    fmt3_lbl: "FORMAT 3 â SINGLE IMAGE (1:1 / 4:5)",
+    fmt3_desc: 'Best single shot: swim-up suite or aerial pool view. Minimal overlay: "Adults Only Â· Kavos, Corfu"',
     reengage: "Re-engage Interested Users",
     aud_segs: "Audience Segments",
     th_seg: "Segment", th_source: "Source", th_window: "Window",
     seg1: "IG / FB Engagers", src1: "Instagram + Facebook engagement",
     seg2: "50%+ Video Viewers", src2: "Meta video engagement",
-    seg3: "Website Visitors", src3: "Pixel + CAPI · all pages",
+    seg3: "Website Visitors", src3: "Pixel + CAPI Â· all pages",
     days: "days",
     warm_formats: "Ad Formats & Copy",
-    wfmt_lbl: "FORMAT — SINGLE IMAGE / SHORT VIDEO (1:1 · 4:5)",
-    wfmt_desc: 'Same strong image user previously engaged with. Overlay: "Still available this July →"',
-    cap_eng: "CAPTION — IG/FB ENGAGERS",
-    cap_vid: "CAPTION — VIDEO VIEWERS (50%+)",
-    cap_web: "CAPTION — WEBSITE VISITORS",
+    wfmt_lbl: "FORMAT â SINGLE IMAGE / SHORT VIDEO (1:1 Â· 4:5)",
+    wfmt_desc: 'Same strong image user previously engaged with. Overlay: "Still available this July â"',
+    cap_eng: "CAPTION â IG/FB ENGAGERS",
+    cap_vid: "CAPTION â VIDEO VIEWERS (50%+)",
+    cap_web: "CAPTION â WEBSITE VISITORS",
     creative_rules: "Creative Rules",
     cr1_b: "Text on image:", cr1_v: "max 20% of frame (Meta policy)",
-    cr2_b: "Frequency cap:", cr2_v: "max 3–4 impressions/person/week — rotate creative if CTR drops",
+    cr2_b: "Frequency cap:", cr2_v: "max 3â4 impressions/person/week â rotate creative if CTR drops",
     cr3_b: "CTA button:", cr3_v: '"Book Now" across all warm ads',
     cr4_b: "Pixel + CAPI:", cr4_v: "both must be active for accurate attribution",
-    prev_btn: "◀ Previous", next_btn: "Next ▶",
-    disclaimer_main: "⚠️ Keywords, posts and captions shown are in active testing phase and may change.",
+    prev_btn: "â Previous", next_btn: "Next â¶",
+    disclaimer_main: "â ï¸ Keywords, posts and captions shown are in active testing phase and may change.",
     disclaimer_sub: "All figures, ad copy and targeting shown are planning assumptions and subject to optimization based on live performance data."
   },
 
   tr: {
-    nav_overview: "Genel Bakış",
+    nav_overview: "Genel BakÄ±Å",
     badge_month: "Temmuz 2026",
-    badge_budget: "€2.000 Toplam Bütçe",
-    badge_season: "Yüksek Sezon · Canlı Satış",
-    cover_title: "Temmuz 2026<br>Dijital Pazarlama Planı",
-    cover_sub: 'Google Ads ve Meta Ads kanallarında aylık ücretli medya planı. Tüm trafik <strong style="color:var(--white);">cavomarina.com</strong> üzerinden doğrudan rezervasyona yönlendirilir.',
-    pct75: "Aylık bütçenin %75'i",
-    pct25: "Aylık bütçenin %25'i",
-    brand_search: "Marka Araması",
+    badge_budget: "â¬2.000 Toplam BÃ¼tÃ§e",
+    badge_season: "YÃ¼ksek Sezon Â· CanlÄ± SatÄ±Å",
+    cover_title: "Temmuz 2026<br>Dijital Pazarlama PlanÄ±",
+    cover_sub: 'Google Ads ve Meta Ads kanallarÄ±nda aylÄ±k Ã¼cretli medya planÄ±. TÃ¼m trafik <strong style="color:var(--white);">cavomarina.com</strong> Ã¼zerinden doÄrudan rezervasyona yÃ¶nlendirilir.',
+    pct75: "AylÄ±k bÃ¼tÃ§enin %75'i",
+    pct25: "AylÄ±k bÃ¼tÃ§enin %25'i",
+    brand_search: "Marka AramasÄ±",
     generic_search: "Genel Arama",
     pmax: "Performance Max",
     display_ret: "Display Yeniden Hedefleme",
-    cold_aud: "Soğuk Kitle",
-    warm_aud: "Sıcak Kitle",
-    target_markets: "Hedef Pazarlar · Temmuz 2026",
-    high_pri: "%40 · Yüksek Öncelik",
-    med: "%25 · Orta", med2: "%20 · Orta", med3: "%15 · Orta",
-    balkans: "Balkanlar", greece: "Yunanistan", italy: "İtalya",
-    sf_title: "Temmuz 2026 Dijital Pazarlama Planı",
+    cold_aud: "SoÄuk Kitle",
+    warm_aud: "SÄ±cak Kitle",
+    target_markets: "Hedef Pazarlar Â· Temmuz 2026",
+    high_pri: "%40 Â· YÃ¼ksek Ãncelik",
+    med: "%25 Â· Orta", med2: "%20 Â· Orta", med3: "%15 Â· Orta",
+    balkans: "Balkanlar", greece: "Yunanistan", italy: "Ä°talya",
+    sf_title: "Temmuz 2026 Dijital Pazarlama PlanÄ±",
     slide_1_3: "1 / 3", slide_2_3: "2 / 3", slide_3_3: "3 / 3",
-    g_eyebrow: "Google Ads — Temmuz 2026",
-    g_h2: "Arama · Performance Max · Display",
-    g_sub: 'Tüm kampanyalar <strong style="color:var(--white);">cavomarina.com</strong>\'a yönlendirilir. Dönüşüm hedefi: rezervasyon motoru oturumu → tamamlanan rezervasyon.',
+    g_eyebrow: "Google Ads â Temmuz 2026",
+    g_h2: "Arama Â· Performance Max Â· Display",
+    g_sub: 'TÃ¼m kampanyalar <strong style="color:var(--white);">cavomarina.com</strong>\'a yÃ¶nlendirilir. DÃ¶nÃ¼ÅÃ¼m hedefi: rezervasyon motoru oturumu â tamamlanan rezervasyon.',
     month: "ay",
     brand_prot: "Marka Koruma",
-    brand_desc: "OTA'ların Cavomarina marka adına teklif vermesini önle. Oteli doğrudan arayan yüksek niyetli kullanıcıları yakala.",
-    match: "Eşleşme türü:", match_val: "Tam + Kelime Öbeği",
-    neg: "Negatif:", neg_val: "booking.com · expedia · trivago · hotels.com",
-    all_mkt: "Tüm pazarlar", all_mkt2: "Tümü",
-    pmax_h: "PMax — Tüm Google Yüzeyleri",
-    pmax_desc: "Arama, YouTube, Display, Discover, Maps ve Shopping'i kapsayan tek kampanya. Otel feed'i bağlı. İki varlık grubu.",
-    ag1: "VARLIK GRUBU 1 — PLAJ & HAVUZ",
-    ag1_vis: "Görseller: havuz + deniz manzarası · teras · Format: 16:9 · 1:1 · 4:5",
-    ag2: "VARLIK GRUBU 2 — ODALAR & SÜITLER",
-    ag2_vis: "Görseller: swim-up suite · penthouse · Sinyal: geçmiş site ziyaretçileri",
-    req: "Gerekli:", req_val: "Google Hotel Center mülk feed'i + rezervasyon dönüşüm etiketi aktif olmalı",
-    kw_h: "Pazara Göre Anahtar Kelime Hedefleme",
-    th_market: "Pazar", th_lang: "Dil", th_kw: "Anahtar Kelimeler", th_type: "Tür",
+    brand_desc: "OTA'larÄ±n Cavomarina marka adÄ±na teklif vermesini Ã¶nle. Oteli doÄrudan arayan yÃ¼ksek niyetli kullanÄ±cÄ±larÄ± yakala.",
+    match: "EÅleÅme tÃ¼rÃ¼:", match_val: "Tam + Kelime ÃbeÄi",
+    neg: "Negatif:", neg_val: "booking.com Â· expedia Â· trivago Â· hotels.com",
+    all_mkt: "TÃ¼m pazarlar", all_mkt2: "TÃ¼mÃ¼",
+    pmax_h: "PMax â TÃ¼m Google YÃ¼zeyleri",
+    pmax_desc: "Arama, YouTube, Display, Discover, Maps ve Shopping'i kapsayan tek kampanya. Otel feed'i baÄlÄ±. Ä°ki varlÄ±k grubu.",
+    ag1: "VARLIK GRUBU 1 â PLAJ & HAVUZ",
+    ag1_vis: "GÃ¶rseller: havuz + deniz manzarasÄ± Â· teras Â· Format: 16:9 Â· 1:1 Â· 4:5",
+    ag2: "VARLIK GRUBU 2 â ODALAR & SÃITLER",
+    ag2_vis: "GÃ¶rseller: swim-up suite Â· penthouse Â· Sinyal: geÃ§miÅ site ziyaretÃ§ileri",
+    req: "Gerekli:", req_val: "Google Hotel Center mÃ¼lk feed'i + rezervasyon dÃ¶nÃ¼ÅÃ¼m etiketi aktif olmalÄ±",
+    kw_h: "Pazara GÃ¶re Anahtar Kelime Hedefleme",
+    th_market: "Pazar", th_lang: "Dil", th_kw: "Anahtar Kelimeler", th_type: "TÃ¼r",
     brand: "Marka",
-    disp_h: "Web Sitesi Ziyaretçi Yeniden Hedefleme",
-    aud_lbl: "Kitle 1:", aud1_val: "Tüm web sitesi ziyaretçileri — 30 günlük pencere",
-    aud2_lbl: "Kitle 2:", aud2_val: "Oda / rezervasyon sayfası görüntüleyenler — 14 günlük pencere",
-    excl_lbl: "Hariç:", excl_val: "Onaylı rezervasyonlar (180 gün)",
-    fmt_lbl: "Formatlar:", msg_lbl: "Mesaj:", msg_val: '"Corfu odanız hâlâ müsait" + logo + CTA',
-    settings_h: "Kampanya Ayarları ve Negatifler",
-    neg_kw: "Negatif anahtar kelimeler:", neg_kw_val: "iş ilanı · kiralık · villa · hostel · kamp · ucuz · ücretsiz · yorumlar",
+    disp_h: "Web Sitesi ZiyaretÃ§i Yeniden Hedefleme",
+    aud_lbl: "Kitle 1:", aud1_val: "TÃ¼m web sitesi ziyaretÃ§ileri â 30 gÃ¼nlÃ¼k pencere",
+    aud2_lbl: "Kitle 2:", aud2_val: "Oda / rezervasyon sayfasÄ± gÃ¶rÃ¼ntÃ¼leyenler â 14 gÃ¼nlÃ¼k pencere",
+    excl_lbl: "HariÃ§:", excl_val: "OnaylÄ± rezervasyonlar (180 gÃ¼n)",
+    fmt_lbl: "Formatlar:", msg_lbl: "Mesaj:", msg_val: '"Corfu odanÄ±z hÃ¢lÃ¢ mÃ¼sait" + logo + CTA',
+    settings_h: "Kampanya AyarlarÄ± ve Negatifler",
+    neg_kw: "Negatif anahtar kelimeler:", neg_kw_val: "iÅ ilanÄ± Â· kiralÄ±k Â· villa Â· hostel Â· kamp Â· ucuz Â· Ã¼cretsiz Â· yorumlar",
     ota_neg: "OTA negatifleri:",
-    bid_strat: "Teklif stratejisi:", bid_val: "Hedef ROAS — 2 hafta sonra ayarla",
-    land_pg: "Açılış sayfası:", device: "Cihaz:", device_val: "Tüm cihazlar — mobil öncelikli",
-    m_eyebrow: "Meta Ads — Temmuz 2026",
-    m_h2: "Instagram & Facebook — Soğuk + Sıcak Kitleler",
-    m_sub: 'Tüm reklamlar <strong style="color:var(--white);">cavomarina.com</strong> rezervasyon sayfasına bağlanır. Görsel odaklı kampanyalar.',
-    cold_warm_split: "Soğuk €300 · Sıcak €200",
+    bid_strat: "Teklif stratejisi:", bid_val: "Hedef ROAS â 2 hafta sonra ayarla",
+    land_pg: "AÃ§Ä±lÄ±Å sayfasÄ±:", device: "Cihaz:", device_val: "TÃ¼m cihazlar â mobil Ã¶ncelikli",
+    m_eyebrow: "Meta Ads â Temmuz 2026",
+    m_h2: "Instagram & Facebook â SoÄuk + SÄ±cak Kitleler",
+    m_sub: 'TÃ¼m reklamlar <strong style="color:var(--white);">cavomarina.com</strong> rezervasyon sayfasÄ±na baÄlanÄ±r. GÃ¶rsel odaklÄ± kampanyalar.',
+    cold_warm_split: "SoÄuk â¬300 Â· SÄ±cak â¬200",
     prospecting: "Prospecting", retargeting: "Yeniden Hedefleme",
-    new_acq: "Yeni Kitle Kazanımı",
+    new_acq: "Yeni Kitle KazanÄ±mÄ±",
     aud_targeting: "Kitle Hedefleme",
-    th_cities: "Şehirler", th_interests: "İlgi Alanları", th_budget: "Bütçe",
-    uk_int: "Plaj tatili · Lüks seyahat · Yunan adaları · Yalnızca yetişkinler",
-    blk_int: "Plaj tatili · Korfu · Yunan adaları seyahati",
-    gr_int: "Plaj molası · İyon adaları · Hafta sonu kaçamağı",
-    it_int: "Deniz tatili · Corfù · Yunan tesisi",
-    ad_formats: "Reklam Formatları ve Yerleşimler",
-    fmt1_lbl: "FORMAT 1 — INSTAGRAM REELS (9:16 · 15–30 sn)",
-    fmt1_desc: 'Hook (0–3 sn): Swim-up havuzdan deniz manzarası — ses açık. Orta: oda → plaj → gün batımı yemeği. Son 5 sn: Logo + "cavomarina.com"',
-    fmt2_lbl: "FORMAT 2 — CAROUSEL (4–6 KART · 1:1)",
-    fmt2_desc: 'Kart 1: Dış görünüm + deniz · Kart 2: Swim-up havuz · Kart 3: Suite iç mekan · Kart 4: Plaj · Kart 5: Gün batımı yemeği · Kart 6: "Book Direct · cavomarina.com"',
-    fmt3_lbl: "FORMAT 3 — TEK GÖRSEL (1:1 / 4:5)",
-    fmt3_desc: 'En güçlü tek çekim: swim-up suite veya havuz kuş bakışı. Minimal overlay: "Adults Only · Kavos, Corfu"',
-    reengage: "İlgili Kullanıcıları Yeniden Hedefle",
+    th_cities: "Åehirler", th_interests: "Ä°lgi AlanlarÄ±", th_budget: "BÃ¼tÃ§e",
+    uk_int: "Plaj tatili Â· LÃ¼ks seyahat Â· Yunan adalarÄ± Â· YalnÄ±zca yetiÅkinler",
+    blk_int: "Plaj tatili Â· Korfu Â· Yunan adalarÄ± seyahati",
+    gr_int: "Plaj molasÄ± Â· Ä°yon adalarÄ± Â· Hafta sonu kaÃ§amaÄÄ±",
+    it_int: "Deniz tatili Â· CorfÃ¹ Â· Yunan tesisi",
+    ad_formats: "Reklam FormatlarÄ± ve YerleÅimler",
+    fmt1_lbl: "FORMAT 1 â INSTAGRAM REELS (9:16 Â· 15â30 sn)",
+    fmt1_desc: 'Hook (0â3 sn): Swim-up havuzdan deniz manzarasÄ± â ses aÃ§Ä±k. Orta: oda â plaj â gÃ¼n batÄ±mÄ± yemeÄi. Son 5 sn: Logo + "cavomarina.com"',
+    fmt2_lbl: "FORMAT 2 â CAROUSEL (4â6 KART Â· 1:1)",
+    fmt2_desc: 'Kart 1: DÄ±Å gÃ¶rÃ¼nÃ¼m + deniz Â· Kart 2: Swim-up havuz Â· Kart 3: Suite iÃ§ mekan Â· Kart 4: Plaj Â· Kart 5: GÃ¼n batÄ±mÄ± yemeÄi Â· Kart 6: "Book Direct Â· cavomarina.com"',
+    fmt3_lbl: "FORMAT 3 â TEK GÃRSEL (1:1 / 4:5)",
+    fmt3_desc: 'En gÃ¼Ã§lÃ¼ tek Ã§ekim: swim-up suite veya havuz kuÅ bakÄ±ÅÄ±. Minimal overlay: "Adults Only Â· Kavos, Corfu"',
+    reengage: "Ä°lgili KullanÄ±cÄ±larÄ± Yeniden Hedefle",
     aud_segs: "Kitle Segmentleri",
     th_seg: "Segment", th_source: "Kaynak", th_window: "Pencere",
-    seg1: "IG / FB Etkileşimcileri", src1: "Instagram + Facebook etkileşimi",
-    seg2: "%50+ Video İzleyenler", src2: "Meta video etkileşimi",
-    seg3: "Web Sitesi Ziyaretçileri", src3: "Pixel + CAPI · tüm sayfalar",
-    days: "gün",
-    warm_formats: "Reklam Formatları ve Metinler",
-    wfmt_lbl: "FORMAT — TEK GÖRSEL / KISA VİDEO (1:1 · 4:5)",
-    wfmt_desc: 'Kullanıcının daha önce etkileşime girdiği güçlü görsel. Overlay: "Bu Temmuz hâlâ müsait →"',
-    cap_eng: "CAPTION — IG/FB ETKİLEŞİMCİLERİ",
-    cap_vid: "CAPTION — VİDEO İZLEYENLER (%50+)",
-    cap_web: "CAPTION — WEB SİTESİ ZİYARETÇİLERİ",
-    creative_rules: "Kreatif Kuralları",
-    cr1_b: "Görseldeki metin:", cr1_v: "Çerçevenin maksimum %20'si (Meta politikası)",
-    cr2_b: "Frekans sınırı:", cr2_v: "Kişi başı haftada maks. 3–4 gösterim — CTR düşerse kreatifi yenile",
-    cr3_b: "CTA butonu:", cr3_v: 'Tüm sıcak reklamlarda "Şimdi Rezervasyon Yap"',
-    cr4_b: "Pixel + CAPI:", cr4_v: "Doğru ilişkilendirme için her ikisi de aktif olmalı",
-    prev_btn: "◀ Önceki", next_btn: "Sonraki ▶",
-    disclaimer_main: "⚠️ Gösterilen anahtar kelimeler, gönderiler ve açıklamalar aktif test aşamasındadır ve değişebilir.",
-    disclaimer_sub: "Gösterilen tüm rakamlar, reklam metinleri ve hedefleme, planlama varsayımlarıdır; canlı performans verilerine göre optimize edilecektir."
+    seg1: "IG / FB EtkileÅimcileri", src1: "Instagram + Facebook etkileÅimi",
+    seg2: "%50+ Video Ä°zleyenler", src2: "Meta video etkileÅimi",
+    seg3: "Web Sitesi ZiyaretÃ§ileri", src3: "Pixel + CAPI Â· tÃ¼m sayfalar",
+    days: "gÃ¼n",
+    warm_formats: "Reklam FormatlarÄ± ve Metinler",
+    wfmt_lbl: "FORMAT â TEK GÃRSEL / KISA VÄ°DEO (1:1 Â· 4:5)",
+    wfmt_desc: 'KullanÄ±cÄ±nÄ±n daha Ã¶nce etkileÅime girdiÄi gÃ¼Ã§lÃ¼ gÃ¶rsel. Overlay: "Bu Temmuz hÃ¢lÃ¢ mÃ¼sait â"',
+    cap_eng: "CAPTION â IG/FB ETKÄ°LEÅÄ°MCÄ°LERÄ°",
+    cap_vid: "CAPTION â VÄ°DEO Ä°ZLEYENLER (%50+)",
+    cap_web: "CAPTION â WEB SÄ°TESÄ° ZÄ°YARETÃÄ°LERÄ°",
+    creative_rules: "Kreatif KurallarÄ±",
+    cr1_b: "GÃ¶rseldeki metin:", cr1_v: "ÃerÃ§evenin maksimum %20'si (Meta politikasÄ±)",
+    cr2_b: "Frekans sÄ±nÄ±rÄ±:", cr2_v: "KiÅi baÅÄ± haftada maks. 3â4 gÃ¶sterim â CTR dÃ¼Åerse kreatifi yenile",
+    cr3_b: "CTA butonu:", cr3_v: 'TÃ¼m sÄ±cak reklamlarda "Åimdi Rezervasyon Yap"',
+    cr4_b: "Pixel + CAPI:", cr4_v: "DoÄru iliÅkilendirme iÃ§in her ikisi de aktif olmalÄ±",
+    prev_btn: "â Ãnceki", next_btn: "Sonraki â¶",
+    disclaimer_main: "â ï¸ GÃ¶sterilen anahtar kelimeler, gÃ¶nderiler ve aÃ§Ä±klamalar aktif test aÅamasÄ±ndadÄ±r ve deÄiÅebilir.",
+    disclaimer_sub: "GÃ¶sterilen tÃ¼m rakamlar, reklam metinleri ve hedefleme, planlama varsayÄ±mlarÄ±dÄ±r; canlÄ± performans verilerine gÃ¶re optimize edilecektir."
   },
 
   ar: {
-    nav_overview: "نظرة عامة",
-    badge_month: "يوليو 2026",
-    badge_budget: "ميزانية إجمالية €2,000",
-    badge_season: "الموسم المرتفع · البيع المباشر",
-    cover_title: "يوليو 2026<br>خطة التسويق الرقمي",
-    cover_sub: 'خطة إعلانات مدفوعة شهرية عبر Google Ads وMeta Ads. يتم توجيه كل الزيارات إلى <strong style="color:var(--white);">cavomarina.com</strong> للحجز المباشر.',
-    pct75: "75% من الميزانية الشهرية",
-    pct25: "25% من الميزانية الشهرية",
-    brand_search: "بحث العلامة التجارية",
-    generic_search: "البحث العام",
+    nav_overview: "ÙØ¸Ø±Ø© Ø¹Ø§ÙØ©",
+    badge_month: "ÙÙÙÙÙ 2026",
+    badge_budget: "ÙÙØ²Ø§ÙÙØ© Ø¥Ø¬ÙØ§ÙÙØ© â¬2,000",
+    badge_season: "Ø§ÙÙÙØ³Ù Ø§ÙÙØ±ØªÙØ¹ Â· Ø§ÙØ¨ÙØ¹ Ø§ÙÙØ¨Ø§Ø´Ø±",
+    cover_title: "ÙÙÙÙÙ 2026<br>Ø®Ø·Ø© Ø§ÙØªØ³ÙÙÙ Ø§ÙØ±ÙÙÙ",
+    cover_sub: 'Ø®Ø·Ø© Ø¥Ø¹ÙØ§ÙØ§Øª ÙØ¯ÙÙØ¹Ø© Ø´ÙØ±ÙØ© Ø¹Ø¨Ø± Google Ads ÙMeta Ads. ÙØªÙ ØªÙØ¬ÙÙ ÙÙ Ø§ÙØ²ÙØ§Ø±Ø§Øª Ø¥ÙÙ <strong style="color:var(--white);">cavomarina.com</strong> ÙÙØ­Ø¬Ø² Ø§ÙÙØ¨Ø§Ø´Ø±.',
+    pct75: "75% ÙÙ Ø§ÙÙÙØ²Ø§ÙÙØ© Ø§ÙØ´ÙØ±ÙØ©",
+    pct25: "25% ÙÙ Ø§ÙÙÙØ²Ø§ÙÙØ© Ø§ÙØ´ÙØ±ÙØ©",
+    brand_search: "Ø¨Ø­Ø« Ø§ÙØ¹ÙØ§ÙØ© Ø§ÙØªØ¬Ø§Ø±ÙØ©",
+    generic_search: "Ø§ÙØ¨Ø­Ø« Ø§ÙØ¹Ø§Ù",
     pmax: "Performance Max",
-    display_ret: "إعادة الاستهداف الإعلاني",
-    cold_aud: "الجمهور البارد",
-    warm_aud: "الجمهور الدافئ",
-    target_markets: "الأسواق المستهدفة · يوليو 2026",
-    high_pri: "40% · أولوية عالية",
-    med: "25% · متوسط", med2: "20% · متوسط", med3: "15% · متوسط",
-    balkans: "البلقان", greece: "اليونان", italy: "إيطاليا",
-    sf_title: "خطة التسويق الرقمي - يوليو 2026",
+    display_ret: "Ø¥Ø¹Ø§Ø¯Ø© Ø§ÙØ§Ø³ØªÙØ¯Ø§Ù Ø§ÙØ¥Ø¹ÙØ§ÙÙ",
+    cold_aud: "Ø§ÙØ¬ÙÙÙØ± Ø§ÙØ¨Ø§Ø±Ø¯",
+    warm_aud: "Ø§ÙØ¬ÙÙÙØ± Ø§ÙØ¯Ø§ÙØ¦",
+    target_markets: "Ø§ÙØ£Ø³ÙØ§Ù Ø§ÙÙØ³ØªÙØ¯ÙØ© Â· ÙÙÙÙÙ 2026",
+    high_pri: "40% Â· Ø£ÙÙÙÙØ© Ø¹Ø§ÙÙØ©",
+    med: "25% Â· ÙØªÙØ³Ø·", med2: "20% Â· ÙØªÙØ³Ø·", med3: "15% Â· ÙØªÙØ³Ø·",
+    balkans: "Ø§ÙØ¨ÙÙØ§Ù", greece: "Ø§ÙÙÙÙØ§Ù", italy: "Ø¥ÙØ·Ø§ÙÙØ§",
+    sf_title: "Ø®Ø·Ø© Ø§ÙØªØ³ÙÙÙ Ø§ÙØ±ÙÙÙ - ÙÙÙÙÙ 2026",
     slide_1_3: "1 / 3", slide_2_3: "2 / 3", slide_3_3: "3 / 3",
-    g_eyebrow: "إعلانات Google — يوليو 2026",
-    g_h2: "البحث · Performance Max · الشبكة الإعلانية",
-    g_sub: 'جميع الحملات تتوجه إلى <strong style="color:var(--white);">cavomarina.com</strong>. هدف التحويل: جلسة محرك الحجز ← إتمام الحجز.',
-    month: "شهر",
-    brand_prot: "حماية العلامة التجارية",
-    brand_desc: "منع وكالات السفر (OTA) من المزايدة على اسم Cavomarina. استقطاب المستخدمين ذوي النية العالية الذين يبحثون مباشرةً عن الفندق.",
-    match: "نوع المطابقة:", match_val: "مطابقة تامة + جملة",
-    neg: "سلبي:", neg_val: "booking.com · expedia · trivago · hotels.com",
-    all_mkt: "جميع الأسواق", all_mkt2: "الكل",
-    pmax_h: "PMax — جميع أسطح Google",
-    pmax_desc: "حملة واحدة تغطي البحث، YouTube، الشبكة الإعلانية، Discover، Maps والتسوق. تم ربط خلاصة الفندق. مجموعتا أصول.",
-    ag1: "مجموعة الأصول 1 — الشاطئ والمسبح",
-    ag1_vis: "الصور: المسبح + إطلالة البحر · السطح · التنسيق: 16:9 · 1:1 · 4:5",
-    ag2: "مجموعة الأصول 2 — الغرف والأجنحة",
-    ag2_vis: "الصور: جناح السباحة · البنتهاوس · إشارة: زوار الموقع السابقون",
-    req: "مطلوب:", req_val: "خلاصة الملكية في Hotel Center + علامة تحويل الحجز نشطة",
-    kw_h: "استهداف الكلمات المفتاحية حسب السوق",
-    th_market: "السوق", th_lang: "اللغة", th_kw: "الكلمات المفتاحية", th_type: "النوع",
-    brand: "علامة تجارية",
-    disp_h: "إعادة استهداف زوار الموقع",
-    aud_lbl: "الجمهور 1:", aud1_val: "جميع زوار الموقع — نافذة 30 يوماً",
-    aud2_lbl: "الجمهور 2:", aud2_val: "مشاهدو صفحات الغرف / الحجز — نافذة 14 يوماً",
-    excl_lbl: "استبعاد:", excl_val: "الحجوزات المؤكدة (180 يوماً)",
-    fmt_lbl: "التنسيقات:", msg_lbl: "الرسالة:", msg_val: '"غرفتك في كورفو لا تزال متاحة" + الشعار + CTA',
-    settings_h: "إعدادات الحملة والكلمات السلبية",
-    neg_kw: "الكلمات السلبية:", neg_kw_val: "وظائف · إيجار · فيلا · نزل · تخييم · رخيص · مجاني · تقييمات",
-    ota_neg: "الكلمات السلبية للـ OTA:",
-    bid_strat: "استراتيجية العرض:", bid_val: "ROAS مستهدف — تعديل بعد أسبوعين",
-    land_pg: "الصفحة المقصودة:", device: "الجهاز:", device_val: "جميع الأجهزة — الأولوية للجوال",
-    m_eyebrow: "إعلانات Meta — يوليو 2026",
-    m_h2: "إنستغرام وفيسبوك — الجمهور البارد والدافئ",
-    m_sub: 'جميع الإعلانات ترتبط بصفحة حجز <strong style="color:var(--white);">cavomarina.com</strong>. حملات مرئية بالدرجة الأولى.',
-    cold_warm_split: "بارد €300 · دافئ €200",
-    prospecting: "الاستكشاف", retargeting: "إعادة الاستهداف",
-    new_acq: "اكتساب جمهور جديد",
-    aud_targeting: "استهداف الجمهور",
-    th_cities: "المدن", th_interests: "الاهتمامات", th_budget: "الميزانية",
-    uk_int: "إجازة شاطئية · سفر فاخر · الجزر اليونانية · منتجعات البالغين",
-    blk_int: "عطلة شاطئية · كورفو · سفر الجزر اليونانية",
-    gr_int: "استراحة شاطئية · جزر أيونية · هروب نهاية الأسبوع",
-    it_int: "إجازة بحرية · كورفو · منتجع يوناني",
-    ad_formats: "تنسيقات الإعلانات والمواضع",
-    fmt1_lbl: "التنسيق 1 — إنستغرام ريلز (9:16 · 15–30 ثانية)",
-    fmt1_desc: "الخطاف (0–3 ث): مسبح السباحة مع إطلالة بحرية — الصوت مفعّل. المنتصف: غرفة ← شاطئ ← عشاء الغروب. آخر 5 ث: الشعار + «cavomarina.com»",
-    fmt2_lbl: "التنسيق 2 — كاروسيل (4–6 بطاقات · 1:1)",
-    fmt2_desc: "بطاقة 1: واجهة + بحر · بطاقة 2: مسبح السباحة · بطاقة 3: داخل الجناح · بطاقة 4: الشاطئ · بطاقة 5: عشاء الغروب · بطاقة 6: «احجز مباشراً · cavomarina.com»",
-    fmt3_lbl: "التنسيق 3 — صورة مفردة (1:1 / 4:5)",
-    fmt3_desc: "أفضل لقطة مفردة: جناح السباحة أو منظر جوي للمسبح. نص طبقة طي: «للبالغين فقط · كافوس، كورفو»",
-    reengage: "إعادة إشراك المستخدمين المهتمين",
-    aud_segs: "شرائح الجمهور",
-    th_seg: "الشريحة", th_source: "المصدر", th_window: "النافذة",
-    seg1: "متفاعلو IG / FB", src1: "تفاعل إنستغرام + فيسبوك",
-    seg2: "مشاهدو 50%+ من الفيديو", src2: "تفاعل فيديو Meta",
-    seg3: "زوار الموقع", src3: "Pixel + CAPI · جميع الصفحات",
-    days: "أيام",
-    warm_formats: "تنسيقات الإعلانات ونصوصها",
-    wfmt_lbl: "التنسيق — صورة مفردة / فيديو قصير (1:1 · 4:5)",
-    wfmt_desc: "نفس الصورة القوية التي تفاعل معها المستخدم سابقاً. طبقة النص: «لا يزال متاحاً في يوليو هذا ←»",
-    cap_eng: "التعليق — متفاعلو IG/FB",
-    cap_vid: "التعليق — مشاهدو الفيديو (50%+)",
-    cap_web: "التعليق — زوار الموقع",
-    creative_rules: "قواعد الإبداع",
-    cr1_b: "النص على الصورة:", cr1_v: "بحد أقصى 20% من الإطار (سياسة Meta)",
-    cr2_b: "حد التكرار:", cr2_v: "3–4 مرات/شخص/أسبوع كحد أقصى — تناوب المواد الإبداعية عند انخفاض CTR",
-    cr3_b: "زر الحث على الشراء:", cr3_v: '«احجز الآن» في جميع إعلانات الجمهور الدافئ',
-    cr4_b: "Pixel + CAPI:", cr4_v: "يجب تفعيل كليهما لضمان دقة الإسناد",
-    prev_btn: "◀ السابق", next_btn: "التالي ▶",
-    disclaimer_main: "⚠️ الكلمات المفتاحية والمنشورات والتعليقات المعروضة في مرحلة الاختبار النشط وقد تتغير.",
-    disclaimer_sub: "جميع الأرقام ونصوص الإعلانات واستراتيجيات الاستهداف المعروضة هي افتراضات تخطيطية وستخضع للتحسين بناءً على بيانات الأداء الفعلي."
+    g_eyebrow: "Ø¥Ø¹ÙØ§ÙØ§Øª Google â ÙÙÙÙÙ 2026",
+    g_h2: "Ø§ÙØ¨Ø­Ø« Â· Performance Max Â· Ø§ÙØ´Ø¨ÙØ© Ø§ÙØ¥Ø¹ÙØ§ÙÙØ©",
+    g_sub: 'Ø¬ÙÙØ¹ Ø§ÙØ­ÙÙØ§Øª ØªØªÙØ¬Ù Ø¥ÙÙ <strong style="color:var(--white);">cavomarina.com</strong>. ÙØ¯Ù Ø§ÙØªØ­ÙÙÙ: Ø¬ÙØ³Ø© ÙØ­Ø±Ù Ø§ÙØ­Ø¬Ø² â Ø¥ØªÙØ§Ù Ø§ÙØ­Ø¬Ø².',
+    month: "Ø´ÙØ±",
+    brand_prot: "Ø­ÙØ§ÙØ© Ø§ÙØ¹ÙØ§ÙØ© Ø§ÙØªØ¬Ø§Ø±ÙØ©",
+    brand_desc: "ÙÙØ¹ ÙÙØ§ÙØ§Øª Ø§ÙØ³ÙØ± (OTA) ÙÙ Ø§ÙÙØ²Ø§ÙØ¯Ø© Ø¹ÙÙ Ø§Ø³Ù Cavomarina. Ø§Ø³ØªÙØ·Ø§Ø¨ Ø§ÙÙØ³ØªØ®Ø¯ÙÙÙ Ø°ÙÙ Ø§ÙÙÙØ© Ø§ÙØ¹Ø§ÙÙØ© Ø§ÙØ°ÙÙ ÙØ¨Ø­Ø«ÙÙ ÙØ¨Ø§Ø´Ø±Ø©Ù Ø¹Ù Ø§ÙÙÙØ¯Ù.",
+    match: "ÙÙØ¹ Ø§ÙÙØ·Ø§Ø¨ÙØ©:", match_val: "ÙØ·Ø§Ø¨ÙØ© ØªØ§ÙØ© + Ø¬ÙÙØ©",
+    neg: "Ø³ÙØ¨Ù:", neg_val: "booking.com Â· expedia Â· trivago Â· hotels.com",
+    all_mkt: "Ø¬ÙÙØ¹ Ø§ÙØ£Ø³ÙØ§Ù", all_mkt2: "Ø§ÙÙÙ",
+    pmax_h: "PMax â Ø¬ÙÙØ¹ Ø£Ø³Ø·Ø­ Google",
+    pmax_desc: "Ø­ÙÙØ© ÙØ§Ø­Ø¯Ø© ØªØºØ·Ù Ø§ÙØ¨Ø­Ø«Ø YouTubeØ Ø§ÙØ´Ø¨ÙØ© Ø§ÙØ¥Ø¹ÙØ§ÙÙØ©Ø DiscoverØ Maps ÙØ§ÙØªØ³ÙÙ. ØªÙ Ø±Ø¨Ø· Ø®ÙØ§ØµØ© Ø§ÙÙÙØ¯Ù. ÙØ¬ÙÙØ¹ØªØ§ Ø£ØµÙÙ.",
+    ag1: "ÙØ¬ÙÙØ¹Ø© Ø§ÙØ£ØµÙÙ 1 â Ø§ÙØ´Ø§Ø·Ø¦ ÙØ§ÙÙØ³Ø¨Ø­",
+    ag1_vis: "Ø§ÙØµÙØ±: Ø§ÙÙØ³Ø¨Ø­ + Ø¥Ø·ÙØ§ÙØ© Ø§ÙØ¨Ø­Ø± Â· Ø§ÙØ³Ø·Ø­ Â· Ø§ÙØªÙØ³ÙÙ: 16:9 Â· 1:1 Â· 4:5",
+    ag2: "ÙØ¬ÙÙØ¹Ø© Ø§ÙØ£ØµÙÙ 2 â Ø§ÙØºØ±Ù ÙØ§ÙØ£Ø¬ÙØ­Ø©",
+    ag2_vis: "Ø§ÙØµÙØ±: Ø¬ÙØ§Ø­ Ø§ÙØ³Ø¨Ø§Ø­Ø© Â· Ø§ÙØ¨ÙØªÙØ§ÙØ³ Â· Ø¥Ø´Ø§Ø±Ø©: Ø²ÙØ§Ø± Ø§ÙÙÙÙØ¹ Ø§ÙØ³Ø§Ø¨ÙÙÙ",
+    req: "ÙØ·ÙÙØ¨:", req_val: "Ø®ÙØ§ØµØ© Ø§ÙÙÙÙÙØ© ÙÙ Hotel Center + Ø¹ÙØ§ÙØ© ØªØ­ÙÙÙ Ø§ÙØ­Ø¬Ø² ÙØ´Ø·Ø©",
+    kw_h: "Ø§Ø³ØªÙØ¯Ø§Ù Ø§ÙÙÙÙØ§Øª Ø§ÙÙÙØªØ§Ø­ÙØ© Ø­Ø³Ø¨ Ø§ÙØ³ÙÙ",
+    th_market: "Ø§ÙØ³ÙÙ", th_lang: "Ø§ÙÙØºØ©", th_kw: "Ø§ÙÙÙÙØ§Øª Ø§ÙÙÙØªØ§Ø­ÙØ©", th_type: "Ø§ÙÙÙØ¹",
+    brand: "Ø¹ÙØ§ÙØ© ØªØ¬Ø§Ø±ÙØ©",
+    disp_h: "Ø¥Ø¹Ø§Ø¯Ø© Ø§Ø³ØªÙØ¯Ø§Ù Ø²ÙØ§Ø± Ø§ÙÙÙÙØ¹",
+    aud_lbl: "Ø§ÙØ¬ÙÙÙØ± 1:", aud1_val: "Ø¬ÙÙØ¹ Ø²ÙØ§Ø± Ø§ÙÙÙÙØ¹ â ÙØ§ÙØ°Ø© 30 ÙÙÙØ§Ù",
+    aud2_lbl: "Ø§ÙØ¬ÙÙÙØ± 2:", aud2_val: "ÙØ´Ø§ÙØ¯Ù ØµÙØ­Ø§Øª Ø§ÙØºØ±Ù / Ø§ÙØ­Ø¬Ø² â ÙØ§ÙØ°Ø© 14 ÙÙÙØ§Ù",
+    excl_lbl: "Ø§Ø³ØªØ¨Ø¹Ø§Ø¯:", excl_val: "Ø§ÙØ­Ø¬ÙØ²Ø§Øª Ø§ÙÙØ¤ÙØ¯Ø© (180 ÙÙÙØ§Ù)",
+    fmt_lbl: "Ø§ÙØªÙØ³ÙÙØ§Øª:", msg_lbl: "Ø§ÙØ±Ø³Ø§ÙØ©:", msg_val: '"ØºØ±ÙØªÙ ÙÙ ÙÙØ±ÙÙ ÙØ§ ØªØ²Ø§Ù ÙØªØ§Ø­Ø©" + Ø§ÙØ´Ø¹Ø§Ø± + CTA',
+    settings_h: "Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§ÙØ­ÙÙØ© ÙØ§ÙÙÙÙØ§Øª Ø§ÙØ³ÙØ¨ÙØ©",
+    neg_kw: "Ø§ÙÙÙÙØ§Øª Ø§ÙØ³ÙØ¨ÙØ©:", neg_kw_val: "ÙØ¸Ø§Ø¦Ù Â· Ø¥ÙØ¬Ø§Ø± Â· ÙÙÙØ§ Â· ÙØ²Ù Â· ØªØ®ÙÙÙ Â· Ø±Ø®ÙØµ Â· ÙØ¬Ø§ÙÙ Â· ØªÙÙÙÙØ§Øª",
+    ota_neg: "Ø§ÙÙÙÙØ§Øª Ø§ÙØ³ÙØ¨ÙØ© ÙÙÙ OTA:",
+    bid_strat: "Ø§Ø³ØªØ±Ø§ØªÙØ¬ÙØ© Ø§ÙØ¹Ø±Ø¶:", bid_val: "ROAS ÙØ³ØªÙØ¯Ù â ØªØ¹Ø¯ÙÙ Ø¨Ø¹Ø¯ Ø£Ø³Ø¨ÙØ¹ÙÙ",
+    land_pg: "Ø§ÙØµÙØ­Ø© Ø§ÙÙÙØµÙØ¯Ø©:", device: "Ø§ÙØ¬ÙØ§Ø²:", device_val: "Ø¬ÙÙØ¹ Ø§ÙØ£Ø¬ÙØ²Ø© â Ø§ÙØ£ÙÙÙÙØ© ÙÙØ¬ÙØ§Ù",
+    m_eyebrow: "Ø¥Ø¹ÙØ§ÙØ§Øª Meta â ÙÙÙÙÙ 2026",
+    m_h2: "Ø¥ÙØ³ØªØºØ±Ø§Ù ÙÙÙØ³Ø¨ÙÙ â Ø§ÙØ¬ÙÙÙØ± Ø§ÙØ¨Ø§Ø±Ø¯ ÙØ§ÙØ¯Ø§ÙØ¦",
+    m_sub: 'Ø¬ÙÙØ¹ Ø§ÙØ¥Ø¹ÙØ§ÙØ§Øª ØªØ±ØªØ¨Ø· Ø¨ØµÙØ­Ø© Ø­Ø¬Ø² <strong style="color:var(--white);">cavomarina.com</strong>. Ø­ÙÙØ§Øª ÙØ±Ø¦ÙØ© Ø¨Ø§ÙØ¯Ø±Ø¬Ø© Ø§ÙØ£ÙÙÙ.',
+    cold_warm_split: "Ø¨Ø§Ø±Ø¯ â¬300 Â· Ø¯Ø§ÙØ¦ â¬200",
+    prospecting: "Ø§ÙØ§Ø³ØªÙØ´Ø§Ù", retargeting: "Ø¥Ø¹Ø§Ø¯Ø© Ø§ÙØ§Ø³ØªÙØ¯Ø§Ù",
+    new_acq: "Ø§ÙØªØ³Ø§Ø¨ Ø¬ÙÙÙØ± Ø¬Ø¯ÙØ¯",
+    aud_targeting: "Ø§Ø³ØªÙØ¯Ø§Ù Ø§ÙØ¬ÙÙÙØ±",
+    th_cities: "Ø§ÙÙØ¯Ù", th_interests: "Ø§ÙØ§ÙØªÙØ§ÙØ§Øª", th_budget: "Ø§ÙÙÙØ²Ø§ÙÙØ©",
+    uk_int: "Ø¥Ø¬Ø§Ø²Ø© Ø´Ø§Ø·Ø¦ÙØ© Â· Ø³ÙØ± ÙØ§Ø®Ø± Â· Ø§ÙØ¬Ø²Ø± Ø§ÙÙÙÙØ§ÙÙØ© Â· ÙÙØªØ¬Ø¹Ø§Øª Ø§ÙØ¨Ø§ÙØºÙÙ",
+    blk_int: "Ø¹Ø·ÙØ© Ø´Ø§Ø·Ø¦ÙØ© Â· ÙÙØ±ÙÙ Â· Ø³ÙØ± Ø§ÙØ¬Ø²Ø± Ø§ÙÙÙÙØ§ÙÙØ©",
+    gr_int: "Ø§Ø³ØªØ±Ø§Ø­Ø© Ø´Ø§Ø·Ø¦ÙØ© Â· Ø¬Ø²Ø± Ø£ÙÙÙÙØ© Â· ÙØ±ÙØ¨ ÙÙØ§ÙØ© Ø§ÙØ£Ø³Ø¨ÙØ¹",
+    it_int: "Ø¥Ø¬Ø§Ø²Ø© Ø¨Ø­Ø±ÙØ© Â· ÙÙØ±ÙÙ Â· ÙÙØªØ¬Ø¹ ÙÙÙØ§ÙÙ",
+    ad_formats: "ØªÙØ³ÙÙØ§Øª Ø§ÙØ¥Ø¹ÙØ§ÙØ§Øª ÙØ§ÙÙÙØ§Ø¶Ø¹",
+    fmt1_lbl: "Ø§ÙØªÙØ³ÙÙ 1 â Ø¥ÙØ³ØªØºØ±Ø§Ù Ø±ÙÙØ² (9:16 Â· 15â30 Ø«Ø§ÙÙØ©)",
+    fmt1_desc: "Ø§ÙØ®Ø·Ø§Ù (0â3 Ø«): ÙØ³Ø¨Ø­ Ø§ÙØ³Ø¨Ø§Ø­Ø© ÙØ¹ Ø¥Ø·ÙØ§ÙØ© Ø¨Ø­Ø±ÙØ© â Ø§ÙØµÙØª ÙÙØ¹ÙÙ. Ø§ÙÙÙØªØµÙ: ØºØ±ÙØ© â Ø´Ø§Ø·Ø¦ â Ø¹Ø´Ø§Ø¡ Ø§ÙØºØ±ÙØ¨. Ø¢Ø®Ø± 5 Ø«: Ø§ÙØ´Ø¹Ø§Ø± + Â«cavomarina.comÂ»",
+    fmt2_lbl: "Ø§ÙØªÙØ³ÙÙ 2 â ÙØ§Ø±ÙØ³ÙÙ (4â6 Ø¨Ø·Ø§ÙØ§Øª Â· 1:1)",
+    fmt2_desc: "Ø¨Ø·Ø§ÙØ© 1: ÙØ§Ø¬ÙØ© + Ø¨Ø­Ø± Â· Ø¨Ø·Ø§ÙØ© 2: ÙØ³Ø¨Ø­ Ø§ÙØ³Ø¨Ø§Ø­Ø© Â· Ø¨Ø·Ø§ÙØ© 3: Ø¯Ø§Ø®Ù Ø§ÙØ¬ÙØ§Ø­ Â· Ø¨Ø·Ø§ÙØ© 4: Ø§ÙØ´Ø§Ø·Ø¦ Â· Ø¨Ø·Ø§ÙØ© 5: Ø¹Ø´Ø§Ø¡ Ø§ÙØºØ±ÙØ¨ Â· Ø¨Ø·Ø§ÙØ© 6: Â«Ø§Ø­Ø¬Ø² ÙØ¨Ø§Ø´Ø±Ø§Ù Â· cavomarina.comÂ»",
+    fmt3_lbl: "Ø§ÙØªÙØ³ÙÙ 3 â ØµÙØ±Ø© ÙÙØ±Ø¯Ø© (1:1 / 4:5)",
+    fmt3_desc: "Ø£ÙØ¶Ù ÙÙØ·Ø© ÙÙØ±Ø¯Ø©: Ø¬ÙØ§Ø­ Ø§ÙØ³Ø¨Ø§Ø­Ø© Ø£Ù ÙÙØ¸Ø± Ø¬ÙÙ ÙÙÙØ³Ø¨Ø­. ÙØµ Ø·Ø¨ÙØ© Ø·Ù: Â«ÙÙØ¨Ø§ÙØºÙÙ ÙÙØ· Â· ÙØ§ÙÙØ³Ø ÙÙØ±ÙÙÂ»",
+    reengage: "Ø¥Ø¹Ø§Ø¯Ø© Ø¥Ø´Ø±Ø§Ù Ø§ÙÙØ³ØªØ®Ø¯ÙÙÙ Ø§ÙÙÙØªÙÙÙ",
+    aud_segs: "Ø´Ø±Ø§Ø¦Ø­ Ø§ÙØ¬ÙÙÙØ±",
+    th_seg: "Ø§ÙØ´Ø±ÙØ­Ø©", th_source: "Ø§ÙÙØµØ¯Ø±", th_window: "Ø§ÙÙØ§ÙØ°Ø©",
+    seg1: "ÙØªÙØ§Ø¹ÙÙ IG / FB", src1: "ØªÙØ§Ø¹Ù Ø¥ÙØ³ØªØºØ±Ø§Ù + ÙÙØ³Ø¨ÙÙ",
+    seg2: "ÙØ´Ø§ÙØ¯Ù 50%+ ÙÙ Ø§ÙÙÙØ¯ÙÙ", src2: "ØªÙØ§Ø¹Ù ÙÙØ¯ÙÙ Meta",
+    seg3: "Ø²ÙØ§Ø± Ø§ÙÙÙÙØ¹", src3: "Pixel + CAPI Â· Ø¬ÙÙØ¹ Ø§ÙØµÙØ­Ø§Øª",
+    days: "Ø£ÙØ§Ù",
+    warm_formats: "ØªÙØ³ÙÙØ§Øª Ø§ÙØ¥Ø¹ÙØ§ÙØ§Øª ÙÙØµÙØµÙØ§",
+    wfmt_lbl: "Ø§ÙØªÙØ³ÙÙ â ØµÙØ±Ø© ÙÙØ±Ø¯Ø© / ÙÙØ¯ÙÙ ÙØµÙØ± (1:1 Â· 4:5)",
+    wfmt_desc: "ÙÙØ³ Ø§ÙØµÙØ±Ø© Ø§ÙÙÙÙØ© Ø§ÙØªÙ ØªÙØ§Ø¹Ù ÙØ¹ÙØ§ Ø§ÙÙØ³ØªØ®Ø¯Ù Ø³Ø§Ø¨ÙØ§Ù. Ø·Ø¨ÙØ© Ø§ÙÙØµ: Â«ÙØ§ ÙØ²Ø§Ù ÙØªØ§Ø­Ø§Ù ÙÙ ÙÙÙÙÙ ÙØ°Ø§ âÂ»",
+    cap_eng: "Ø§ÙØªØ¹ÙÙÙ â ÙØªÙØ§Ø¹ÙÙ IG/FB",
+    cap_vid: "Ø§ÙØªØ¹ÙÙÙ â ÙØ´Ø§ÙØ¯Ù Ø§ÙÙÙØ¯ÙÙ (50%+)",
+    cap_web: "Ø§ÙØªØ¹ÙÙÙ â Ø²ÙØ§Ø± Ø§ÙÙÙÙØ¹",
+    creative_rules: "ÙÙØ§Ø¹Ø¯ Ø§ÙØ¥Ø¨Ø¯Ø§Ø¹",
+    cr1_b: "Ø§ÙÙØµ Ø¹ÙÙ Ø§ÙØµÙØ±Ø©:", cr1_v: "Ø¨Ø­Ø¯ Ø£ÙØµÙ 20% ÙÙ Ø§ÙØ¥Ø·Ø§Ø± (Ø³ÙØ§Ø³Ø© Meta)",
+    cr2_b: "Ø­Ø¯ Ø§ÙØªÙØ±Ø§Ø±:", cr2_v: "3â4 ÙØ±Ø§Øª/Ø´Ø®Øµ/Ø£Ø³Ø¨ÙØ¹ ÙØ­Ø¯ Ø£ÙØµÙ â ØªÙØ§ÙØ¨ Ø§ÙÙÙØ§Ø¯ Ø§ÙØ¥Ø¨Ø¯Ø§Ø¹ÙØ© Ø¹ÙØ¯ Ø§ÙØ®ÙØ§Ø¶ CTR",
+    cr3_b: "Ø²Ø± Ø§ÙØ­Ø« Ø¹ÙÙ Ø§ÙØ´Ø±Ø§Ø¡:", cr3_v: 'Â«Ø§Ø­Ø¬Ø² Ø§ÙØ¢ÙÂ» ÙÙ Ø¬ÙÙØ¹ Ø¥Ø¹ÙØ§ÙØ§Øª Ø§ÙØ¬ÙÙÙØ± Ø§ÙØ¯Ø§ÙØ¦',
+    cr4_b: "Pixel + CAPI:", cr4_v: "ÙØ¬Ø¨ ØªÙØ¹ÙÙ ÙÙÙÙÙØ§ ÙØ¶ÙØ§Ù Ø¯ÙØ© Ø§ÙØ¥Ø³ÙØ§Ø¯",
+    prev_btn: "â Ø§ÙØ³Ø§Ø¨Ù", next_btn: "Ø§ÙØªØ§ÙÙ â¶",
+    disclaimer_main: "â ï¸ Ø§ÙÙÙÙØ§Øª Ø§ÙÙÙØªØ§Ø­ÙØ© ÙØ§ÙÙÙØ´ÙØ±Ø§Øª ÙØ§ÙØªØ¹ÙÙÙØ§Øª Ø§ÙÙØ¹Ø±ÙØ¶Ø© ÙÙ ÙØ±Ø­ÙØ© Ø§ÙØ§Ø®ØªØ¨Ø§Ø± Ø§ÙÙØ´Ø· ÙÙØ¯ ØªØªØºÙØ±.",
+    disclaimer_sub: "Ø¬ÙÙØ¹ Ø§ÙØ£Ø±ÙØ§Ù ÙÙØµÙØµ Ø§ÙØ¥Ø¹ÙØ§ÙØ§Øª ÙØ§Ø³ØªØ±Ø§ØªÙØ¬ÙØ§Øª Ø§ÙØ§Ø³ØªÙØ¯Ø§Ù Ø§ÙÙØ¹Ø±ÙØ¶Ø© ÙÙ Ø§ÙØªØ±Ø§Ø¶Ø§Øª ØªØ®Ø·ÙØ·ÙØ© ÙØ³ØªØ®Ø¶Ø¹ ÙÙØªØ­Ø³ÙÙ Ø¨ÙØ§Ø¡Ù Ø¹ÙÙ Ø¨ÙØ§ÙØ§Øª Ø§ÙØ£Ø¯Ø§Ø¡ Ø§ÙÙØ¹ÙÙ."
   }
 };
 
