@@ -193,40 +193,10 @@
 
 <!-- ── TOP NAV ── -->
 <nav class="top-nav">
-  <!-- Cavomarina Beach Logo — SVG recreation -->
-  <svg class="nav-logo" viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg" style="height:44px;width:auto;">
-    <!-- Neptune figure silhouette -->
-    <g fill="#1a2e4a">
-      <!-- body torso -->
-      <ellipse cx="28" cy="32" rx="8" ry="11"/>
-      <!-- head -->
-      <circle cx="28" cy="13" r="7"/>
-      <!-- left arm reaching back/down -->
-      <path d="M22,28 Q10,35 8,42 Q9,44 11,43 Q14,37 22,32Z"/>
-      <!-- right arm raised with trident -->
-      <path d="M34,25 Q42,14 46,8 Q48,7 48,9 Q45,14 38,27Z"/>
-      <!-- trident prongs -->
-      <rect x="45" y="3" width="1.5" height="7" rx="0.5"/>
-      <rect x="48" y="3" width="1.5" height="7" rx="0.5"/>
-      <rect x="51" y="3" width="1.5" height="7" rx="0.5"/>
-      <rect x="47" y="8" width="6" height="1.2" rx="0.5"/>
-      <!-- trident pole -->
-      <rect x="47.5" y="8" width="1.2" height="18" rx="0.5"/>
-      <!-- skirt/toga -->
-      <path d="M21,40 Q22,50 20,56 Q22,58 24,56 Q25,50 28,44 Q31,50 32,56 Q34,58 36,56 Q34,50 35,40Z"/>
-      <!-- legs -->
-      <path d="M23,52 Q22,60 20,62 Q22,63 24,61 Q25,54 26,50Z"/>
-      <path d="M33,52 Q34,60 36,62 Q34,63 32,61 Q31,54 30,50Z"/>
-    </g>
-    <!-- Decorative top line -->
-    <line x1="60" y1="18" x2="230" y2="18" stroke="#1a2e4a" stroke-width="1.2"/>
-    <!-- CAVOMARINA text -->
-    <text x="60" y="36" font-family="'Inter','Arial Black',sans-serif" font-weight="900" font-size="20" fill="#1a2e4a" letter-spacing="1.5">CAVOMARINA</text>
-    <!-- Decorative bottom line -->
-    <line x1="60" y1="40" x2="230" y2="40" stroke="#1a2e4a" stroke-width="1.2"/>
-    <!-- Beach in cursive style -->
-    <text x="233" y="40" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="22" fill="#8fa8be" letter-spacing="0.5">Beach</text>
-  </svg>
+  <img class="nav-logo"
+    src="https://raw.githubusercontent.com/PMAPARTNER/Cavomarinaadsplan/main/logo.png"
+    alt="Cavomarina Beach Hotel"
+    style="height:44px;width:auto;object-fit:contain;">
 
   <ul class="nav-center">
     <li><button onclick="goTo(0)" id="n0" class="active" data-i18n="nav_overview">Overview</button></li>
