@@ -13,8 +13,8 @@
       --accent: #b5882e;
       --accent2: #9a6f1e;
       --white: #111827;
-      --grey: #64748b;
-      --grey2: #94a3b8;
+      --grey: #374151;
+      --grey2: #4b5563;
       --card: rgba(0,0,0,0.04);
       --border: rgba(0,0,0,0.09);
       --google: #4285F4;
@@ -36,7 +36,7 @@
     .nav-logo { height: 70px; width: auto; object-fit: contain; flex-shrink: 0; }
     .nav-center { display: flex; gap: 4px; list-style: none; flex: 1; justify-content: center; }
     .nav-center button {
-      background: none; border: none; color: var(--grey); font-size: 11px;
+      background: none; border: none; color: var(--grey); font-size: 13px;
       padding: 5px 12px; border-radius: 4px; cursor: pointer;
       font-family: inherit; transition: all .2s; white-space: nowrap;
     }
@@ -61,11 +61,11 @@
       backdrop-filter: blur(12px);
     }
     .disclaimer-text {
-      font-size: 12.5px; font-weight: 500; color: var(--accent2);
+      font-size: 14px; font-weight: 500; color: var(--accent2);
       text-align: center; letter-spacing: 0.2px; line-height: 1.5;
     }
     .disclaimer-sub {
-      font-size: 10.5px; color: var(--grey2); text-align: center; margin-top: 2px;
+      font-size: 12px; color: var(--grey2); text-align: center; margin-top: 2px;
     }
 
     /* ── BOT NAV ── */
@@ -77,18 +77,18 @@
       border-top: 1px solid var(--border);
       z-index: 101; backdrop-filter: blur(12px); box-shadow: 0 -1px 8px rgba(0,0,0,0.06);
     }
-    .btn { background: var(--card); border: 1px solid var(--border); color: var(--white); padding: 6px 18px; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 11px; font-weight: 500; transition: all .2s; }
+    .btn { background: var(--card); border: 1px solid var(--border); color: var(--white); padding: 6px 18px; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 13px; font-weight: 500; transition: all .2s; }
     .btn:hover { background: rgba(0,0,0,0.08); }
     .btn:disabled { opacity: .3; cursor: not-allowed; }
-    .slide-num { font-size: 11px; color: var(--grey); letter-spacing: 1px; }
+    .slide-num { font-size: 13px; color: var(--grey); letter-spacing: 1px; }
 
     /* ── TYPOGRAPHY ── */
-    .eyebrow { font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 8px; }
+    .eyebrow { font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 8px; }
     h1 { font-size: clamp(24px, 3.2vw, 40px); font-weight: 800; line-height: 1.15; }
     h2 { font-size: clamp(18px, 2.3vw, 28px); font-weight: 700; line-height: 1.2; }
-    h3 { font-size: 15px; font-weight: 700; }
-    h4 { font-size: 13px; font-weight: 600; }
-    .sub { font-size: 13.5px; color: var(--grey); line-height: 1.65; }
+    h3 { font-size: 16px; font-weight: 700; }
+    h4 { font-size: 14px; font-weight: 600; }
+    .sub { font-size: 15px; color: var(--grey); line-height: 1.65; }
     .divider { height: 1px; background: var(--border); margin: 20px 0; }
 
     /* ── CARDS ── */
@@ -103,7 +103,7 @@
     .g4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; }
 
     /* ── TAGS ── */
-    .tag { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; }
+    .tag { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 700; }
     .tag-g { background: rgba(66,133,244,0.12); color: #1d4ed8; border: 1px solid rgba(66,133,244,0.35); }
     .tag-m { background: rgba(8,102,255,0.12); color: #1e40af; border: 1px solid rgba(8,102,255,0.35); }
     .tag-gold { background: rgba(181,136,46,0.12); color: #7c5c0a; border: 1px solid rgba(181,136,46,0.35); }
@@ -113,46 +113,46 @@
 
     /* ── BUDGET BARS ── */
     .brow { display: flex; align-items: center; gap: 10px; margin: 6px 0; }
-    .brow-lbl { font-size: 11.5px; color: var(--grey); width: 120px; flex-shrink: 0; }
+    .brow-lbl { font-size: 13px; color: var(--grey); width: 130px; flex-shrink: 0; }
     .brow-track { flex: 1; height: 5px; background: rgba(0,0,0,0.09); border-radius: 3px; overflow: hidden; }
     .brow-fill { height: 100%; border-radius: 3px; }
-    .brow-amt { font-size: 12px; font-weight: 700; color: var(--white); width: 38px; text-align: right; }
+    .brow-amt { font-size: 13px; font-weight: 700; color: var(--white); width: 42px; text-align: right; }
 
     /* ── TABLE ── */
-    table { width: 100%; border-collapse: collapse; font-size: 12px; }
-    th { background: rgba(0,0,0,0.04); color: var(--grey); font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { background: rgba(0,0,0,0.04); color: var(--grey); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border); }
     td { padding: 8px 10px; border-bottom: 1px solid rgba(0,0,0,0.06); color: var(--white); vertical-align: top; }
     tr:last-child td { border-bottom: none; }
 
     /* ── BULLETS ── */
     .ul { list-style: none; }
-    .ul li { font-size: 12px; color: var(--grey); padding: 3px 0 3px 14px; position: relative; line-height: 1.5; }
+    .ul li { font-size: 14px; color: var(--grey); padding: 3px 0 3px 14px; position: relative; line-height: 1.6; }
     .ul li::before { content:''; position:absolute; left:0; top:10px; width:5px; height:5px; border-radius:50%; background: var(--accent); }
     .ul li b { color: var(--white); }
 
     /* ── AD COPY BOXES ── */
     .ad-box { background: rgba(0,0,0,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
-    .ad-box .al { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 7px; }
-    .ad-box .hl { font-size: 11.5px; font-weight: 600; color: #1d4ed8; line-height: 1.7; }
-    .ad-box .dc { font-size: 11.5px; color: var(--grey); margin-top: 7px; line-height: 1.6; border-top: 1px solid var(--border); padding-top: 7px; }
+    .ad-box .al { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 7px; }
+    .ad-box .hl { font-size: 13px; font-weight: 600; color: #1d4ed8; line-height: 1.7; }
+    .ad-box .dc { font-size: 13px; color: var(--grey); margin-top: 7px; line-height: 1.6; border-top: 1px solid var(--border); padding-top: 7px; }
     .meta-box { background: rgba(8,102,255,0.05); border: 1px solid rgba(8,102,255,0.22); border-radius: 8px; padding: 12px 14px; }
-    .meta-box .ml { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: #1e40af; font-weight: 700; margin-bottom: 7px; }
-    .meta-box .cap { font-size: 12.5px; color: var(--white); line-height: 1.7; }
-    .meta-box .cap em { color: var(--grey); font-style: normal; font-size: 10.5px; display: block; margin-top: 5px; }
+    .meta-box .ml { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #1e40af; font-weight: 700; margin-bottom: 7px; }
+    .meta-box .cap { font-size: 14px; color: var(--white); line-height: 1.7; }
+    .meta-box .cap em { color: var(--grey); font-style: normal; font-size: 12px; display: block; margin-top: 5px; }
 
     /* ── MARKET CARD ── */
     .mkt { text-align: center; padding: 14px 8px; }
     .mkt .flag { font-size: 24px; }
     .mkt .name { font-size: 13px; font-weight: 700; margin: 5px 0 2px; }
     .mkt .amt { font-size: 19px; font-weight: 800; color: var(--accent2); }
-    .mkt .pct { font-size: 10.5px; color: var(--grey); margin-bottom: 5px; }
+    .mkt .pct { font-size: 12px; color: var(--grey); margin-bottom: 5px; }
 
     /* ── SECTION HEADER ── */
     .sh { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 22px; gap: 16px; }
     .sh-r { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
 
     /* ── SLIDE FOOTER ── */
-    .sf { margin-top: 28px; padding-top: 12px; border-top: 1px solid var(--border); font-size: 10.5px; color: var(--grey2); display: flex; justify-content: space-between; }
+    .sf { margin-top: 28px; padding-top: 12px; border-top: 1px solid var(--border); font-size: 12px; color: var(--grey2); display: flex; justify-content: space-between; }
 
     /* ── COVER ── */
     .cover { display: flex; flex-direction: column; justify-content: center; min-height: calc(100vh - 140px); position: relative; }
@@ -161,9 +161,9 @@
 
     /* ── KW COLORS ── */
     .kw-brand td:first-child { color: var(--accent2); font-weight: 600; }
-    .kw-en td:first-child { color: #7ab3f7; }
-    .kw-el td:first-child { color: #9ae6b4; }
-    .kw-it td:first-child { color: #fdba74; }
+    .kw-en td:first-child { color: #1d4ed8; }
+    .kw-el td:first-child { color: #166534; }
+    .kw-it td:first-child { color: #92400e; }
 
     /* ── RTL TWEAKS ── */
   </style>
@@ -208,37 +208,37 @@
       <!-- BUDGET SPLIT -->
       <div class="g2" style="max-width:720px;margin-bottom:24px;">
         <div class="card-g">
-          <div style="font-size:9.5px;letter-spacing:2px;text-transform:uppercase;color:#7ab3f7;font-weight:700;margin-bottom:10px;">Google Ads</div>
+          <div style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#1d4ed8;font-weight:700;margin-bottom:10px;">Google Ads</div>
           <div style="font-size:32px;font-weight:800;margin-bottom:3px;">€1,500</div>
-          <div style="font-size:10.5px;color:var(--grey);margin-bottom:14px;" data-i18n="pct75">75% of monthly budget</div>
+          <div style="font-size:13px;color:var(--grey);margin-bottom:14px;" data-i18n="pct75">75% of monthly budget</div>
           <div class="brow"><div class="brow-lbl" data-i18n="brand_search">Brand Search</div><div class="brow-track"><div class="brow-fill" style="width:10%;background:#4285F4;"></div></div><div class="brow-amt">€150</div></div>
           <div class="brow"><div class="brow-lbl" data-i18n="generic_search">Generic Search</div><div class="brow-track"><div class="brow-fill" style="width:27%;background:#34a853;"></div></div><div class="brow-amt">€400</div></div>
           <div class="brow"><div class="brow-lbl" data-i18n="pmax">Performance Max</div><div class="brow-track"><div class="brow-fill" style="width:47%;background:#fbbc04;"></div></div><div class="brow-amt">€700</div></div>
           <div class="brow"><div class="brow-lbl" data-i18n="display_ret">Display Retarget</div><div class="brow-track"><div class="brow-fill" style="width:17%;background:#ea4335;"></div></div><div class="brow-amt">€250</div></div>
         </div>
         <div class="card-m">
-          <div style="font-size:9.5px;letter-spacing:2px;text-transform:uppercase;color:#7aabff;font-weight:700;margin-bottom:10px;">Meta Ads</div>
+          <div style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#1e40af;font-weight:700;margin-bottom:10px;">Meta Ads</div>
           <div style="font-size:32px;font-weight:800;margin-bottom:3px;">€500</div>
-          <div style="font-size:10.5px;color:var(--grey);margin-bottom:14px;" data-i18n="pct25">25% of monthly budget</div>
+          <div style="font-size:13px;color:var(--grey);margin-bottom:14px;" data-i18n="pct25">25% of monthly budget</div>
           <div class="brow"><div class="brow-lbl" data-i18n="cold_aud">Cold Audience</div><div class="brow-track"><div class="brow-fill" style="width:60%;background:#0866FF;"></div></div><div class="brow-amt">€300</div></div>
           <div class="brow"><div class="brow-lbl" data-i18n="warm_aud">Warm Audience</div><div class="brow-track"><div class="brow-fill" style="width:40%;background:#1877f2;"></div></div><div class="brow-amt">€200</div></div>
         </div>
       </div>
 
       <!-- MARKETS -->
-      <div style="font-size:9.5px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px;" data-i18n="target_markets">Budget Matrix — Market × Campaign · July 2026</div>
+      <div style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px;" data-i18n="target_markets">Budget Matrix — Market × Campaign · July 2026</div>
       <div style="overflow-x:auto;max-width:100%;">
-      <table style="width:100%;font-size:10.5px;border-collapse:collapse;">
+      <table style="width:100%;font-size:13px;border-collapse:collapse;">
         <thead>
           <tr style="background:rgba(255,255,255,0.04);">
             <th style="text-align:left;padding:7px 10px;color:var(--grey);font-weight:600;">Market</th>
             <th style="padding:7px 6px;color:var(--grey);font-weight:600;">Lang</th>
-            <th style="padding:7px 6px;color:#7ab3f7;font-weight:600;">Brand<br><span style="font-size:9px;opacity:0.7;">Search</span></th>
-            <th style="padding:7px 6px;color:#6ee7b7;font-weight:600;">Generic<br><span style="font-size:9px;opacity:0.7;">Search</span></th>
+            <th style="padding:7px 6px;color:#1d4ed8;font-weight:600;">Brand<br><span style="font-size:13px;opacity:0.7;">Search</span></th>
+            <th style="padding:7px 6px;color:#166534;font-weight:600;">Generic<br><span style="font-size:13px;opacity:0.7;">Search</span></th>
             <th style="padding:7px 6px;color:#fde68a;font-weight:600;">PMax</th>
-            <th style="padding:7px 6px;color:#fca5a5;font-weight:600;">Display<br><span style="font-size:9px;opacity:0.7;">Retarget</span></th>
-            <th style="padding:7px 6px;color:#93c5fd;font-weight:600;">Meta<br><span style="font-size:9px;opacity:0.7;">Cold</span></th>
-            <th style="padding:7px 6px;color:#c4b5fd;font-weight:600;">Meta<br><span style="font-size:9px;opacity:0.7;">Warm</span></th>
+            <th style="padding:7px 6px;color:#991b1b;font-weight:600;">Display<br><span style="font-size:13px;opacity:0.7;">Retarget</span></th>
+            <th style="padding:7px 6px;color:#1d4ed8;font-weight:600;">Meta<br><span style="font-size:13px;opacity:0.7;">Cold</span></th>
+            <th style="padding:7px 6px;color:#5b21b6;font-weight:600;">Meta<br><span style="font-size:13px;opacity:0.7;">Warm</span></th>
             <th style="padding:7px 10px;color:var(--accent2);font-weight:700;">Total</th>
             <th style="padding:7px 6px;color:var(--grey);font-weight:600;">%</th>
           </tr>
@@ -248,59 +248,59 @@
             <td style="padding:6px 10px;font-weight:600;">🇮🇹 Italy</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-purple" style="font-size:8px;">IT</span></td>
             <td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€100</td><td style="padding:6px;text-align:center;color:var(--grey);">€135</td><td style="padding:6px;text-align:center;color:var(--grey);">€50</td><td style="padding:6px;text-align:center;color:var(--grey);">€80</td><td style="padding:6px;text-align:center;color:var(--grey);">€45</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">€435</td><td style="padding:6px;color:var(--grey);font-size:10px;">22%</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">€435</td><td style="padding:6px;color:var(--grey);font-size:12px;">22%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
             <td style="padding:6px 10px;font-weight:600;">🇷🇸🇲🇪 Serbia · Mnt.</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">SR</span></td>
             <td style="padding:6px;text-align:center;color:var(--grey);">€20</td><td style="padding:6px;text-align:center;color:var(--grey);">€75</td><td style="padding:6px;text-align:center;color:var(--grey);">€105</td><td style="padding:6px;text-align:center;color:var(--grey);">€35</td><td style="padding:6px;text-align:center;color:var(--grey);">€55</td><td style="padding:6px;text-align:center;color:var(--grey);">€35</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">€325</td><td style="padding:6px;color:var(--grey);font-size:10px;">16%</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">€325</td><td style="padding:6px;color:var(--grey);font-size:12px;">16%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
             <td style="padding:6px 10px;font-weight:600;">🇬🇷 Greece</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-orange" style="font-size:8px;">EL</span></td>
             <td style="padding:6px;text-align:center;color:var(--grey);">€20</td><td style="padding:6px;text-align:center;color:var(--grey);">€75</td><td style="padding:6px;text-align:center;color:var(--grey);">€110</td><td style="padding:6px;text-align:center;color:var(--grey);">€40</td><td style="padding:6px;text-align:center;color:var(--grey);">€40</td><td style="padding:6px;text-align:center;color:var(--grey);">€35</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">€320</td><td style="padding:6px;color:var(--grey);font-size:10px;">16%</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent2);">€320</td><td style="padding:6px;color:var(--grey);font-size:12px;">16%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
             <td style="padding:6px 10px;font-weight:600;">🇧🇬 Bulgaria</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">BG</span></td>
             <td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€55</td><td style="padding:6px;text-align:center;color:var(--grey);">€90</td><td style="padding:6px;text-align:center;color:var(--grey);">€30</td><td style="padding:6px;text-align:center;color:var(--grey);">€40</td><td style="padding:6px;text-align:center;color:var(--grey);">€30</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€260</td><td style="padding:6px;color:var(--grey);font-size:10px;">13%</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€260</td><td style="padding:6px;color:var(--grey);font-size:12px;">13%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
             <td style="padding:6px 10px;font-weight:600;">🇲🇰 Macedonia</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">MK</span></td>
             <td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€30</td><td style="padding:6px;text-align:center;color:var(--grey);">€80</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€30</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€205</td><td style="padding:6px;color:var(--grey);font-size:10px;">10%</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€205</td><td style="padding:6px;color:var(--grey);font-size:12px;">10%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
             <td style="padding:6px 10px;font-weight:600;">🇽🇰 Kosovo</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">SQ</span></td>
             <td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€70</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€15</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€175</td><td style="padding:6px;color:var(--grey);font-size:10px;">9%</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€175</td><td style="padding:6px;color:var(--grey);font-size:12px;">9%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
             <td style="padding:6px 10px;font-weight:600;">🇧🇦 Bosnia</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-gold" style="font-size:8px;">BS</span></td>
             <td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€60</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€15</td>
-            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€165</td><td style="padding:6px;color:var(--grey);font-size:10px;">8%</td>
+            <td style="padding:6px 10px;font-weight:800;color:var(--accent);">€165</td><td style="padding:6px;color:var(--grey);font-size:12px;">8%</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
             <td style="padding:6px 10px;font-weight:600;">🇬🇧 UK</td>
             <td style="padding:6px;text-align:center;"><span class="tag tag-green" style="font-size:8px;">EN</span></td>
             <td style="padding:6px;text-align:center;color:var(--grey);">€25</td><td style="padding:6px;text-align:center;color:var(--grey);">€15</td><td style="padding:6px;text-align:center;color:var(--grey);">€50</td><td style="padding:6px;text-align:center;color:var(--grey);">€20</td><td style="padding:6px;text-align:center;color:var(--grey);">€5</td><td style="padding:6px;text-align:center;color:var(--grey);">€0</td>
-            <td style="padding:6px 10px;font-weight:700;color:var(--grey);">€115</td><td style="padding:6px;color:var(--grey);font-size:10px;">6%</td>
+            <td style="padding:6px 10px;font-weight:700;color:var(--grey);">€115</td><td style="padding:6px;color:var(--grey);font-size:12px;">6%</td>
           </tr>
           <tr style="background:rgba(201,169,110,0.08);border-top:2px solid rgba(201,169,110,0.3);">
             <td style="padding:7px 10px;font-weight:800;color:var(--white);">TOTAL</td>
             <td></td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#7ab3f7;">€150</td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#6ee7b7;">€400</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#1d4ed8;">€150</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#166534;">€400</td>
             <td style="padding:7px 6px;text-align:center;font-weight:700;color:#fde68a;">€700</td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#fca5a5;">€250</td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#93c5fd;">€300</td>
-            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#c4b5fd;">€200</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#991b1b;">€250</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#1d4ed8;">€300</td>
+            <td style="padding:7px 6px;text-align:center;font-weight:700;color:#5b21b6;">€200</td>
             <td style="padding:7px 10px;font-weight:900;color:var(--accent2);font-size:13px;">€2,000</td>
             <td style="padding:7px 6px;font-weight:700;color:var(--white);">100%</td>
           </tr>
@@ -337,12 +337,12 @@
       <div class="card-g">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
           <div><span class="tag tag-g" data-i18n="brand_search">Brand Search</span><h3 style="margin-top:7px;" data-i18n="brand_prot">Brand Protection</h3></div>
-          <div style="font-size:19px;font-weight:800;color:#7ab3f7;">€150</div>
+          <div style="font-size:19px;font-weight:800;color:#1d4ed8;">€150</div>
         </div>
         <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(252,129,74,0.1);border:1px solid rgba(252,129,74,0.3);border-radius:6px;padding:4px 10px;margin-bottom:10px;">
-          <span style="font-size:10px;color:#fdba74;font-weight:600;" data-i18n="uk_search_removed">🇬🇧 UK removed from Search — UK runs via PMax + Meta only</span>
+          <span style="font-size:12px;color:#fdba74;font-weight:600;" data-i18n="uk_search_removed">🇬🇧 UK removed from Search — UK runs via PMax + Meta only</span>
         </div>
-        <p style="font-size:11.5px;color:var(--grey);margin-bottom:10px;line-height:1.5;" data-i18n="brand_desc">Prevent OTAs from bidding on Cavomarina brand. Balkans, Italy, Greece only. UK brand queries captured via PMax.</p>
+        <p style="font-size:13px;color:var(--grey);margin-bottom:10px;line-height:1.5;" data-i18n="brand_desc">Prevent OTAs from bidding on Cavomarina brand. Balkans, Italy, Greece only. UK brand queries captured via PMax.</p>
         <div class="ad-box">
           <div class="al">RSA — EXAMPLE (EN)</div>
           <div class="hl">
@@ -352,7 +352,7 @@
           </div>
           <div class="dc">
             Beachfront adults-only resort in Kavos, Corfu. Swim-up suites & rooftop penthouse. Reserve directly — no agency fees, best available rate.<br>
-            <span style="color:#7ab3f7;">cavomarina.com</span>
+            <span style="color:#1d4ed8;">cavomarina.com</span>
           </div>
         </div>
         <ul class="ul" style="margin-top:9px;">
@@ -366,22 +366,22 @@
       <div class="card-g">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
           <div><span class="tag tag-green" data-i18n="pmax">Performance Max</span><h3 style="margin-top:7px;" data-i18n="pmax_h">PMax — All Google Surfaces</h3></div>
-          <div style="font-size:19px;font-weight:800;color:#6ee7b7;">€750</div>
+          <div style="font-size:19px;font-weight:800;color:#166534;">€750</div>
         </div>
         <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(110,231,183,0.1);border:1px solid rgba(110,231,183,0.3);border-radius:6px;padding:4px 10px;margin-bottom:10px;">
-          <span style="font-size:10px;color:#6ee7b7;font-weight:600;">🇬🇧 UK + 🌍 Balkans + 🇮🇹 Italy — all surfaces, real room type assets</span>
+          <span style="font-size:12px;color:#166534;font-weight:600;">🇬🇧 UK + 🌍 Balkans + 🇮🇹 Italy — all surfaces, real room type assets</span>
         </div>
-        <p style="font-size:11.5px;color:var(--grey);margin-bottom:10px;line-height:1.5;" data-i18n="pmax_desc">Single campaign across Search, YouTube, Display, Discover, Maps and Shopping. Hotel feed connected. Room-type asset groups: Swim-Up Suite, Sea View Room, Penthouse. All languages served automatically.</p>
+        <p style="font-size:13px;color:var(--grey);margin-bottom:10px;line-height:1.5;" data-i18n="pmax_desc">Single campaign across Search, YouTube, Display, Discover, Maps and Shopping. Hotel feed connected. Room-type asset groups: Swim-Up Suite, Sea View Room, Penthouse. All languages served automatically.</p>
         <div class="g2" style="gap:9px;">
           <div class="ad-box">
             <div class="al">ASSET GROUP 1 — SWIM-UP SUITE (🌍 Balkans · 🇬🇧 UK)</div>
-            <div class="hl" style="color:#6ee7b7;font-size:11px;">Swim-Up Suite | Kavos, Corfu<br>Step from bed into the pool — Book Direct<br>Best Rate on cavomarina.com</div>
-            <div class="dc" style="font-size:10.5px;">Visuals: swim-up suite · pool · sea view · Format: 16:9 · 1:1 · 4:5 · 9:16<br>Languages: SR · HR · BG · EN (auto-served by market)</div>
+            <div class="hl" style="color:#166534;font-size:13px;">Swim-Up Suite | Kavos, Corfu<br>Step from bed into the pool — Book Direct<br>Best Rate on cavomarina.com</div>
+            <div class="dc" style="font-size:13px;">Visuals: swim-up suite · pool · sea view · Format: 16:9 · 1:1 · 4:5 · 9:16<br>Languages: SR · HR · BG · EN (auto-served by market)</div>
           </div>
           <div class="ad-box">
             <div class="al">ASSET GROUP 2 — SEA VIEW ROOM + PENTHOUSE (🇮🇹 Italy · 🇬🇷 Greece)</div>
-            <div class="hl" style="color:#6ee7b7;font-size:11px;">Camera sul Mare | Kavos, Corfù<br>Suite Penthouse & Vista Panoramica<br>Prenota su cavomarina.com</div>
-            <div class="dc" style="font-size:10.5px;">Visuals: penthouse terrace · sea view room · sunset · Format: 16:9 · 1:1<br>Languages: IT · EL (auto-served by market)</div>
+            <div class="hl" style="color:#166534;font-size:13px;">Camera sul Mare | Kavos, Corfù<br>Suite Penthouse & Vista Panoramica<br>Prenota su cavomarina.com</div>
+            <div class="dc" style="font-size:13px;">Visuals: penthouse terrace · sea view room · sunset · Format: 16:9 · 1:1<br>Languages: IT · EL (auto-served by market)</div>
           </div>
         </div>
         <ul class="ul" style="margin-top:9px;">
@@ -398,16 +398,16 @@
       <div class="card-g">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
           <div><span class="tag tag-g" data-i18n="generic_search">Generic Search</span><h3 style="margin-top:7px;" data-i18n="kw_h">Keyword Targeting by Market</h3></div>
-          <div style="font-size:19px;font-weight:800;color:#7ab3f7;">€400</div>
+          <div style="font-size:19px;font-weight:800;color:#1d4ed8;">€400</div>
         </div>
         <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(252,129,74,0.1);border:1px solid rgba(252,129,74,0.3);border-radius:6px;padding:4px 10px;margin-bottom:10px;">
-          <span style="font-size:10px;color:#fdba74;font-weight:600;">🇬🇧 UK minimal in Search — 7 language-split ad sets active</span>
+          <span style="font-size:12px;color:#fdba74;font-weight:600;">🇬🇧 UK minimal in Search — 7 language-split ad sets active</span>
         </div>
         <table>
           <thead><tr><th data-i18n="th_market">Market</th><th data-i18n="th_lang">Lang</th><th data-i18n="th_kw">Keywords</th><th data-i18n="th_type">Type</th><th>Budget</th></tr></thead>
           <tbody>
-            <tr class="kw-brand"><td data-i18n="all_mkt2">All</td><td><span class="tag tag-gold" style="font-size:9px;" data-i18n="brand">Brand</span></td><td>[cavomarina] · [cavo marina corfu] · [cavomarina hotel]</td><td>Exact</td><td>€150</td></tr>
-            <tr class="kw-it"><td>🇮🇹 Italy</td><td><span style="color:#c4b5fd;font-weight:700;">IT</span></td><td>"hotel corfù sul mare" · "hotel kavos corfù" · "resort corfù adulti" · "suite swim-up Corfù"</td><td>Phrase</td><td>€100</td></tr>
+            <tr class="kw-brand"><td data-i18n="all_mkt2">All</td><td><span class="tag tag-gold" style="font-size:13px;" data-i18n="brand">Brand</span></td><td>[cavomarina] · [cavo marina corfu] · [cavomarina hotel]</td><td>Exact</td><td>€150</td></tr>
+            <tr class="kw-it"><td>🇮🇹 Italy</td><td><span style="color:#5b21b6;font-weight:700;">IT</span></td><td>"hotel corfù sul mare" · "hotel kavos corfù" · "resort corfù adulti" · "suite swim-up Corfù"</td><td>Phrase</td><td>€100</td></tr>
             <tr class="kw-el"><td>🇬🇷 Greece</td><td><span style="color:#fb923c;font-weight:700;">EL</span></td><td>"ξενοδοχείο κάβος" · "ξενοδοχείο κέρκυρα παραλία" · "adults only κέρκυρα" · "swim up κέρκυρα"</td><td>Phrase</td><td>€75</td></tr>
             <tr class="kw-en"><td>🇷🇸🇲🇪 Serbia · Montenegro</td><td><span style="color:#fcd34d;font-weight:700;">SR</span></td><td>"hotel na plazi Krf" · "Kavos hotel more" · "letovanje Krfu odrasli" · "swim up apartman Krf"</td><td>Phrase</td><td>€75</td></tr>
             <tr class="kw-en"><td>🇧🇬 Bulgaria</td><td><span style="color:#fcd34d;font-weight:700;">BG</span></td><td>"хотел в Корфу" · "хотел Кавос Корфу" · "почивка Корфу само за възрастни" · "swim up стая Корфу"</td><td>Phrase</td><td>€55</td></tr>
@@ -420,18 +420,18 @@
         <div style="margin-top:10px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
           <div class="ad-box">
             <div class="al">RSA — SERBIAN (🇷🇸🇲🇪🇧🇦)</div>
-            <div class="hl" style="font-size:10px;">Hotel na plaži Krf | Direktna rezervacija<br>Swim-Up Suite · Kavos · Samo za odrasle<br>Najbolja cena na cavomarina.com</div>
-            <div class="dc" style="font-size:9.5px;">Luksuzni resort samo za odrasle na Krfu. Swim-up suite, penthouse, privatna plaža. Rezervišite direktno — bez provizija.</div>
+            <div class="hl" style="font-size:12px;">Hotel na plaži Krf | Direktna rezervacija<br>Swim-Up Suite · Kavos · Samo za odrasle<br>Najbolja cena na cavomarina.com</div>
+            <div class="dc" style="font-size:12px;">Luksuzni resort samo za odrasle na Krfu. Swim-up suite, penthouse, privatna plaža. Rezervišite direktno — bez provizija.</div>
           </div>
           <div class="ad-box">
             <div class="al">RSA — ITALIAN (🇮🇹)</div>
-            <div class="hl" style="font-size:10px;">Hotel Corfù sul Mare | Prenota Diretto<br>Suite Swim-Up · Kavos · Solo Adulti<br>Miglior Tariffa su cavomarina.com</div>
-            <div class="dc" style="font-size:9.5px;">Resort adults-only fronte mare a Corfù. Suite swim-up, penthouse e spiaggia privata. Prenota sul sito ufficiale — nessuna commissione.</div>
+            <div class="hl" style="font-size:12px;">Hotel Corfù sul Mare | Prenota Diretto<br>Suite Swim-Up · Kavos · Solo Adulti<br>Miglior Tariffa su cavomarina.com</div>
+            <div class="dc" style="font-size:12px;">Resort adults-only fronte mare a Corfù. Suite swim-up, penthouse e spiaggia privata. Prenota sul sito ufficiale — nessuna commissione.</div>
           </div>
           <div class="ad-box">
             <div class="al">RSA — ALBANIAN (🇽🇰 Kosovo)</div>
-            <div class="hl" style="font-size:10px;">Hotel Plazh Korfuz | Rezervo Drejtpërdrejt<br>Swim-Up Suite · Kavos · Vetëm Adulte<br>Çmimi më i mirë cavomarina.com</div>
-            <div class="dc" style="font-size:9.5px;">Resort luksoze vetëm për adulte në Korfuz. Suite swim-up, penthouse dhe plazh privat. Rezervo drejtpërdrejt — pa komisione.</div>
+            <div class="hl" style="font-size:12px;">Hotel Plazh Korfuz | Rezervo Drejtpërdrejt<br>Swim-Up Suite · Kavos · Vetëm Adulte<br>Çmimi më i mirë cavomarina.com</div>
+            <div class="dc" style="font-size:12px;">Resort luksoze vetëm për adulte në Korfuz. Suite swim-up, penthouse dhe plazh privat. Rezervo drejtpërdrejt — pa komisione.</div>
           </div>
         </div>
       </div>
@@ -440,7 +440,7 @@
       <div class="card-g">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
           <div><span class="tag tag-purple" data-i18n="display_ret">Display Retarget</span><h3 style="margin-top:7px;" data-i18n="disp_h">Website Visitor Retargeting</h3></div>
-          <div style="font-size:19px;font-weight:800;color:#c4b5fd;">€250</div>
+          <div style="font-size:19px;font-weight:800;color:#5b21b6;">€250</div>
         </div>
         <ul class="ul">
           <li><b data-i18n="aud_lbl">Audience 1:</b> <span data-i18n="aud1_val">All website visitors — 30-day window</span></li>
@@ -487,7 +487,7 @@
     </div>
     <div class="sh-r">
       <span class="tag tag-m" style="font-size:12px;padding:5px 13px;">€500 / <span data-i18n="month">month</span></span>
-      <span style="font-size:10.5px;color:var(--grey);" data-i18n="cold_warm_split">Cold €300 · Warm €200</span>
+      <span style="font-size:13px;color:var(--grey);" data-i18n="cold_warm_split">Cold €300 · Warm €200</span>
     </div>
   </div>
 
@@ -496,27 +496,27 @@
     <!-- COLD -->
     <div class="card-m">
       <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:13px;">
-        <div><span class="tag tag-m" data-i18n="cold_aud">Cold Audience</span> <span style="font-size:10px;color:var(--grey);margin-left:4px;" data-i18n="prospecting">Prospecting</span><h3 style="margin-top:7px;" data-i18n="new_acq">New Audience Acquisition</h3></div>
-        <div style="font-size:20px;font-weight:800;color:#7aabff;">€300</div>
+        <div><span class="tag tag-m" data-i18n="cold_aud">Cold Audience</span> <span style="font-size:12px;color:var(--grey);margin-left:4px;" data-i18n="prospecting">Prospecting</span><h3 style="margin-top:7px;" data-i18n="new_acq">New Audience Acquisition</h3></div>
+        <div style="font-size:20px;font-weight:800;color:#1e40af;">€300</div>
       </div>
 
-      <div style="font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:7px;" data-i18n="aud_targeting">Audience Targeting — Language Split (Cold €300)</div>
+      <div style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:7px;" data-i18n="aud_targeting">Audience Targeting — Language Split (Cold €300)</div>
       <table style="margin-bottom:13px;">
         <thead><tr><th data-i18n="th_market">Market</th><th>Lang</th><th data-i18n="th_cities">Cities / Geo</th><th data-i18n="th_interests">Interest Targeting</th><th data-i18n="th_budget">Budget</th></tr></thead>
         <tbody>
-          <tr style="background:rgba(201,169,110,0.06);"><td>🇮🇹 Italy</td><td><span class="tag tag-purple" style="font-size:8px;">IT</span></td><td style="color:var(--grey);font-size:11px;">Milan · Rome · Turin · Bologna</td><td style="color:var(--grey);font-size:11px;">Vacanza al mare · Corfù · Adults only resort · Suite swim-up</td><td style="font-weight:700;color:var(--accent2);">€80</td></tr>
-          <tr style="background:rgba(201,169,110,0.06);"><td>🇷🇸🇲🇪 Serbia · Mnt.</td><td><span class="tag tag-gold" style="font-size:8px;">SR</span></td><td style="color:var(--grey);font-size:11px;">Belgrade · Novi Sad · Podgorica</td><td style="color:var(--grey);font-size:11px;">Letovanje na moru · Krf hotel · Swim-up apartman · Luksuzan odmor</td><td style="font-weight:700;color:var(--accent2);">€55</td></tr>
-          <tr><td>🇬🇷 Greece</td><td><span class="tag tag-orange" style="font-size:8px;">EL</span></td><td style="color:var(--grey);font-size:11px;">Athens · Thessaloniki</td><td style="color:var(--grey);font-size:11px;">Beach break · Ionian islands · Weekend escape · adults only Κέρκυρα</td><td>€40</td></tr>
-          <tr><td>🇧🇬 Bulgaria</td><td><span class="tag tag-gold" style="font-size:8px;">BG</span></td><td style="color:var(--grey);font-size:11px;">Sofia · Plovdiv · Varna</td><td style="color:var(--grey);font-size:11px;">Почивка Корфу · хотел плаж · swim-up стая · луксозен курорт</td><td>€40</td></tr>
-          <tr><td>🇲🇰 Macedonia</td><td><span class="tag tag-gold" style="font-size:8px;">MK</span></td><td style="color:var(--grey);font-size:11px;">Skopje · Bitola</td><td style="color:var(--grey);font-size:11px;">Одмор плажа · хотел Крф · swim-up соба · луксузен одмор</td><td>€30</td></tr>
-          <tr><td>🇽🇰 Kosovo</td><td><span class="tag tag-gold" style="font-size:8px;">SQ</span></td><td style="color:var(--grey);font-size:11px;">Pristina · Prizren</td><td style="color:var(--grey);font-size:11px;">Pushime plazh · hotel Korfuz · swim-up dhomë · resort luksoze</td><td>€25</td></tr>
-          <tr><td>🇧🇦 Bosnia</td><td><span class="tag tag-gold" style="font-size:8px;">BS</span></td><td style="color:var(--grey);font-size:11px;">Sarajevo · Banja Luka</td><td style="color:var(--grey);font-size:11px;">Ljetovanje Krf · hotel more · odrasli odmor · swim-up soba</td><td>€25</td></tr>
-          <tr><td>🇬🇧 UK</td><td><span class="tag tag-green" style="font-size:8px;">EN</span></td><td style="color:var(--grey);font-size:11px;">London · Manchester</td><td style="color:var(--grey);font-size:11px;">Greek islands · Luxury beach · Adults-only resort</td><td>€5 <span style="font-size:9px;color:var(--grey);">↑ PMax primary</span></td></tr>
-          <tr style="border-top:1px solid rgba(255,255,255,0.15);"><td colspan="4" style="padding:6px 8px;font-weight:700;color:var(--white);">Total Cold Audience</td><td style="font-weight:800;color:#93c5fd;">€300</td></tr>
+          <tr style="background:rgba(201,169,110,0.06);"><td>🇮🇹 Italy</td><td><span class="tag tag-purple" style="font-size:8px;">IT</span></td><td style="color:var(--grey);font-size:13px;">Milan · Rome · Turin · Bologna</td><td style="color:var(--grey);font-size:13px;">Vacanza al mare · Corfù · Adults only resort · Suite swim-up</td><td style="font-weight:700;color:var(--accent2);">€80</td></tr>
+          <tr style="background:rgba(201,169,110,0.06);"><td>🇷🇸🇲🇪 Serbia · Mnt.</td><td><span class="tag tag-gold" style="font-size:8px;">SR</span></td><td style="color:var(--grey);font-size:13px;">Belgrade · Novi Sad · Podgorica</td><td style="color:var(--grey);font-size:13px;">Letovanje na moru · Krf hotel · Swim-up apartman · Luksuzan odmor</td><td style="font-weight:700;color:var(--accent2);">€55</td></tr>
+          <tr><td>🇬🇷 Greece</td><td><span class="tag tag-orange" style="font-size:8px;">EL</span></td><td style="color:var(--grey);font-size:13px;">Athens · Thessaloniki</td><td style="color:var(--grey);font-size:13px;">Beach break · Ionian islands · Weekend escape · adults only Κέρκυρα</td><td>€40</td></tr>
+          <tr><td>🇧🇬 Bulgaria</td><td><span class="tag tag-gold" style="font-size:8px;">BG</span></td><td style="color:var(--grey);font-size:13px;">Sofia · Plovdiv · Varna</td><td style="color:var(--grey);font-size:13px;">Почивка Корфу · хотел плаж · swim-up стая · луксозен курорт</td><td>€40</td></tr>
+          <tr><td>🇲🇰 Macedonia</td><td><span class="tag tag-gold" style="font-size:8px;">MK</span></td><td style="color:var(--grey);font-size:13px;">Skopje · Bitola</td><td style="color:var(--grey);font-size:13px;">Одмор плажа · хотел Крф · swim-up соба · луксузен одмор</td><td>€30</td></tr>
+          <tr><td>🇽🇰 Kosovo</td><td><span class="tag tag-gold" style="font-size:8px;">SQ</span></td><td style="color:var(--grey);font-size:13px;">Pristina · Prizren</td><td style="color:var(--grey);font-size:13px;">Pushime plazh · hotel Korfuz · swim-up dhomë · resort luksoze</td><td>€25</td></tr>
+          <tr><td>🇧🇦 Bosnia</td><td><span class="tag tag-gold" style="font-size:8px;">BS</span></td><td style="color:var(--grey);font-size:13px;">Sarajevo · Banja Luka</td><td style="color:var(--grey);font-size:13px;">Ljetovanje Krf · hotel more · odrasli odmor · swim-up soba</td><td>€25</td></tr>
+          <tr><td>🇬🇧 UK</td><td><span class="tag tag-green" style="font-size:8px;">EN</span></td><td style="color:var(--grey);font-size:13px;">London · Manchester</td><td style="color:var(--grey);font-size:13px;">Greek islands · Luxury beach · Adults-only resort</td><td>€5 <span style="font-size:13px;color:var(--grey);">↑ PMax primary</span></td></tr>
+          <tr style="border-top:1px solid rgba(255,255,255,0.15);"><td colspan="4" style="padding:6px 8px;font-weight:700;color:var(--white);">Total Cold Audience</td><td style="font-weight:800;color:#1d4ed8;">€300</td></tr>
         </tbody>
       </table>
 
-      <div style="font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:9px;" data-i18n="ad_formats">Ad Formats & Placements</div>
+      <div style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:9px;" data-i18n="ad_formats">Ad Formats & Placements</div>
       <div style="display:flex;flex-direction:column;gap:9px;">
 
         <div class="meta-box">
@@ -525,27 +525,27 @@
           <div style="border-top:1px solid rgba(8,102,255,0.2);margin-top:9px;padding-top:9px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
             <div>
               <div class="ml">IT 🇮🇹</div>
-              <div class="cap" style="font-size:10px;">La tua fuga adults-only a Corfù ti aspetta 🌊 Suite Swim-Up, Penthouse e camere vista mare a Kavos. Prenota su cavomarina.com — miglior tariffa ↓ <em>#Corfù #AdultsOnly #SuiteSwimUp</em></div>
+              <div class="cap" style="font-size:12px;">La tua fuga adults-only a Corfù ti aspetta 🌊 Suite Swim-Up, Penthouse e camere vista mare a Kavos. Prenota su cavomarina.com — miglior tariffa ↓ <em>#Corfù #AdultsOnly #SuiteSwimUp</em></div>
             </div>
             <div>
               <div class="ml">SR 🇷🇸🇲🇪🇧🇦</div>
-              <div class="cap" style="font-size:10px;">Vaš odmor samo za odrasle na Krfu čeka 🌊 Swim-Up Suite, Penthouse i sobe s pogledom na more. Rezervišite direktno na cavomarina.com ↓ <em>#Krf #OdmorOdrasli #SwimUpSuite</em></div>
+              <div class="cap" style="font-size:12px;">Vaš odmor samo za odrasle na Krfu čeka 🌊 Swim-Up Suite, Penthouse i sobe s pogledom na more. Rezervišite direktno na cavomarina.com ↓ <em>#Krf #OdmorOdrasli #SwimUpSuite</em></div>
             </div>
             <div>
               <div class="ml">EL 🇬🇷</div>
-              <div class="cap" style="font-size:10px;">Η απόδραση adults-only στην Κέρκυρα σε περιμένει 🌊 Suite Swim-Up, Penthouse & θέα θάλασσα στον Κάβο. Κράτηση απευθείας στο cavomarina.com ↓ <em>#Κέρκυρα #AdultsOnly</em></div>
+              <div class="cap" style="font-size:12px;">Η απόδραση adults-only στην Κέρκυρα σε περιμένει 🌊 Suite Swim-Up, Penthouse & θέα θάλασσα στον Κάβο. Κράτηση απευθείας στο cavomarina.com ↓ <em>#Κέρκυρα #AdultsOnly</em></div>
             </div>
             <div>
               <div class="ml">MK 🇲🇰</div>
-              <div class="cap" style="font-size:10px;">Вашиот одмор само за возрасни на Крф ве чека 🌊 Swim-Up Suite, Penthouse и соба со поглед на море. Резервирајте директно на cavomarina.com ↓ <em>#Крф #ОдморВозрасни</em></div>
+              <div class="cap" style="font-size:12px;">Вашиот одмор само за возрасни на Крф ве чека 🌊 Swim-Up Suite, Penthouse и соба со поглед на море. Резервирајте директно на cavomarina.com ↓ <em>#Крф #ОдморВозрасни</em></div>
             </div>
             <div>
               <div class="ml">SQ 🇽🇰</div>
-              <div class="cap" style="font-size:10px;">Pushimet tuaja vetëm adulte në Korfuz ju presin 🌊 Suite Swim-Up, Penthouse & dhomë me pamje deti në Kavos. Rezervo drejtpërdrejt cavomarina.com ↓ <em>#Korfuz #PushimeAdulte</em></div>
+              <div class="cap" style="font-size:12px;">Pushimet tuaja vetëm adulte në Korfuz ju presin 🌊 Suite Swim-Up, Penthouse & dhomë me pamje deti në Kavos. Rezervo drejtpërdrejt cavomarina.com ↓ <em>#Korfuz #PushimeAdulte</em></div>
             </div>
             <div>
               <div class="ml">BG 🇧🇬</div>
-              <div class="cap" style="font-size:10px;">Вашата ваканция само за възрастни в Корфу ви чака 🌊 Swim-Up Suite, Penthouse и стая с морска гледка в Кавос. Резервирайте директно cavomarina.com ↓ <em>#Корфу #Ваканция</em></div>
+              <div class="cap" style="font-size:12px;">Вашата ваканция само за възрастни в Корфу ви чака 🌊 Swim-Up Suite, Penthouse и стая с морска гледка в Кавос. Резервирайте директно cavomarina.com ↓ <em>#Корфу #Ваканция</em></div>
             </div>
           </div>
         </div>
@@ -582,21 +582,21 @@
     <!-- WARM -->
     <div class="card-m">
       <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:13px;">
-        <div><span class="tag tag-orange" data-i18n="warm_aud">Warm Audience</span> <span style="font-size:10px;color:var(--grey);margin-left:4px;" data-i18n="retargeting">Retargeting</span><h3 style="margin-top:7px;" data-i18n="reengage">Re-engage Interested Users</h3></div>
+        <div><span class="tag tag-orange" data-i18n="warm_aud">Warm Audience</span> <span style="font-size:12px;color:var(--grey);margin-left:4px;" data-i18n="retargeting">Retargeting</span><h3 style="margin-top:7px;" data-i18n="reengage">Re-engage Interested Users</h3></div>
         <div style="font-size:20px;font-weight:800;color:#fdba74;">€200</div>
       </div>
 
-      <div style="font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:7px;" data-i18n="aud_segs">Audience Segments</div>
+      <div style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:7px;" data-i18n="aud_segs">Audience Segments</div>
       <table style="margin-bottom:13px;">
         <thead><tr><th data-i18n="th_seg">Segment</th><th data-i18n="th_source">Source</th><th data-i18n="th_window">Window</th><th data-i18n="th_budget">Budget</th></tr></thead>
         <tbody>
-          <tr><td data-i18n="seg1">IG / FB Engagers</td><td style="color:var(--grey);font-size:11px;" data-i18n="src1">Instagram + Facebook engagement</td><td>30 <span data-i18n="days">days</span></td><td>€80</td></tr>
-          <tr><td data-i18n="seg2">50%+ Video Viewers</td><td style="color:var(--grey);font-size:11px;" data-i18n="src2">Meta video engagement</td><td>30 <span data-i18n="days">days</span></td><td>€60</td></tr>
-          <tr><td data-i18n="seg3">Website Visitors</td><td style="color:var(--grey);font-size:11px;" data-i18n="src3">Pixel + CAPI · all pages</td><td>30 <span data-i18n="days">days</span></td><td>€60</td></tr>
+          <tr><td data-i18n="seg1">IG / FB Engagers</td><td style="color:var(--grey);font-size:13px;" data-i18n="src1">Instagram + Facebook engagement</td><td>30 <span data-i18n="days">days</span></td><td>€80</td></tr>
+          <tr><td data-i18n="seg2">50%+ Video Viewers</td><td style="color:var(--grey);font-size:13px;" data-i18n="src2">Meta video engagement</td><td>30 <span data-i18n="days">days</span></td><td>€60</td></tr>
+          <tr><td data-i18n="seg3">Website Visitors</td><td style="color:var(--grey);font-size:13px;" data-i18n="src3">Pixel + CAPI · all pages</td><td>30 <span data-i18n="days">days</span></td><td>€60</td></tr>
         </tbody>
       </table>
 
-      <div style="font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:9px;" data-i18n="warm_formats">Ad Formats & Copy</div>
+      <div style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);font-weight:600;margin-bottom:9px;" data-i18n="warm_formats">Ad Formats & Copy</div>
       <div style="display:flex;flex-direction:column;gap:9px;">
 
         <div class="meta-box">
@@ -664,7 +664,7 @@
     </div>
   </div>
   <div style="flex-shrink:0;display:flex;flex-direction:column;align-items:flex-end;gap:2px;border-left:1px solid rgba(0,0,0,0.1);padding-left:20px;">
-    <div style="font-size:9px;color:var(--grey);letter-spacing:1.5px;text-transform:uppercase;font-weight:600;">Hazırlayan</div>
+    <div style="font-size:13px;color:var(--grey);letter-spacing:1.5px;text-transform:uppercase;font-weight:600;">Hazırlayan</div>
     <div style="display:flex;align-items:center;gap:0;line-height:1;">
       <span style="font-size:17px;font-weight:900;color:#111827;letter-spacing:-0.5px;font-family:'Inter',sans-serif;">PMA</span>
       <span style="font-size:17px;font-weight:900;color:#7C3AED;letter-spacing:-0.5px;font-family:'Inter',sans-serif;">&nbsp;PARTNER</span>
